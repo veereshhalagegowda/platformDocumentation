@@ -33,14 +33,14 @@ Save it and run.
 When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path. And the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or not found.
 
 ### Associated Attributes:
-**style:** Used to specify the inline style.
-**class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Imgsrc:** The src attribute specifies the URL(web address) of the image.
-**Alt:** THe alt attribute provides an alternate text for an image, if the user cannot view it.
+- **style:** Used to specify the inline style.
+- **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Imgsrc:** The src attribute specifies the URL(web address) of the image.
+- **Alt:** THe alt attribute provides an alternate text for an image, if the user cannot view it.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

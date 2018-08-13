@@ -33,18 +33,18 @@ Id = check
 Save it and run.
 When the page is loaded the attribute "checked = true" specifies whether the checkbox is checked or not. And the "id = check" is the unique id given for the checkbox which can be used to apply styles or give reference to point to the checkbox.
 ### Associated Attributes:
-**Checked:** Used to check whether the checkbox is checked or not.
-**Color:** Takes the color based on angular material thing.
-**Disabled:** Used to check whether the checkbox is disabled or not.
-**Id:** A unique id for the checkbox input.
-**Labelposition:** Specifies whether the label should appear after or before the checkbox. Defaults to 'after'
-**Name:** Specifies the name for the component
-**Required:** Used to check whether the checkbox is required or not.
-**Value:** Specifies the value attribute of the native input element.
+- **Checked:** Used to check whether the checkbox is checked or not.
+- **Color:** Takes the color based on angular material thing.
+- **Disabled:** Used to check whether the checkbox is disabled or not.
+- **Id:** A unique id for the checkbox input.
+- **Labelposition:** Specifies whether the label should appear after or before the checkbox. Defaults to 'after'
+- **Name:** Specifies the name for the component
+- **Required:** Used to check whether the checkbox is required or not.
+- **Value:** Specifies the value attribute of the native input element.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

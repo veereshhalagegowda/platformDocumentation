@@ -31,19 +31,19 @@ Save it and run.
 When the page is loaded the "value = input text here" will be the text that will be displayed. And the "required = true" specifies that the user has to compulsorily input the text. 
 
 ### Associated Attributes:
-**style:** Used to specify the inline style. It is applied to the specific element.
-**class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Value:** it specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
-**Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
-**Required:** specifies that the text field should be filled and should not hold empty values. Value should be boolean i.e. either true or false.
-**Color:** takes the color based on angular material thing.
-**Name:** specifies the name for the text field.
-**Type:** specifies the type of text to be input i.e number, text, etc.
-**Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
+- **style:** Used to specify the inline style. It is applied to the specific element.
+- **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Value:** it specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
+- **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
+- **Required:** specifies that the text field should be filled and should not hold empty values. Value should be boolean i.e. either true or false.
+- **Color:** takes the color based on angular material thing.
+- **Name:** specifies the name for the text field.
+- **Type:** specifies the type of text to be input i.e number, text, etc.
+- **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

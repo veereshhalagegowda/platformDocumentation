@@ -31,20 +31,20 @@ Save it and run.
 When the page is loaded the checked attribute checks whether the radio button is checked or not. Value attribute display the value “option1” for the radio button.
 
 ### Associated Attributes:
-**style:** Used to specify the inline style.
-**class:** It specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **style:** Used to specify the inline style.
+- **class:** It specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
 place
-**Value:** It is the value given for the radio button. 
-**Required:** Used to check whether the radio button is required or not. Value should be a boolean value i.e. either true or false.
-**Label:** Is the value given for the radio button. Example “abc” display the value “abc” next to the radio button
-**Id:** Is the unique ID for the radio button.
-**Name:** Attribute used to group radios for unique selection.
-**Checked:** Used to check whether the radio button is checked or not. Value should be a boolean value i.e. either true or false.
-**Labelposition:** Whether the labels should appear after or before the radio-buttons. Defaults to 'after'.
+- **Value:** It is the value given for the radio button. 
+- **Required:** Used to check whether the radio button is required or not. Value should be a boolean value i.e. either true or false.
+- **Label:** Is the value given for the radio button. Example “abc” display the value “abc” next to the radio button
+- **Id:** Is the unique ID for the radio button.
+- **Name:** Attribute used to group radios for unique selection.
+- **Checked:** Used to check whether the radio button is checked or not. Value should be a boolean value i.e. either true or false.
+- **Labelposition:** Whether the labels should appear after or before the radio-buttons. Defaults to 'after'.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

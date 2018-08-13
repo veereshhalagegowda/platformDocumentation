@@ -32,16 +32,16 @@ Save it and run.
 When the page is loaded the "strokewidth = 100" will be the size of the progress spinner component that will be displayed. And "mode = determinate" is the mode in which the progress spinner is displayed.
 
 ### Associated Attributes:
-**style:** Used to specify the inline style.
-**class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Mode:** Specifies the mode of the progress circle. Value should be either determinate or indeterminate
-**Strokewidth:** Specifies the stroke width of the progress spinner. Value should be a number.
-**Value:** Specifies the value of the progress circle. Value should be a number.
-**Color:** Takes the color based on angular material thing.
+- **style:** Used to specify the inline style.
+- **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Mode:** Specifies the mode of the progress circle. Value should be either determinate or indeterminate
+- **Strokewidth:** Specifies the stroke width of the progress spinner. Value should be a number.
+- **Value:** Specifies the value of the progress circle. Value should be a number.
+- **Color:** Takes the color based on angular material thing.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

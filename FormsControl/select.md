@@ -31,21 +31,21 @@ Save it and run.
 When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
 
 ### Associated Attributes:
-**style:** Used to specify the inline style.
-**class:** it specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Value:** it specifies the pre-defined text that is displayed in the select area. when the select field is clicked, it displays the value that is entered in the field when the application is run. Example “Select” defined in this field will display Select in the select field when the application is run.
-**Placeholder:** used to hold the defined text value. Example “Select” holds the value Select for the field, when the application is run.
-**Required:** specifies that the field is required and should not hold empty values. Input given should be either true or false.
-**Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
-**Multiple:** This property allows the user to select multiple options. The value given should be a boolean value i.e. either true or false. 
-**Onopen:** Event emitted when the select panel has been toggled
-**Change:** Event emitted when the selected value has been changed by the user.
-**Optiondata:** Display the options which are entered when the user clicks on the select option.
-**Ngfor:** Used for iterating.
+- **style:** Used to specify the inline style.
+- **class:** it specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Value:** it specifies the pre-defined text that is displayed in the select area. when the select field is clicked, it displays the value that is entered in the field when the application is run. Example “Select” defined in this field will display Select in the select field when the application is run.
+- **Placeholder:** used to hold the defined text value. Example “Select” holds the value Select for the field, when the application is run.
+- **Required:** specifies that the field is required and should not hold empty values. Input given should be either true or false.
+- **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
+- **Multiple:** This property allows the user to select multiple options. The value given should be a boolean value i.e. either true or false. 
+- **Onopen:** Event emitted when the select panel has been toggled
+- **Change:** Event emitted when the selected value has been changed by the user.
+- **Optiondata:** Display the options which are entered when the user clicks on the select option.
+- **Ngfor:** Used for iterating.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

@@ -32,15 +32,15 @@ Save it and run.
 When the page is loaded the value "fabicon = decorate" will be name of the button that will be displayed on the button. And "click = true" is the event that check when the button is pressed.
 
 ### Associated Attributes:
-**style:** Used to specify the inline style.
-**class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**fabicon:** specifies the button text for the icon.
-**Color:** Takes the color based on angular material thing.
-**Click:** Is an event that checks when the button is clicked.
+- **style:** Used to specify the inline style.
+- **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **fabicon:** specifies the button text for the icon.
+- **Color:** Takes the color based on angular material thing.
+- **Click:** Is an event that checks when the button is clicked.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

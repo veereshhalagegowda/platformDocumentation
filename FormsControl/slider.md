@@ -33,23 +33,23 @@ When the page is loaded the value "invert = true" will display an inverted slide
 
 ### Associated Attributes:
 style: Used to specify the inline style.
-**class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
-**Color:** takes the color based on angular material thing.
-**Invert:** Used to check whether the slider is inverted. Value has to be boolean i.e. either true or false. Example: invert : false.
-**Max:** Specifies the maximum value that the slider can have. Value should be a number. Example: max: 2.
-**Min:** Specifies the minimum value that the slider can have. Value should be a number. Example: min: 2.
-**Step:** Specifies the values at which the slider will slide. Value should be a number. Example: step: 2.
-**Thumb-label:** Specifies whether or not to show the thumb label. Value should be a boolean i.e. either true or false. Example: thumbLabel: boolean
-**Vertical:** Specifies whether the slider is vertical or not. Value has to be boolean i.e. either true or false. Example: vertical : false
-**Disabled:** Specifies whether the component is disabled or not. Value has to be boolean i.e. either true or false. Example: disabled : false.
-**Value:** Specifies the value of the slider. Value should be either number or null. Example: value: number | null
-**Change:** It is an event emitted when the slider value is changed.
-**Input:** It is an event emitted when the slider thumb moves.
+- **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
+- **Color:** takes the color based on angular material thing.
+- **Invert:** Used to check whether the slider is inverted. Value has to be boolean i.e. either true or false. Example: invert : false.
+- **Max:** Specifies the maximum value that the slider can have. Value should be a number. Example: max: 2.
+- **Min:** Specifies the minimum value that the slider can have. Value should be a number. Example: min: 2.
+- **Step:** Specifies the values at which the slider will slide. Value should be a number. Example: step: 2.
+- **Thumb-label:** Specifies whether or not to show the thumb label. Value should be a boolean i.e. either true or false. Example: thumbLabel: boolean
+- **Vertical:** Specifies whether the slider is vertical or not. Value has to be boolean i.e. either true or false. Example: vertical : false
+- **Disabled:** Specifies whether the component is disabled or not. Value has to be boolean i.e. either true or false. Example: disabled : false.
+- **Value:** Specifies the value of the slider. Value should be either number or null. Example: value: number | null
+- **Change:** It is an event emitted when the slider value is changed.
+- **Input:** It is an event emitted when the slider thumb moves.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

@@ -32,13 +32,13 @@ Save it and run.
 When the page is loaded the value "iconname = home" will be name of the icon that will be displayed on the button. And "class = icon" is the name of the class that can be used to point in a styling sheet.
 
 ### Associated Attributes:
-**style:** Used to specify inline style.
-**class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Iconname:** Specifies an icon name that is displayed for the icon.
+- **style:** Used to specify inline style.
+- **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Iconname:** Specifies an icon name that is displayed for the icon.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 

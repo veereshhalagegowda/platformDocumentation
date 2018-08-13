@@ -32,13 +32,13 @@ Save it and run.
 When the page is loaded the value "text = This is a paragraph", will be the text that is displayed. And "Class = para" is the class name that can be used to point in a style sheet.
 
 ### Associated Attributes:
-**style:** Used to specify the inline style.
-**class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-**Text:** Used to insert the text inside the paragraph tag. The text entered here will be displayed inside the paragraph tag when the application is run.
+- **style:** Used to specify the inline style.
+- **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Text:** Used to insert the text inside the paragraph tag. The text entered here will be displayed inside the paragraph tag when the application is run.
 
 ### Support 
-**Devices:** Android, iOS
-**Browsers:** Latest version of all modern browsers
+- **Devices:** Android, iOS
+- **Browsers:** Latest version of all modern browsers
 
 **Dependencies version:**
 - **Angular CLI version:** 5.0.0 + 
