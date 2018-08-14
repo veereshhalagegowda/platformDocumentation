@@ -16,7 +16,7 @@
 A menu button is always associated with a “Menu” component that contains a list of “Menu Items”. When a menu button is clicked , the associated menu will be shown. Menu is hidden 
 
 ### Usage
-A menu button is useful when there is a need to design an interface for users to select from a set of options without consuming the GUI layout.
+A menu button is used to provide an interface for the user to trigger a menu list. The menu appears where menu button exists.
 
 ### How to use
 
