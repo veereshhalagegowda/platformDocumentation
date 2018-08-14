@@ -74,7 +74,7 @@ Consider an example of hospital where hospital wants to plot a chart for the rec
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | **Patients (%)** | 25 | 11 | 8 | 9 | 18 | 29 |
 
--   ###### Datasets:
+-   ##### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public pieChartData: Array<any> = [
