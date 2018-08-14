@@ -15,6 +15,9 @@
 ### Overview
 A menu is a list of options from which an option can be selected to perform a specific operation. A menu item is the individual option that can be selected. A menu item is always contained in the “Menu” component. 
 
+### Usage
+Menu items are what makes up a menu. Menu items are used to provide options within a menu.
+
 ### How to use
 
 1. Drag and drop the “Menu” component from the “Navigation” section.
