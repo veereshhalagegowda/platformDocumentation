@@ -31,42 +31,33 @@ Everything that is not contained within the “Sidenav “ component will appear
 6. Now, pressing the button will open the neutrinos website.
 
 ### Associated Attributes
-#### Style
-Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. color:blue).
-#### Class
-It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=sidenav).
+- **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. color:blue).
+- **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value.   (eg. class=sidenav).
 
-#### mode
-Sidenav can render in one of three different ways based on the “mode” property.
-* over - Sidenav floats over the primary content, which is covered by a backdrop
-* push - Sidenav pushes the primary content out of its way, also covering it with a backdrop
-* side - Sidenav appears side-by-side with the main content, shrinking the main content's width to make space for the sidenav.
-#### opened
-It decides whether the sidenav is opened. It can be “true” or “false”.
-#### position
-Position can be either **start** or **end** which places the side content on the left or right side. Default is **start**.
+- **mode**: Sidenav can render in one of three different ways based on the “mode” property.
+	* over - Sidenav floats over the primary content, which is covered by a backdrop
+	* push - Sidenav pushes the primary content out of its way, also covering it with a backdrop
+	* side - Sidenav appears side-by-side with the main content, shrinking the main content's width to make space for the sidenav.
+- **opened**: It decides whether the sidenav is opened. It can be “true” or “false”.
+- **position**: Position can be either "start" or "end" which places the side content on the left or right side. Default is "start".
 
-#### fxLayout
-Specifies the flex-direction and whether the contents should be wrapped or not.
+- **fxLayout**: Specifies the flex-direction and whether the contents should be wrapped or not.  
 Eg.: fxLayout=”column wrap”
 
-#### (opened)
-Takes function as the value which is executed when the sidenav is opened.
+- **(opened)**: Takes function as the value which is executed when the sidenav is opened.
 
-#### (closed) 
-Takes function as the value which is executed when the sidenav is closed.
+- **(closed)**: Takes function as the value which is executed when the sidenav is closed.
 
-#### (toggle)
-Takes function as the value which is executed when the sidenav is toggled.
+- **(toggle)**: Takes function as the value which is executed when the sidenav is toggled.
 
 
 
 
 ### Support
-**Devices:** Android, iOS
-**Browsers:**  Latest version of all modern browsers
-**Dependencies version** 
-- Angular CLI version: 5.0.0 + 
-- Cordova version: 7.1.0 +
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version** 
+	- Angular CLI version: 5.0.0 + 
+	- Cordova version: 7.1.0 +
 
 

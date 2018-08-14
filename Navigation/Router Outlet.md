@@ -30,17 +30,15 @@ Router Outlet defines the position of a navigated page within a page from where 
 
 
 ### Associated Attributes
-#### Style
-Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.
+- **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.  
 (eg. color:blue).
 
-#### Class
-it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=toolbar)
+- **Class**: it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value.   (eg. class=toolbar)
 
 
 ### Support
-**Devices:** Android, iOS
-**Browsers:**  Latest version of all modern browsers
-**Dependencies version** 
-- Angular CLI version: 5.0.0 + 
-- Cordova version: 7.1.0 +
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version** 
+	- Angular CLI version: 5.0.0 + 
+	- Cordova version: 7.1.0 +

@@ -27,16 +27,14 @@ Everything that is not contained within the “Sidenav “ component will appear
 4. Populate the Sidenav component with the components that are required.
 
 ### Associated Attributes
-#### Style
-Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. height:100%).
+- **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. height:100%).
 
-#### Class
-It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=”side-container”).
+- **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=”side-container”).
 
 ### Support
-**Devices:** Android, iOS
-**Browsers:**  Latest version of all modern browsers
-**Dependencies version** 
-- Angular CLI version: 5.0.0 + 
-- Cordova version: 7.1.0 +
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version** 
+	- Angular CLI version: 5.0.0 + 
+	- Cordova version: 7.1.0 +
 
