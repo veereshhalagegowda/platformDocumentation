@@ -112,7 +112,7 @@ Here is a sample of options that is declaired and initialized in the component c
     public radarChartData:Array<any> = [
     {data: [7, 8, 6, 9, 7, 9], label: 'Dayashankar'},
     {data: [6, 7, 7, 8, 6, 8], label: 'Oliver'}
-  ];
+  	];
     ```
 - **chartHover/chartClick (mouse Events):** It is a event which appears when the mouse is taken or clicked over chart area. For example, displaying label and point value when mouse is clicked on the slice of of the chart or mouse is moved over it. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the radar chart. If it is true, it shows the legends otherwise it does not show.
