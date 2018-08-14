@@ -16,6 +16,10 @@
 Paths can be configured for every page in an app using the Routes menu in the left panel. These paths specify how a page can be reached. A page can have child paths.
 Router Outlet defines the position of a navigated page within a page from where it is navigated. It acts as a placeholder for the navigated page.
 
+### Usage
+Router Outlet is used to render a page in a desired location within another page.
+
+
 ### How to use
 1. Configure the paths and child paths using “Routes” menu.
 2. Drag and drop “Router Outlet” component from the “Navigation” section inside a page’s container where the routed page should be rendered .

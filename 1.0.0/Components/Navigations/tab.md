@@ -15,6 +15,9 @@
 ### Overview
 Tabs are used to navigate between different views within the same context. Only one view is rendered at a time. Tabs should always be used inside a “Tab Group” component.
 
+### Usage
+Tabs are useful for containing and navigating between contextually related but distinct contents.
+
 ### How to use
 
 1. Drag and drop the “Tab Group” Component from the “Navigation” category.
