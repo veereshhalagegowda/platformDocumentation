@@ -15,6 +15,9 @@
 ### Overview
 Tabs should always be used inside a “Tab Group” component. “Tab Group” component is a container component that is used to contain one or more “Tab” components. “Tab” components should be contained in the “Tab Group” component.
 
+### Usage
+Tabgroup component used whenever tab(s) are used. A tab can not exist outside of the tabcontainer component.
+
 ### How to use
 
 Drag and drop the “Tab Group” Component from the “Navigation” category.
