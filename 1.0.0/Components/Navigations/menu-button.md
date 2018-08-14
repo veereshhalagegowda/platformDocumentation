@@ -13,7 +13,10 @@
 
 ## Guide
 ### Overview
-A menu button is always associated with a “Menu” component that contains a list of “Menu Items”. When a menu button is clicked , the associated menu will be shown.
+A menu button is always associated with a “Menu” component that contains a list of “Menu Items”. When a menu button is clicked , the associated menu will be shown. Menu is hidden 
+
+### Usage
+A menu button is useful when there is a need to design an interface for users to select from a set of options without consuming the GUI layout.
 
 ### How to use
 
