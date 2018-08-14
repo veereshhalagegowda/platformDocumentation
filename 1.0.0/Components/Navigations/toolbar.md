@@ -13,7 +13,10 @@
 
 ## Guide
 ### Overview
-A toolbar is a container which contains headers, titles, or actions that perform specific functions. They are designed to provide easy and immediate access to users' most frequently used functions or provide relavent information about the page or application.
+A toolbar is a container which contains headers, titles, menus or actions that perform specific functions. 
+
+### Usage
+They are designed to provide easy and immediate access to users' most frequently used functions or provide relavent information about the page or application.
 
 ### How to use
 1. Drag and drop “Toolbar” component from the “Navigation” section inside a page’s container where the toolbar component should be rendered .
