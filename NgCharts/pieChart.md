@@ -81,17 +81,17 @@ public pieChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
  ];
 ```
--   ###### Labels:
+-   ##### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public pieChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
 ```
--   ###### Legend
+-   ##### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   ###### Options:
+-   ##### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public pieChartOptions:any = {
