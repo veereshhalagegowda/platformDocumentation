@@ -32,7 +32,7 @@ Save it and run.
 When the page is loaded the value "invert = true" will display an inverted slider. And "step=50" specifies the value at which the slider will slide, in this example the slider takes two clicks to move to the end of the slider. 
 
 ### Associated Attributes:
-style: Used to specify the inline style.
+- **style:** Used to specify the inline style.
 - **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
 - **Color:** takes the color based on angular material thing.
