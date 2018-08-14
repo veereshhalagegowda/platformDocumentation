@@ -15,6 +15,9 @@
 ### Overview
 A menu is a set of options presented to the user of a computer application to help the user find information or execute a function.
 
+### Usage
+Menu is used when the user is to be provided with the ability to select from a list of options without consuming the GUI layout.
+
 ### How to use
 
 1. Drag and drop the “Menu” component from the “Navigation” section.
