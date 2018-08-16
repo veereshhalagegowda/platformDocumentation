@@ -1,17 +1,3 @@
-{
-  "name" : "html",
-  "type" : "Component",
-  "category": "Advanced",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : “A component that can have custom html code.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 HTML component is container component for user written HTML code.
 
