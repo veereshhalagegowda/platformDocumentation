@@ -1,17 +1,3 @@
-{
-  "name" : "siganture-widget",
-  "type" : "Component",
-  "category": "Advanced",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : “signature widget allows to sign in a digital canvas.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 Signature Widget component creates a canvas for handwritten signatures where it is dragged. It contains options to “save”, “undo” a stroke, “reset” the canvas and “cancel”. 
 
