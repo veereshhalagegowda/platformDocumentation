@@ -1,17 +1,3 @@
-{
-  "name" : "sidenav",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : ”sidenav is fixed layout for easy navigation between pages or sections of a page.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 The sidenav components are designed to add side content to a fullscreen app. Sidenav typically contains the links for different pages in the app or links for different section in that page. Sidenav is a fixed layout whose slide-in and slide-out activity can be bound to an action (ex. Button press, checkbox etc..). 
 Sidenav component has meaning only when it is placed inside the “Sidenav Container” component.
