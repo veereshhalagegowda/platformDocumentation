@@ -1,17 +1,3 @@
-{
-  "name" : "sidenav-container",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : "sidenav component is always conained within the sidenav container component",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 The “Sidenav Container” is the container component for the “Sidenav” component. “Sidenav” component has meaning only when it is placed inside the “Sidenav Container” component.
 Everything that is not contained within the “Sidenav “ component will appear as main content that is outside the sidenav bar.
