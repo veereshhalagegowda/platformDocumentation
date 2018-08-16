@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+{
+  "name" : "card-action",
+  "type" : "Component"
+  "category":Layout
+  "version" : "1.0.0",
+  "averageRating" : 1,
+  "description" : "it is a component which contains buttons inside it.,
+  "platformSupportVersion" : "4.0.0",
+  "publisher" : "Ayush"
+>>>>>>> 06be99c85a170214312860fa436954ecea5d31c8
 
 
 
