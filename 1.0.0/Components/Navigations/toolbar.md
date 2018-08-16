@@ -1,17 +1,3 @@
-{
-  "name" : "toolbar",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : "Toolbar is a container for headers, titles, or actions.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 A toolbar is a container which contains headers, titles, menus or actions that perform specific functions. 
 
