@@ -1,17 +1,3 @@
-{
-  "name" : "router-outlet",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : "Acts as a placeholder that is filled based on the current router state.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 Paths can be configured for every page in an app using the Routes menu in the left panel. These paths specify how a page can be reached. A page can have child paths.
 Router Outlet defines the position of a navigated page within a page from where it is navigated. It acts as a placeholder for the navigated page.
