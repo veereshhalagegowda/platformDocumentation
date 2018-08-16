@@ -1,17 +1,3 @@
-{
-  "name" : "menu-item",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : “Individual item for selection from a list of options in the menu component",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 A menu is a list of options from which an option can be selected to perform a specific operation. A menu item is the individual option that can be selected. A menu item is always contained in the “Menu” component. 
 
