@@ -1,17 +1,3 @@
-{
-  "name" : "menu-button",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : “A button that triggers the menu associated with it.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 A menu button is always associated with a “Menu” component that contains a list of “Menu Items”. When a menu button is clicked , the associated menu will be shown. Menu is hidden 
 
