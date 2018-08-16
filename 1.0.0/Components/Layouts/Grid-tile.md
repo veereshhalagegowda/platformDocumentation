@@ -1,19 +1,4 @@
 
-{
-  "name" : "grid-tile",
-  "type" : "Component"
-  "category": “Layout”
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : "Grid tile component contains a two-dimensional list view that arranges cells into grid-based layout with some rows and column. ",
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
-
-}
-
-
-
-## Guide:
 ### Overview:
 This is component which allows us to create a container of list of particular rows and columns it can be used alone as well as inside the grid-list.The column will contain the attribute and the row will contain the data of the particular attribute.And the data of the list can be iterated by ngFor loop which can access all the data from the array and can be displayed on the screen.
 
@@ -75,9 +60,9 @@ Displaylist.ts
 
 - **Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
 
-- ***ngFor**- ngFor is used to iterate through the array object and get the data. The syntax of ngFor is *ngFor="let d of data" where d is a loop variable and data is a array or object from which the data will be accessed. 
+- **ngFor**- ngFor is used to iterate through the array object and get the data. The syntax of ngFor is *ngFor="let d of data" where d is a loop variable and data is a array or object from which the data will be accessed. 
 
-- **[rowspan]**-This attribute allows a single table cell to span the height of more than one cell or row. So in a normal row the rowspan is always 1 , so this attribute is required when there is a requirement to change the row size, like some times a row requires two times size of the normal row, in that case the rowspan=2.
+- [**rowspan**]-This attribute allows a single table cell to span the height of more than one cell or row. So in a normal row the rowspan is always 1 , so this attribute is required when there is a requirement to change the row size, like some times a row requires two times size of the normal row, in that case the rowspan=2.
 
 - **[colspan]**-This attribute allows a single table cell to span the height of more than one cell or column. So in a normal column the colspan is always 1 , so this attribute is required when there is a requirement to change the column size, like some times a row requires two times size of the normal column, in that case the colspan=2.
 

@@ -1,23 +1,8 @@
 
-{
-  "name" : "List-item",
-  "type" : "Component"
-  "category": “Layout”
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : " List item component are the data of a list it will be inserted inside a list-component and can be displayed, ",
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
-
-}
-
-
-
-## Guide:
 ### Overview:
 List-items component contains individual data of items that will be placed inside the list-component.The data can be stored in an array or object and it will be accessed  from the array by *ngFor attribute.
 ##### Usage:
-List items are used to store the items or data of a list.The data can be string, a number, a images etc. A list items can only be used inside a list component.
+List items are used to store the items or data of a list.The data can be string, a number, a images etc. 
 
 ##### How to use
 Drag and drop a list-items inside a list component, and set the attribute such as style and class, *ngFor and label.
@@ -33,14 +18,14 @@ Drag and drop a list-items inside a list component, and set the attribute such a
  
 
 ### Associated Attributes:
-**Style-** Accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style-** Accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
+- **Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
 
-***ngFor-** ngFor is used to iterate through the array object and get the data. The syntax of ngFor is *ngFor="let d of data" where d is a loop variable and data is a array or object from which the data will be accessed. 
+- **ngFor-** ngFor is used to iterate through the array object and get the data. The syntax of ngFor is *ngFor="let d of data" where d is a loop variable and data is a array or object from which the data will be accessed. 
 
-***Label-** in label attribute provide the name that should be displayed as a items name so the data is accessed by the object then give the value as (folder. name).
+- **Label-** in label attribute provide the name that should be displayed as a items name so the data is accessed by the object then give the value as (folder. name).
 
 
 

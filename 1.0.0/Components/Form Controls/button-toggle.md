@@ -1,16 +1,3 @@
-{
-"name" : "button-toggle",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Are on/off toggles with the appearance of a button",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Button toggle component is used to toggle between on/off. When the button is clicked it will be activated and when the button is clicked again the button will be deactivated.
 

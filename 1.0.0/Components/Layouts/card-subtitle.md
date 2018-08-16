@@ -1,14 +1,4 @@
-{
-  "name" : "card-subtitle",
-  "type" : "Component",
-  "category": �Layout�
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : "gives the ability to add a subtitle within the card. �,
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
 
-}
 
 
 ## Overview:
@@ -36,12 +26,12 @@ Drag and drop the card-subtitle component. It has three attributes style, class 
 - A card with title as Big Data Subtitle as Hadoop and below that block of text will be displayed.
 
 ### Associated Attributes:
-**Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style**-It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class**- It accepts string value. It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.(eg. class=toolbar)
+- **Class**- It accepts string value. It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.(eg. class=toolbar)
 
-**Subtitle**-it accepts string. And here we can give the data whatever we want to set as subtitle.
+- **Subtitle**-it accepts string. And here we can give the data whatever we want to set as subtitle.
 
 ### Support 
 - **Devices:** Android, iOS

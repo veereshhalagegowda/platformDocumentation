@@ -1,19 +1,4 @@
 
-{
-  "name" : "header",
-  "type" : "Component"
-  "category": “Layout”
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : "The header component represents a container for introductory content or a set of navigational links. ",
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
-
-}
-
-
-
-## Guide:
 ### Overview:
 A header element typically contains:
 - one or more heading elements (<h1> - <h6>)
@@ -42,10 +27,10 @@ Drag and drop a header component and inside that some component can be inserted 
 
 
 ### Associated Attributes:
-**Style-** accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style-** accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
+- **Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
 
 ### Support 
 - **Devices:** Android, iOS

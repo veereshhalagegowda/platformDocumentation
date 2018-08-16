@@ -1,16 +1,3 @@
-{
-"name" : "image",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is used to insert image into the form",
-"guide" : "",
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Image component is used to insert an image into a page.
 

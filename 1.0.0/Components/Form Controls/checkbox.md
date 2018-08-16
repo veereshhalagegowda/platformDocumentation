@@ -1,18 +1,5 @@
-{
-"name" : "checkbox",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a square box that can be selected to indicate or select an answer",
-“guide:”:””,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
-checkbox are rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values for submission in a form (or not).
+Checkbox are rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values for submission in a form (or not).
 
 **Note:** Radio buttons are similar to checkboxes, but with an important distinction — radio buttons are grouped into a set in which only one radio button can be selected at a time, whereas checkboxes allow you to turn single values on and off. Where multiple controls exist, radio buttons allow one to be selected out of them all, whereas checkboxes allow multiple values to be selected.
 

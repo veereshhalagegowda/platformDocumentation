@@ -1,15 +1,3 @@
-{
-"name" : "radio-group",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a control that allows the user to choose only one of a predefined set of options",
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 A radio group is a group of radio buttons. It allows a user to select at most one radio button from a set. Checking one radio button that belongs to a radio group unchecks any previous checked radio button within the same group.
 

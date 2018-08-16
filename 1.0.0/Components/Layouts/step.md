@@ -1,20 +1,3 @@
-
-{
-  "name" : "step",
-  "type" : "Component"
-  "category": “Layout”
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" :  “Step component are inserted inside the stepper component, these are parts of a stepper. The stepper is made up of various step component. ",
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
-
-}
-
-
-
-## Guide:
-
 ### Overview:
 Step component can contain anything, such as a textbox,buttons,radio buttons,checkbox, images etc. So the step component can only be used inside a stepper component.A page can be just divided into steps using stepper and step.  
 

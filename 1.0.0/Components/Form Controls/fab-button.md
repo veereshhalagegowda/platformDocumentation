@@ -1,16 +1,3 @@
-{
-"name" : "fab-button",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a clickable button in round shape. Which can be clicked. It defaults to theme’s accent color",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Fab button is a button in round shape. FABs (Floating Action Buttons) are standard material design components. They are shaped as a circle that represents a promoted action. When pressed, it may contain more related actions. FABs as its name suggests are floating over the content in a fixed position.
 

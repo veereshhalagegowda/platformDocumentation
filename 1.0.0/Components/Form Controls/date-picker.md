@@ -1,16 +1,3 @@
-{
-"name" : "date-picker",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "The datepicker allows users to enter a date either through text input, or by choosing a date from the calendar.",
-"guide" : "",
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 The Datepicker component is used to present an interface which makes it easy for users to select date. Tapping on the component will display a picker interface that can be used to select date.
 

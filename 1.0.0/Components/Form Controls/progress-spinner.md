@@ -1,16 +1,3 @@
-{
-"name" : "progress-spinner",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "It is used as circular indicators of progress and activity.",
-"guide" : "",
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Progress spinner component is  a circular indicators of progress and activity..
 

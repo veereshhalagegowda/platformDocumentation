@@ -1,19 +1,8 @@
 
-{
-  "name" : "grid-list",
-  "type" : "Component"
-  "category": “Layout”
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : "Grid list is a two-dimensional list view that arranges cells into grid-based layout. It contains grid tile component and sets the layout of the list.",
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
-
-}
 
 
 
-## Guide:
+
 ### Overview:
 This is component which allows us to create a container of list of particular rows and columns.The column will contain the attribute and the row will contain the data of the particular attribute.And the list will be generated. It must specify a cols attribute which sets the number of columns in the grid. The number of rows will be automatically determined based on the number of columns and the number of items. 
 
@@ -30,10 +19,10 @@ Drag and drop a grid list component and set the attributes such as style, class,
 - Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
 **colspan**-Allows a single table cell to span the width of more than one cell or column.
 So in this case give colspan=1
-**rowspan**-Allows a single table cell to span the height of more than one cell or row.
+  **rowspan**-Allows a single table cell to span the height of more than one cell or row.
 Give rowspan=1
-**Label**-This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.
-**[*ngFor]**-This attribute is used to iterate through the list item which is stored in the object. It will iterate through each item and display that data.
+ **Label**-This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.
+**ngFor** This attribute is used to iterate through the list item which is stored in the object. It will iterate through each item and display that data.
 ```sh
 Displaylist.html file
 <mat-grid-list cols="2" rowHeight="100px">

@@ -1,16 +1,3 @@
-{
-"name" : "progress-bar",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a horizontal progress-bar for indicating progress and activity.",
-"guide" : "",
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Horizontal progress-bar is used for indicating progress and activity. It is used to indicate the progress of the work that has been completed. 
 

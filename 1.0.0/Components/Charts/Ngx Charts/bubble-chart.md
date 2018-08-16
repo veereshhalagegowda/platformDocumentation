@@ -1,68 +1,87 @@
 {
-"**Name**" : "line-chart",
+"**Name**" : "bubble-chart",
 "**Type**" : "Component",
 "**Category**": “Ngx Charts”
 "**Version**" : "1.0.0",
 "**Guide**" : " ”,
 "**Average Rating**" : "1",
-"**Description**" : "A line chart is a chart which plot the data using the lines depending upon the data." 
+"**Description**" : "A bubble chart is a chart which plots the data points in three dimension at the same time using a bubble shape." 
 "**PlatformSupportVersion**" : "4.0.0",
 "**Publisher**" : "Dayashankar",
 }
 ## Guide
 ### Overview
-A line chart is a chart that plots the data values using a line and connects those point using a straight line. It does not contain any background color." 
-#### Use Case
-The use case for line chart depends on the scope where it is being used. For example, industries use line chart to display the report of all their product used by clients from different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a line chart is for comparison of data categorized on different parameters. 
-There are some other popular use cases where bubble chart is used. Some of them are:
--   Insurance companies
--   Industries 
--   Health centers
--   Data analysis
+It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values.
 
 #### Usages
-A line chart is widely used in comparing the trending data such as stock market shares.
+A pie chart is widely used in business world, mass media, product analysis, survey and experimental analysis etc. 
+Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be achieved using  pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
+Some of the other popular use cases of line chart are:
+-   Pharmaceutical Industries (indicating the different section of drugs)
+-   Industries (for providing information on different product and services )
+-   Government offices (like revenue department)
+-   Retails (for different types of product they provide)
 ##### Prerequisites
 1. New page.
 2. Default route for the newly created page.
 ##### How to use?
 1. Open the newly created page.
-2. Drag and drop the line chart from Ngx Charts category.
+2. Drag and drop the bubble chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
-    * Dataset which consists of all other parameters like labels, and legends. 
+    * Dataset which consists of all other parameters like labels, and legends. For example, 
         ```ts
-        dataSet = [
-      {
-        "name": "Germany",
-        "series": [
+        ngxbubbleChartData = [
           {
-            "name": "2010",
-            "value": 7300000
+            "name": "USA",
+            "series": [
+              {
+                "name": "2010",
+                "x": 49737,
+                "y": 78.8,
+                "r": 310
+              },
+              {
+                "name": "2000",
+                "x": 45986,
+                "y": 76.9,
+                "r": 283
+              },
+              {
+                "name": "1990",
+                "x": 3706,
+                "y": 75.4,
+                "r": 253
+              }
+            ]
           },
           {
-            "name": "2011",
-            "value": 8940000
+            "name": "France",
+            "series": [
+              {
+                "name": "2010",
+                "x": 36745,
+                "y": 81.4,
+                "r": 63
+              },
+              {
+                "name": "2000",
+                "x": 34774,
+                "y": 79.1,
+                "r": 59.4
+              },
+              {
+                "name": "1990",
+                "x": 29476,
+                "y": 77.2,
+                "r": 56.9
+              }
+            ]
           }
         ]
-      },
-      {
-        "name": "USA",
-        "series": [
-          {
-            "name": "2010",
-            "value": 7870000
-          },
-          {
-            "name": "2011",
-            "value": 8270000
-          }
-        ]
-        }
-        ];
         ```
 4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
-		[results] = dataSet
+		[results] = ngxbubbleChartData
 		```
 5. X-axis label can be shown or hidden by providing,
     ``` [xAxis] = true ```  OR ```[xAxis] = false ```
@@ -74,46 +93,66 @@ A line chart is widely used in comparing the trending data such as stock market 
     ``` [legend] = true ```  OR ```[legend] = false ```
 8. Save the page and run the application 
 ##### Example
-Consider an Insurance company which records the data of their client from different country. The company plot the data on the line chart to get the better comparison on variations on number of clients from different country. For example,
-
-| Country | Germany | USA |
-| ------ | ------ | ------ |
-| **2010** | 7300000 | 7870000 |
-| **2011** | 8940000 | 8270000 |
+Consider a insurance company which made a survey on its client at different part of the country. The number of clietn in particular area need to be displayed on on a country map using a bubble. For example,
+| Data/Area | X | Y | Radius of Circle |
+| ------ | ------ | ------ | ------ |
+| **Area 1** | 100 | 50 | 20 |
+| **Area 2** | 60 | 30 | 10 |
+| **Area 3** | 80 | 65 | 15 |
 -   ###### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
-dataSet = [
-  {
-    "name": "Germany",
-    "series": [
-      {
-        "name": "2010",
-        "value": 7300000
-      },
-      {
-        "name": "2011",
-        "value": 8940000
-      }
-    ]
-  },
+ngxbubbleChartData = [
   {
     "name": "USA",
     "series": [
       {
         "name": "2010",
-        "value": 7870000
+        "x": 49737,
+        "y": 78.8,
+        "r": 310
       },
       {
-        "name": "2011",
-        "value": 8270000
+        "name": "2000",
+        "x": 45986,
+        "y": 76.9,
+        "r": 283
+      },
+      {
+        "name": "1990",
+        "x": 3706,
+        "y": 75.4,
+        "r": 253
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "series": [
+      {
+        "name": "2010",
+        "x": 36745,
+        "y": 81.4,
+        "r": 63
+      },
+      {
+        "name": "2000",
+        "x": 34774,
+        "y": 79.1,
+        "r": 59.4
+      },
+      {
+        "name": "1990",
+        "x": 29476,
+        "y": 77.2,
+        "r": 56.9
       }
     ]
   }
 ];
 ```
 -   ###### Labels:
-Here, teh labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
+Here, the labels are automatically taken by from the dataset.
 -   ###### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
@@ -121,11 +160,12 @@ Here is a sample of legend that is declaired and initialized in the component cl
 ```
 This legends is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ### Associated Attributes
-- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the horizontal bars in the chart.  For example, 
-    ```css
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
-    ```
-
+- **Legends (True/False):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
+-   **Legend Title (String):** It gives a title name for the legend which is displayed for the chart. 
+-   **showGridLines (True/False):** It show or hide the grid lines in the chart. If it is true, it shows lines in the chart otherwise it does not. By default it is true.
+-   **roundDomains (True/False):** It round the domain for aligned gridlines in the chart. By default it is false.
+-   **minRadius (number):** It is a minimum bubble radius provided the chart. It is measured in px. 
+-   **maxRadius (number):** It is a maximum bubble radius that is fixed to the chart. It is measured in px.
 -   **[xAxis] (True/False):** This attribute diplays the level for the x-axis. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [xAxis] = 'True' OR [xAxis] = 'False'
@@ -134,7 +174,6 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```typescript
     [yAxis] = 'True' OR [yAxis] = 'False'
     ```
-- **Legends (Boolean):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
 - **[xAxisLabel] (String):** It gives the name to the x-axis.  For example,
     ```typescript
     [xAxisLabel] = "Country"
@@ -175,30 +214,50 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```
 -   **Results (object[]):** It provide a data to the chart which is plotted on a graph using horizontal bars. For example,
     ```ts
-    dataSet = [
-      {
-        "name": "Germany",
-        "series": [
-          {
-            "name": "2010",
-            "value": 7300000
-          },
-          {
-            "name": "2011",
-            "value": 8940000
-          }
-        ]
-      },
+    ngxbubbleChartData = [
       {
         "name": "USA",
         "series": [
           {
             "name": "2010",
-            "value": 7870000
+            "x": 49737,
+            "y": 78.8,
+            "r": 310
           },
           {
-            "name": "2011",
-            "value": 8270000
+            "name": "2000",
+            "x": 45986,
+            "y": 76.9,
+            "r": 283
+          },
+          {
+            "name": "1990",
+            "x": 3706,
+            "y": 75.4,
+            "r": 253
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "series": [
+          {
+            "name": "2010",
+            "x": 36745,
+            "y": 81.4,
+            "r": 63
+          },
+          {
+            "name": "2000",
+            "x": 34774,
+            "y": 79.1,
+            "r": 59.4
+          },
+          {
+            "name": "1990",
+            "x": 29476,
+            "y": 77.2,
+            "r": 56.9
           }
         ]
       }

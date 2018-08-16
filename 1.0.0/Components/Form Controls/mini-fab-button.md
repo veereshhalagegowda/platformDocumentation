@@ -1,16 +1,3 @@
-{
-"name" : "mini-fab-button",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a clickable button in round shape similar to fab button with smaller shape. Which can be clicked.",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Mini fab button is a button in round shape. Mini FABs (Floating Action Buttons) are standard material design components. They are shaped as a circle that represents a promoted action. When pressed, it may contain more related actions. Mini FABs as its name suggests are floating over the content in a fixed position.
 

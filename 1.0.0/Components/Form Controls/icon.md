@@ -1,16 +1,3 @@
-{
-"name" : "icon",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "It is used to insert vector-based icons in the app. It supports both icons fonts and SVG icons, but not bitmap-based formats(png, jpg, etc.)",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 The Icon component represents an icon in the application. Icons are most effective when they improve visual interest and grab the user's attention. They help guide users while they're navigating a page.
 

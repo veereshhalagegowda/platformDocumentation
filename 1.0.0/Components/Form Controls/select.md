@@ -1,15 +1,3 @@
-{
-"name" : "select",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a form control for selecting a value from a set of options",
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 The select component is used along with one or more option elements, creates a drop-down list of options for a web form. The select element creates the list and each option element is displayed as an available option in the list.
 

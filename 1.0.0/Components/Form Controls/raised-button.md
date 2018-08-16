@@ -1,16 +1,3 @@
-{
-"name" : "raised-button",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Rectangular contained button which appears elevated",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 The raisedbutton component represents a clickable button. The button appears raised compared to a normal button component.
 

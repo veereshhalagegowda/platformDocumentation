@@ -1,16 +1,3 @@
-{
-"name" : "button",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is a clickable button. Which can be clicked.",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 The button component represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality.
 

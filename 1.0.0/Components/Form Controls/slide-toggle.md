@@ -1,16 +1,3 @@
-{
-"name" : "slide-toggle",
-"type" : "Component"
-"category": “Form Controls”
-"version" : "1.0.0",
-"averageRating" : 1,
-"description" : "Is an on/off control that can be toggled through clicking or dragging",
-"guide" : "”,
-"platformSupportVersion" : "4.0.0",
-"publisher" : "Prashanth",
-}
-
-## Guide: 
 ### Overview: 
 Slide toggle component is used to toggle between on/off. Toggle allows the user to change a setting between two states.
 

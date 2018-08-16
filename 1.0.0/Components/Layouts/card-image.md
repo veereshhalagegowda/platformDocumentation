@@ -1,16 +1,5 @@
-{
-  "name" : "card-image",
-  "type" : "Component",
-  "category": “Layout”,
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : "Card image contains an image and it stretches the image to the container width. “,
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
 
-}
 
-## Guide:
 ### Overview:
 A card image component contains an image, and it can be used alone as well as it can be put inside a card.
 
@@ -36,14 +25,14 @@ Drag and drop a card-image and fill the properties such as style,class imgSrc an
 - A card with an title Dog and a dog image will be displayed.
 
 ### Associated Attributes:
-**Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style**-It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
+- **Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
 
-**imgSrc**-this property stores the path of the image stored in the system and it displays the image based on the path if present. Such as (android\wallpaper.jpg). So this display the image of the name wallpaper that is in jpg format.
+- **imgSrc**-this property stores the path of the image stored in the system and it displays the image based on the path if present. Such as (android\wallpaper.jpg). So this display the image of the name wallpaper that is in jpg format.
 
-**Alt**-this will be displayed instead of image when the imgSrc does not load the image because of some reason. It can be string such as  “image not available”.
+- **Alt**-this will be displayed instead of image when the imgSrc does not load the image because of some reason. It can be string such as  “image not available”.
 
 
 

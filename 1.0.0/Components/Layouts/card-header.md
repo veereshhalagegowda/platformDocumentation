@@ -1,17 +1,4 @@
-{
-  "name" : "card-header",
-  "type" : "Component",
-  "category": �Layout�,
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : " Card-header is a block which is a combination of card,card-title,card-subtitle and card-image. �,
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
 
-}
-
-
-## Guide:
 ### Overview:
 A card header is similar to card, in which there will be title, subtitle and image as a attribute, but it can not contain any component inside it. It can be used alone as well as it can put inside a card.
 
@@ -37,17 +24,17 @@ Drag and drop a card header, and fill the title,subtitle as some text and in img
  
 
 ### Associated Attributes:
-**Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
+- **Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
 
-**Title-** it accepts string value and we can give the title what we want to set a title. The text will be displayed in bold property. 
+- **Title-** it accepts string value and we can give the title what we want to set a title. The text will be displayed in bold property. 
 
-**Subtitle**- we can give the subtitle also,which will be displayed below the title attribute,and it will be normal text.
-**imgSrc**-this property stores the path of the image stored in the system and it displays the images based on the path if present. Such as (android\wallpaper.jpg). So this display the image of name wallpaper that is in jpg format.
+- **Subtitle**- we can give the subtitle also,which will be displayed below the title attribute,and it will be normal text.
+- **imgSrc**-this property stores the path of the image stored in the system and it displays the images based on the path if present. Such as (android\wallpaper.jpg). So this display the image of name wallpaper that is in jpg format.
 
-**Alt**-this will be displayed instead of image when the imgSrc does not load the image because of some reason. It can be string such as  �image not available�.
+- **Alt**-this will be displayed instead of image when the imgSrc does not load the image because of some reason. It can be string such as image not available.
 
 
 

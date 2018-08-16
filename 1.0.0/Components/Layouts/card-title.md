@@ -1,18 +1,4 @@
-{
-  "name" : "card-title",
-  "type" : "Component"
-  "category": �Layout�,
-  "version" : "1.0.0",
-  "averageRating" : 1,
-  "description" : "this property gives the ability to add a title of the block. � ,
-  "platformSupportVersion" : "4.0.0",
-  "publisher" : "Ayush"
 
-}
-
-
-
-## Guide:
 ### Overview:
 A card title can be used to give a title to any block. It contains the text value.
 
@@ -38,12 +24,12 @@ Drag and drop the card-title component. It has three attributes style, class and
 - A card with title as Big Data and below that block of text will be displayed.
 
 ### Associated Attributes:
-**Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
+- **Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
 
-**Title**- it accepts string value and we can give the title what we want to set as title. The text will be displayed in bold property. 
+- **Title**- it accepts string value and we can give the title what we want to set as title. The text will be displayed in bold property. 
 
 ### Support 
 - **Devices:** Android, iOS
