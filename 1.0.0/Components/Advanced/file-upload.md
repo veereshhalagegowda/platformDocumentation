@@ -1,17 +1,3 @@
-{
-  "name" : "file-upload",
-  "type" : "Component",
-  "category": “Advanced",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : “A component that provides interface to upload files.”,
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 File Upload is a button by clicking which the selected files can be uploaded.
 
