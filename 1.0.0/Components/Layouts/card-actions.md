@@ -1,10 +1,10 @@
 {
   "name" : "card-action",
   "type" : "Component"
-  "category": �Layout�
+  "category":Layout
   "version" : "1.0.0",
   "averageRating" : 1,
-  "description" : "it is a component which contains buttons�,
+  "description" : "it is a component which contains buttons inside it.,
   "platformSupportVersion" : "4.0.0",
   "publisher" : "Ayush"
 
@@ -39,10 +39,10 @@ Display a card with a paragraph and card actions that has two button like and su
 
 
 ### Associated Attributes:
-**Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+- **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-**Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
+- **Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
 
 
 
