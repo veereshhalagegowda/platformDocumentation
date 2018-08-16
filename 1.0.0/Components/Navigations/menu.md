@@ -1,17 +1,3 @@
-{
-  "name" : "menu",
-  "type" : "Component",
-  "category": "Navigation",
-  "version" : "1.0.0" ,
-  "average Rating" : 1,
-  "description" : ”menu is a container for the list of options.",
-    "guide":"",
-   "platformSupportVersion " : "4.0.0",
-  " publisher" : "Sankarshan"
-}
-
-
-## Guide
 ### Overview
 A menu is a set of options presented to the user of a computer application to help the user find information or execute a function.
 
