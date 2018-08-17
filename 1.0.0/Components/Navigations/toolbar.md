@@ -18,7 +18,9 @@ They are designed to provide easy and immediate access to users' most frequently
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.  
 (eg. height:50px; background: orange).
 
-- **Class**: it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=toolbar)
+- **Class**: it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=toolbar).
+
+- **Color**: takes the color based on angular material thing.Takes "primary", "accent" and "warn" as its value.
 
 - **Content**: This is displayed inside the toolbar. Its value can be plain text or valid html tags.  
 eg: 
