@@ -12,16 +12,15 @@
 ## Guide
 ### Overview
 It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values. 
-#### Use Case
+
+#### Usages
+A bubble chart is widely used in industries, health centers, climate, government surveys etc.
 Let's consider a use case in Industry, where the industry wants to show the service and product provided in the different part of the country. The collected data need to plot on a map of the country region. The bubble graph displays the service of the corresponding industry in the different part of the country. 
 There are some other popular use cases where bubble chart is used. Some of them are:
 -   Government Survey
 -   Health care centers
 -   Industries
 -   Experimental surveys
-
-#### Usages
-A bubble chart is widely used in industries, health centers, climate, government surveys etc.
 ##### Prerequisites
 1. New page.
 2. Default route for the newly created page.

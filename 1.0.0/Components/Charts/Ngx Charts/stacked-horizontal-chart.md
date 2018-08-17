@@ -11,8 +11,10 @@
 }
 ## Guide
 ### Overview
-A stacked horizontal bar chart is similar to the normal bar chart with a difference that in a stacked horizontal bar chart, the data values are plotted using a horizontal bar (row direction). It provides a good comparison of the data which is placed in the row direction. It is also known as a column chart." 
-#### Use Case
+A stacked horizontal bar chart is similar to the normal bar chart with a difference that in a stacked horizontal bar chart, the data values are plotted using a horizontal bar (row direction). It provides a good comparison of the data which is placed in the row direction. It is also known as a column chart."
+
+#### Usages
+A stacked horizontal bar chart is widely used in industries, health centers, Data analysis, IT companies etc.
 The use case for stacked horizontal bar chart depends on the scope where it is being used. For example, the insurance companies use this chart to display the report of all the insured clients categorized under male or female in particular year or months, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a stacked horizontal bar chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where bubble chart is used. Some of them are:
 -   Insurance companies
@@ -20,8 +22,6 @@ There are some other popular use cases where bubble chart is used. Some of them 
 -   Health centers
 -   Data analysis
 
-#### Usages
-A stacked horizontal bar chart is widely used in industries, health centers, Data analysis, IT companies etc.
 ##### Prerequisites
 1. New page.
 2. Default route for the newly created page.

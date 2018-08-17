@@ -13,10 +13,8 @@
 ### Overview
 It is a circular chart which is divided into different slice which represents the corresponding data values.
 
-
 #### Usages
 A pie chart is widely used in business world, mass media, product analysis, survey and experimental analysis etc. 
-##### Use Case
 Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be achieved using  pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
 Some of the other popular use cases of line chart are:
 -   Pharmaceutical Industries (indicating the different section of drugs)
