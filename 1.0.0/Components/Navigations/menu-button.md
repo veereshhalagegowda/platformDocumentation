@@ -15,13 +15,12 @@ After creating a Menu,
 
 1. Create a page called “page”.
 2. Drag and drop the “Menu” component.
-3. Set the “matMenu” attribute as “appMenu”.
+3. Set the “matMenu” attribute as “menu”.
 4. Drag and drop 3 “Menu Item” components inside the “Menu” component.
 5. Set the “MenuItemName” as “item1”, “item2” and “item3” respectively.
-6. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute as “Menu” and “[matMenuTriggerFor]” attribute to “appMenu”.
-7. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
-
-
+6. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute as “Menu” and “[matMenuTriggerFor]” attribute to “menu”.
+ 7. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
+ 
 ### Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. background:orange).
 
