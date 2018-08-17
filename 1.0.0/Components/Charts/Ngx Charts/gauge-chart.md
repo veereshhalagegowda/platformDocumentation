@@ -46,6 +46,7 @@ A gauge chart is widely used in executive dashboard reports to show key business
 5. Save the page and run the application 
 ##### Example
 Consider a IT company wants a dashboard reports for different branch to show key business performance indicators so that it can be compared easily with KPI (Key Performance Indicator). Here is an example,
+
 | Parameters | KPI |
 | ------ | ------ | 
 | **Germany** | 406323 |
