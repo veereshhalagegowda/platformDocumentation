@@ -68,7 +68,7 @@ Here is the data for the year 2017.
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public lineChartData: Array<any> = [
-       {data: [8654, 11254, 11958, 13545, 13965, 12548, 13554, 14696, 14979, 16585, 16964, 17015], label: ' Insurance Statistic Year 2017'];
+       {data: [8654, 11254, 11958, 13545, 13965, 12548, 13554, 14696, 14979, 16585, 16964, 17015], label: ' Insurance Statistic Year 2017'}];
 ```
 ###### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
