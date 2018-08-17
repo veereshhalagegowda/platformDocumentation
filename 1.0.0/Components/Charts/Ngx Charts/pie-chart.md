@@ -57,6 +57,7 @@ Some of the other popular use cases of line chart are:
 7. Save the page and run the application 
 ##### Example
 Consider an IT industry which makes a survery on how many users use their product from different part of the world. The sample data can be recoded as follows:
+
 | Country | Germany | USA | Spain | France | Nepal | India |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | **Users** | 730000 | 7870000 | 1569558 | 1645553 | 1058048 | 1546488 |
