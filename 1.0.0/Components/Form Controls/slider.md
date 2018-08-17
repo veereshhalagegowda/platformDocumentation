@@ -1,15 +1,15 @@
-### Overview: 
+## Overview: 
 Slider component allows for the selection of a value from a range via mouse, touch, or keyboard. By default the minimum value of the slider is 0, the maximum value is 100, and the slider moves in increments of 1. These values can be changed by setting the min, max, and step attributes respectively. The initial value is set to the minimum value unless specified.
 
-#### Usage
+## Usage
 Slider component is used to select a range of values through mouse, touch or keyboard. Sliders reflect a range of values along a bar, from which users may select a single value. They are ideal for adjusting settings such as volume, brightness, or applying image filters.
 
-#### How to use:   
+### How to use:   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-#### Example: 
+### Example: 
 Input the component field with the attribute value:
 ``` 
 invert = true
@@ -18,7 +18,7 @@ step = 50
 Save it and run.
 When the page is loaded the value "invert = true" will display an inverted slider. And "step=50" specifies the value at which the slider will slide, in this example the slider takes two clicks to move to the end of the slider. 
 
-### Associated Attributes:
+## Associated Attributes:
 - **style:** Used to specify the inline style.
 - **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
@@ -34,7 +34,7 @@ When the page is loaded the value "invert = true" will display an inverted slide
 - **Change:** It is an event emitted when the slider value is changed.
 - **Input:** It is an event emitted when the slider thumb moves.
 
-### Support 
+## Support 
 - **Devices:** Android, iOS
 - **Browsers:** Latest version of all modern browsers
 

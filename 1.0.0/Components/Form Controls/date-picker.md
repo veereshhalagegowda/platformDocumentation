@@ -1,15 +1,15 @@
-### Overview: 
+## Overview: 
 The Datepicker component is used to present an interface which makes it easy for users to select date. Tapping on the component will display a picker interface that can be used to select date.
 
-#### Usage
+## Usage
 Datepicker component is used to select the date easily instead of entering it manually. 
 
-#### How to use:   
+### How to use:   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-#### Example: 
+### Example: 
 Input the component field with the attribute value:
 ``` 
 opened = true
@@ -18,7 +18,7 @@ placeholder = datepicker
 Save it and run.
 When the page is loaded the "opened = true" is the event that will be emitted when the datepicker is opened. And "placeholder = datepicker" is text that will be displayed in the datepicker field when the page is loaded. 
 
-### Associated Attributes:
+## Associated Attributes:
 - **style:** Used to specify the inline style.
 - **class:** Specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **placeholder:** Used to hold the defined text value. Example “Calendar” holds the value Calendar for the field.
@@ -39,7 +39,7 @@ When the page is loaded the "opened = true" is the event that will be emitted wh
 - **Name:** Specifies the name for the date picker.
 - **Picker:** It is an id for the date picker.
 
-### Support 
+## Support 
 - **Devices:** Android, iOS
 - **Browsers:** Latest version of all modern browsers
 

@@ -1,15 +1,15 @@
-### Overview: 
+## Overview: 
 Slide toggle component is used to toggle between on/off. Toggle allows the user to change a setting between two states.
 
-#### Usage
+## Usage
 A toggle is a specialized control which has the ability to be selected. Typically a toggle is rendered similarly to a button.
 
-#### How to use:   
+### How to use:   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-#### Example: 
+### Example: 
 Input the component field with the attribute value:
 ``` 
 Class = toggle
@@ -18,7 +18,7 @@ Text = on/off
 Save it and run.
 When the page is loaded "class = toggle" will assign the class name as toggle, which can be used to point to a class in a style sheet. And the "text = on/off" is the text that is displayed next to the component.
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style:** Used to specify the inline style. It is applied to the specific element.
 - **Class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Required:** used to check whether the slide-toggle is required or not. Value should be boolean i.e. either true or false.
@@ -30,7 +30,7 @@ When the page is loaded "class = toggle" will assign the class name as toggle, w
 - **Checked:** Used to check whether the slide-toggle element is checked or not.
 - **Color:** specifies the theme color for the component.
 
-### Support 
+## Support 
 - **Devices:** Android, iOS
 - **Browsers:** Latest version of all modern browsers
 

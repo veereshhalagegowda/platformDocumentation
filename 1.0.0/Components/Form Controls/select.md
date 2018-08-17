@@ -1,15 +1,15 @@
-### Overview: 
+## Overview: 
 The select component is used along with one or more option elements, creates a drop-down list of options for a web form. The select element creates the list and each option element is displayed as an available option in the list.
 
-#### Usage
+## Usage
 Select component is used to select the list of options available within the select field. When clicked it displays the list in drop-down view, where the user can select the option.
 
-#### How to use:   
+### How to use:   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-#### Example: 
+### Example: 
 Input the component field with the attribute value:
 ``` 
 placeholder = select
@@ -18,7 +18,7 @@ required = true
 Save it and run.
 When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
 
-### Associated Attributes:
+## Associated Attributes:
 - **style:** Used to specify the inline style.
 - **class:** it specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Value:** it specifies the pre-defined text that is displayed in the select area. when the select field is clicked, it displays the value that is entered in the field when the application is run. Example “Select” defined in this field will display Select in the select field when the application is run.
@@ -31,7 +31,7 @@ When the page is loaded the value "placeholder = select" will display the value 
 - **Optiondata:** Display the options which are entered when the user clicks on the select option.
 - **Ngfor:** Used for iterating.
 
-### Support 
+## Support 
 - **Devices:** Android, iOS
 - **Browsers:** Latest version of all modern browsers
 
