@@ -14,12 +14,14 @@ Tabs are useful for containing and navigating between contextually related but d
 ### Example
 1. Create a page.
 2. Drag and drop the “Tab Group” Component from the “Navigation” category.
-3. Drag and drop 3 “Tab” components inside the “Tab Group” component.
-4. Set the values of 1st, 2nd and 3rd Tab’s “label” property as “Tab1”, “Tab2” and “Tab3” respectively.
-5. Drag and drop a “Card” component from “Layout” category into each of the tabs.
-6. Set height of each card  to 100px. (style = height:100px;)
-7. Set the color of each card. (eg.: color:pink;)
-8. Now, the tabs can be navigated.
+3. Drag and drop 2 “Tab” components inside the “Tab Group” component.
+4. Set the values of 1st and 2nd Tab’s “label” property as “Image” and “Tab2” respectively.
+5. Drag and drop "Image" component from the "Form Controls" category and set its attributes.
+6. Drag and drop 2 “Card” components from “Layout” category into each of the tabs.
+7. Set height of each card  to 50px. (style = height:50px;)
+8. Set the color of each card. (eg.: color:pink;)
+9. Save the changes.
+10. Now, the tabs can be navigated.
 
 ### Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. background:orange).
