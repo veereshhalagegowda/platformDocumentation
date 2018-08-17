@@ -82,6 +82,7 @@ Some of the other popular use cases of bubble chart are:
 8. Save the page and run the application 
 ##### Example
 Consider a insurance company which made a survey on its client at different part of the country. The number of clietn in particular area need to be displayed on on a country map using a bubble. For example,
+
 | Data/Area | X | Y | Radius of Circle |
 | ------ | ------ | ------ | ------ |
 | **Area 1** | 100 | 50 | 20 |
