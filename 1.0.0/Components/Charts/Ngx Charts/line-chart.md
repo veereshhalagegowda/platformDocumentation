@@ -1,15 +1,3 @@
-{
-"**Name**" : "line-chart",
-"**Type**" : "Component",
-"**Category**": “Ngx Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : "1",
-"**Description**" : "A line chart is a chart which plot the data using the lines depending upon the data." 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 A line chart is a chart that plots the data values using a line and connects those point using a straight line. It does not contain any background color." 
 

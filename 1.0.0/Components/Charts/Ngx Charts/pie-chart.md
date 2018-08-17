@@ -1,15 +1,3 @@
-{
-"**Name**" : "pie-chart",
-"**Type**" : "Component",
-"**Category**": “Ngx Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : "1",
-"**Description**" : "An pie chart is a chart which plots the data value on a graph representing them in a slice of pie" 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 It is a circular chart which is divided into different slice which represents the corresponding data values.
 

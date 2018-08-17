@@ -1,15 +1,3 @@
-{
-"**Name**" : bubble-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "A bubble chart is a type of chart which plots the data and displays it in a three dimension. In this chart, data paints are replaced in a bubble form on a graph." 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values. 
 

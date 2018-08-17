@@ -1,15 +1,3 @@
-{
-"**Name**" : pie-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0", 	 	
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "Pie chart is commonly used chart which plot the data point on a pie shape in which pie arc represents the proportional value of each piece of data set.
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 A pie chart is an excellent chart type for representing the relational proportions between data. It is widely used in business world as well as in mass media. It represents the data in pie that are sliced according the data range.
 

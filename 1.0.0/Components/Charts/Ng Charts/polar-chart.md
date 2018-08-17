@@ -1,15 +1,3 @@
-{
-"**Name**" : polar-area-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "Polar area charts are the chart similar to the pie chart with a different that the radius of the slice of the chart differs depending on the datasets value. 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 Polar area chart gives detailed comparison information from its structure. The radius of the slice differs according the value in datasets whereas in pie chart the radius of each slice are same. In this chart, the difference in data can be found easily looking at the radius of the slice.
 

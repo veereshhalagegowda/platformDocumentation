@@ -1,15 +1,3 @@
-{
-"**Name**" : bar-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0", 	 	
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "A bar chart is a chart which plots the data points using the vertical or horizontal bars whose heights or lengths is proportional to the data sets.
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 A bar chart plots the data points using the vertical or horizontal bars providing the good comparison of multiple data points plotting them side by side. The bar chart includes additional properties over line chart i.e. barPercentage, categoryPercentage, barThickness, maxBarThickness.
  

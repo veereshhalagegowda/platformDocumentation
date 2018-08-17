@@ -1,15 +1,3 @@
-{
-"**Name**" : radar-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "A radar chart is a chart which display multivariate data in the form of two-dimensional chart in the form of web. 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 It is also know as web chart, cobweb chart or spider chart. It plots the data in irregular polygon. All the axis in this chart are connected from a common center point on which data values are plotted. This ploting method forms a spider web like structure which gives proper comparison between the data groups.
 

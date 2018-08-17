@@ -1,15 +1,3 @@
-{
-"**Name**" : stacked-vertical-bar-chart,
-"**Type**" : Component
-"**Category**": “Ngx Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "A stacked vertical bar chart is a chart which plot the data using a vertical bar on a graph." 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 A stacked horizontal bar chart is similar to the normal bar chart with a difference that in a stacked vertical bar chart, the data values are plotted using a vertical bar (column direction). It provides a good comparison of the data which is placed in the column direction."
 

@@ -1,15 +1,3 @@
-{
-"**Name**" : "area-chart",
-"**Type**" : "Component",
-"**Category**": “Ngx Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : "1",
-"**Description**" : "An area chart is a chart which plots the data value using a area perimeter." 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 An area chart is based on line chart. The area between the axis and line are colored with different colors, textures, and hatchings.
 

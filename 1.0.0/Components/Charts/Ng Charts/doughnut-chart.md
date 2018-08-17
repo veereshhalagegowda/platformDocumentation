@@ -1,15 +1,3 @@
-{
-"**Name**" : doughnut-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0", 	 	
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "Doughnut is a another modified chart over pie chart which is divided into many segments in which the arc of each segments represents the proportional value of each piece of data set.
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 Doughnut chart is similar to the pie chart but the different is doughnut chart have a circular hollow gap at the middle of the chart. This circular hollow gap is called as “cutoutPercentage” which represents what percentage of the inner should be cut out.
 

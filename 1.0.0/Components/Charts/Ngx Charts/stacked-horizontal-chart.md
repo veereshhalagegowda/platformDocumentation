@@ -1,15 +1,3 @@
-{
-"**Name**" : stacked-horizontal-bar-chart,
-"**Type**" : Component
-"**Category**": “Ngx Charts”
-"**Version**" : "1.0.0",
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "A stacked horizontal bar chart is a chart which plot the data using a horizontal bar on a graph." 
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 A stacked horizontal bar chart is similar to the normal bar chart with a difference that in a stacked horizontal bar chart, the data values are plotted using a horizontal bar (row direction). It provides a good comparison of the data which is placed in the row direction. It is also known as a column chart."
 

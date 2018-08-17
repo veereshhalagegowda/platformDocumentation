@@ -1,15 +1,3 @@
-{
-"**Name**" : line-chart,
-"**Type**" : Component
-"**Category**": “Ng Charts”
-"**Version**" : "1.0.0", 
-"**Guide**" : " ”,
-"**Average Rating**" : 1,
-"**Description**" : "A line chart is a type of chart which shows the information in the connected line graphs. It shows information that is connected in some way (such as change over time)
-"**PlatformSupportVersion**" : "4.0.0",
-"**Publisher**" : "Dayashankar",
-}
-## Guide
 ### Overview
 A line chart is a chart which is used to display the data points in connected straight line segments. In the chart, the point is plotted in a way that the point has appeared.
 #### Usages
