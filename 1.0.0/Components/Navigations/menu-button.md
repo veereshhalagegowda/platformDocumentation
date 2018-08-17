@@ -29,6 +29,8 @@ After creating a Menu,
 - **MenuName**: It is the name of the menu button that appears in the application. Takes string as its value.
 (eg.: Menu)
 
+- **Color**: takes the color based on angular material thing.Takes "primary", "accent" and "warn" as its value.
+
 - **[matMenuTriggerFor]**: It should have the same value as the “matMenu” attribute of the associated “Menu” component. Takes string as its value.
 
 ### Support
