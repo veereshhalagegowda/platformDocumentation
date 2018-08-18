@@ -1,7 +1,7 @@
-### Overview
+## Overview
 It is also know as web chart, cobweb chart or spider chart. It plots the data in irregular polygon. All the axis in this chart are connected from a common center point on which data values are plotted. This ploting method forms a spider web like structure which gives proper comparison between the data groups.
 
-#### Usages
+## Usages
 A radar chart is widely used in hospitals, cricket world, industry, etc.
 Let us consider a scenario from a particular industry where a human resource (HR) team want to prepare a chart on the performance of hiring candidates skills score obtained during the selection process. In this case, the HR should be able to take a glance of all the candidates performance score. This can be achieved using radar chart. It will plot all the candidates performance score in a spider web form and provide a better understandability from it. 
 There are some other popular use cases where radar chart is used. Some of them are:
@@ -10,10 +10,10 @@ There are some other popular use cases where radar chart is used. Some of them a
 -   Retails
 -   Hospitals
 -   Experimental surveys
-##### Prerequisites
+### Prerequisites
 1. New page.
 2. Default route for the newly created page.
-##### How to use?
+### How to use?
 1. Open the newly created page.
 2. Drag and drop the radar chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -56,7 +56,7 @@ There are some other popular use cases where radar chart is used. Some of them a
 		[options] = radarChartOptions
 		```
 9. Save the page and run the application 
-##### Example
+### Example
 Consider an example of an industry where HR (Human Resource) Team hires some professional. They conduct different activities to monitor the following skills of the candidates, Communication skills, technical knowledge, teamwork, meeting deadline, problem-solving, and punctuality. The head HR should be able to glance at the candidates' performance through a graph or chart which reflects the good comparison with all candidates. This can be achieved using a radar chart. For example,
 
 | Skills/Candidates | Communication Skills | Technical Knowledge | Team Work | Meeting Deadline | Problem Solving | Punctuality |
@@ -64,7 +64,7 @@ Consider an example of an industry where HR (Human Resource) Team hires some pro
 | **Dayashankar** | 7 | 8 | 6 | 9 | 7 | 9 |
 | **Oliver** | 6 | 7 | 7 | 8 | 6 | 8 |
 
--   ###### Datasets:
+-   #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public radarChartData:Array<any> = [
@@ -72,23 +72,23 @@ public radarChartData:Array<any> = [
     {data: [6, 7, 7, 8, 6, 8], label: 'Oliver'}
   ];
 ```
--   ###### Labels:
+-   #### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public radarChartLabels:string[] = ['Communication Skills', 'Technical Knowledge', 'Team Work', 'Meeting Deadline', 'Problem Solving', 'Punctuality'];
 ```
--   ###### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   ###### Options:
+-   #### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public radarChartOptions:any = {
    responsive: true };
 ```
-### Associated Attributes
+## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each section of the chart. For example, 
     ```typescript
     public radarChartLabels:string[] = ['Communication Skills', 'Technical Knowledge', 'Team Work', 'Meeting Deadline', 'Problem Solving', 'Punctuality'];

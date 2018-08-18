@@ -1,7 +1,7 @@
-### Overview
+## Overview
 It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values. 
 
-#### Usages
+## Usages
 A bubble chart is widely used in industries, health centers, climate, government surveys etc.
 Let's consider a use case in Industry, where the industry wants to show the service and product provided in the different part of the country. The collected data need to plot on a map of the country region. The bubble graph displays the service of the corresponding industry in the different part of the country. 
 There are some other popular use cases where bubble chart is used. Some of them are:
@@ -9,10 +9,10 @@ There are some other popular use cases where bubble chart is used. Some of them 
 -   Health care centers
 -   Industries
 -   Experimental surveys
-##### Prerequisites
+### Prerequisites
 1. New page.
 2. Default route for the newly created page.
-##### How to use?
+### How to use?
 1. Open the newly created page.
 2. Drag and drop the bubble chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -72,7 +72,7 @@ There are some other popular use cases where bubble chart is used. Some of them 
 		[options] = radarChartOptions
 		```
 9. Save the page and run the application 
-##### Example
+### Example
 Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example,
 
 | Data/Area | X | Y | Radius of Circle |
@@ -105,23 +105,23 @@ public bubbleChartData: Array<any> =
    }]
 }];
 ```
--   ###### Labels:
+-   #### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public bubbleChartLabels:string[] = ['Deer Population'];
 ```
--   ###### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   ###### Options:
+-   #### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public bubbleChartOptions:any = {
    responsive: true };
 ```
-### Associated Attributes
+## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each data plotted in circular shape.  For example, 
     ```typescript
     public bubbleChartLabels:string[] = ['Deer Population'];

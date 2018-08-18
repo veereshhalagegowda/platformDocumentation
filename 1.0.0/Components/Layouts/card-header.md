@@ -1,16 +1,16 @@
 
-### Overview:
+## Overview:
 A card header is similar to card, in which there will be title, subtitle and image as a attribute, but it can not contain any component inside it. It can be used alone as well as it can put inside a card.
 
-##### Usage:
+## Usage:
 A card header can be used where a block should be displayed with a image, a title,a subtitle.
 Multiple card header can be placed inside a card to display a page which contains items as title,a subtitle and a image. 
                                                                                                                               
-##### How to use:
+### How to use:
 Drag and drop a card header, and fill the title,subtitle as some text and in imgSrc attribute give the path of the image which will be loaded. So if the image wallpaper.jpg is in assets folder the path can be assets:\android\wallpaper.jpg.
 
 
-##### Example.                                      
+### Example.                                      
 **Display a card header with title Agra,subtitle as Taj Mahal and a taj image-**
 
 - Drag and drop a card header.
@@ -23,7 +23,7 @@ Drag and drop a card header, and fill the title,subtitle as some text and in img
 - Like this multiple card header can be put inside a card.  
  
 
-### Associated Attributes:
+##Associated Attributes:
 - **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -38,11 +38,11 @@ Drag and drop a card header, and fill the title,subtitle as some text and in img
 
 
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers**:  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
+## Support 
+ ### Devices: Android, iOS
+ ### Browsers:  Latest version of all modern browsers
+ ### Dependencies version:
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 

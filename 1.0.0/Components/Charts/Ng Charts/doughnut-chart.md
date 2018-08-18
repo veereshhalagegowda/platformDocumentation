@@ -1,7 +1,7 @@
-### Overview
+## Overview
 Doughnut chart is similar to the pie chart but the different is doughnut chart have a circular hollow gap at the middle of the chart. This circular hollow gap is called as “cutoutPercentage” which represents what percentage of the inner should be cut out.
 
-#### Usages
+## Usages
 A Doughnut chart is widely used in business world, mass media, and institutions.
 Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be achieved using  Doughnut chart where a complete chart presents the hospital and divided slice of pie represent the wards of the hospital. 
 There are some other popular use cases where pie chart is used. Some of them are:
@@ -9,10 +9,10 @@ There are some other popular use cases where pie chart is used. Some of them are
 -   Industries (for providing information on different product and services )
 -   Government offices (like revenue department)
 -   Retails (for different types of product they provide)
-##### Prerequisites
+### Prerequisites
 1. New page.
 2. Default route for the newly created page.
-##### How to use?
+### How to use?
 1. Open the newly created page.
 2. Drag and drop the doughnut chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -54,7 +54,7 @@ There are some other popular use cases where pie chart is used. Some of them are
 		[options] = doughnutChartOptions
 		```
 9. Save the page and run the application 
-##### Example
+### Example
 Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
 | Hospital Wards | Emergency &  Casualty | Labor Ward | Endoscopy Ward | Coronary Ward | Surgical Ward | General Ward |
@@ -68,23 +68,23 @@ public doughnutChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
  ];
 ```
--   ###### Labels:
+-   #### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public doughnutChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
 ```
--   ###### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   ###### Options:
+-   #### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public doughnutChartOptions:any = {
    responsive: true };
 ```
-### Associated Attributes
+## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each slice in the doughnut chart. For example, 
     ```typescript
     public doughnutChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];

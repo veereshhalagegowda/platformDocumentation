@@ -3,17 +3,17 @@
 
 
 
-### Overview:
+## Overview:
 This is component which allows us to create a container of list of particular rows and columns.The column will contain the attribute and the row will contain the data of the particular attribute.And the list will be generated. It must specify a cols attribute which sets the number of columns in the grid. The number of rows will be automatically determined based on the number of columns and the number of items. 
 
 
-##### Usage:
+## Usage:
 It is a container of list which has user defined layout. So the layout will be set by the user, and according to that layout the list item will be placed inside that layout.
 
-##### How to use:
+### How to use:
 Drag and drop a grid list component and set the attributes such as style, class,cols,gutterSize,rowHeight how it should be displayed and according to that the list item will be displayed on the screen.
 
-##### Example:
+### Example:
 **Display a grid list component with a grid-tile component and under that 3 items.**
 - Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
 - Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
@@ -51,7 +51,7 @@ Displaylist.ts
  
 
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -68,12 +68,13 @@ Displaylist.ts
 
 
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers**:  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
+
+## Support 
+### Devices:Android, iOS
+### Browsers:  Latest version of all modern browsers
+ ### Dependencies version: 
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 

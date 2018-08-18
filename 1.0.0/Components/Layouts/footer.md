@@ -1,19 +1,19 @@
 
-### Overview:
+## Overview:
 A footer component typically contains authorship information, copyright information,contact information, sitemap, back to top links, related documents.
 There can be several footer components in one document.
 
 
 
 
-##### Usage:
+## Usage:
 A footer components is used when the content should be displayed at the bottom of the page. It can contain multiple components inside it. In footer the data can be anything such as contact information, copyright etc.
 
 
-##### How to use
+### How to use
 Drag and drop a footer component and inside that some component can be inserted for the content such as paragraph component etc. 
 
-##### Example
+### Example
 **Display a block with a title a subtitle, a paragraph component and a footer.**
 - Drag and drop a header component, and provide the style and class attribute.
 - Now drag and drop a h3 component inside header for a title and provide the text such as Agra. So the title will be set as Agra.
@@ -25,7 +25,7 @@ Drag and drop a footer component and inside that some component can be inserted 
 - Save and Run, a block with title Taj in h3,a subtitle with Agra in h5 and a paragraph with some content in header component and a footer at the bottom will be displayed.
   
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style-** accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -34,12 +34,13 @@ Drag and drop a footer component and inside that some component can be inserted 
 
 
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers:**  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
+
+## Support 
+### Devices:Android, iOS
+### Browsers:  Latest version of all modern browsers
+ ### Dependencies version: 
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 

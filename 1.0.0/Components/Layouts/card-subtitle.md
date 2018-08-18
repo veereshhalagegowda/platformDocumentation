@@ -4,15 +4,15 @@
 ## Overview:
 A card subtitle can be used to give a subtitle to any block. It contains the text value. It is used below the title component.
 
-##### Usage:
+## Usage:
 It can be used where we want to set the subtitle of any component. It can be used inside a card or with some components to give the subtitle.
                                                                                                                           
 
-##### How to use:
+### How to use:
 Drag and drop the card-subtitle component. It has three attributes style, class and subtitle. Provide the value of style and class, and in subtitle attribute give the subtitle that will be set.
 
 
-##### Example.
+### Example.
 **Display a card with card-title subtitle and some block of text.**
 
 - Drag and drop a card.
@@ -33,13 +33,13 @@ Drag and drop the card-subtitle component. It has three attributes style, class 
 
 - **Subtitle**-it accepts string. And here we can give the data whatever we want to set as subtitle.
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers**:  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
 
+## Support 
+### Devices:Android, iOS
+### Browsers:  Latest version of all modern browsers
+ ### Dependencies version: 
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 

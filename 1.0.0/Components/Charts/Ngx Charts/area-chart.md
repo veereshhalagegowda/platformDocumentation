@@ -1,7 +1,7 @@
-### Overview
+## Overview
 An area chart is based on line chart. The area between the axis and line are colored with different colors, textures, and hatchings.
 
-#### Usages
+## Usages
 An area chart is widely used in comparing the trending data such as stock market shares.
 The use case for line chart depends on the scope where it is being used. For example, industries use area chart to display the report of product sales in different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a line chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where bubble chart is used. Some of them are:
@@ -9,10 +9,10 @@ There are some other popular use cases where bubble chart is used. Some of them 
 -   Industries 
 -   Health centers
 -   Data analysis
-##### Prerequisites
+### Prerequisites
 1. New page.
 2. Default route for the newly created page.
-##### How to use?
+### How to use?
 1. Open the newly created page.
 2. Drag and drop the line chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
@@ -60,14 +60,14 @@ There are some other popular use cases where bubble chart is used. Some of them 
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```
 8. Save the page and run the application 
-##### Example
+### Example
 Consider an industry which records the data of their product sales from different country. The company plot the data on the area chart to get the better comparison on variations on sales of products from different country. For example,
 
 | Country | Germany | USA |
 | ------ | ------ | ------ |
 | **2010** | 7300000 | 7870000 |
 | **2011** | 8940000 | 8270000 |
--   ###### Datasets:
+-   #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 dataSet = [
@@ -99,15 +99,15 @@ dataSet = [
   }
 ];
 ```
--   ###### Labels:
+-   #### Labels:
 Here, teh labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
--   ###### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;
 ```
 This legends is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
-### Associated Attributes
+## Associated Attributes
 - **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the horizontal bars in the chart.  For example, 
     ```css
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)

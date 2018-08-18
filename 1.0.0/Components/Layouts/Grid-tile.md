@@ -1,14 +1,14 @@
 
-### Overview:
+## Overview:
 This is component which allows us to create a container of list of particular rows and columns it can be used alone as well as inside the grid-list.The column will contain the attribute and the row will contain the data of the particular attribute.And the data of the list can be iterated by ngFor loop which can access all the data from the array and can be displayed on the screen.
 
 
-##### Usage:
+## Usage:
 Grid-tile component can be used where the list of items should be displayed. It can be used as alone or it can be put inside a grid-list component to set the layout of the list.
 
-##### How to use
+### How to use
 Drag and drop a grid tile component and set the attributes such as style,class,*ngFor,[rowspan],[colspan], and label.
-##### Example
+### Example
 **Display a grid tile component inside grid-list component with three items**
 - Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
 
@@ -54,7 +54,7 @@ Displaylist.ts
  
 
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -68,13 +68,13 @@ Displaylist.ts
 
 
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers**:  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
 
+## Support 
+### Devices:Android, iOS
+### Browsers:  Latest version of all modern browsers
+ ### Dependencies version: 
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 

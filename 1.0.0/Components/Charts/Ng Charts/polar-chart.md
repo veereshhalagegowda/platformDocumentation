@@ -1,7 +1,7 @@
-### Overview
+## Overview
 Polar area chart gives detailed comparison information from its structure. The radius of the slice differs according the value in datasets whereas in pie chart the radius of each slice are same. In this chart, the difference in data can be found easily looking at the radius of the slice.
 
-#### Usages
+## Usages
 A polar area chart is used as a optional to the pie chart in different fields such as hospitals, retails, industries, data science and analytics etc.
 Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be done by using pie chart however it would not provide proper readability from the chart. Therefore, in this case if polar area chart is used, it would provide global understanding them just from the structure of the chart slice.   
 There are some other popular use cases where pie chart is used. Some of them are:
@@ -12,10 +12,10 @@ There are some other popular use cases where pie chart is used. Some of them are
 -   Hospitals
 -   Government surveys
 -   Experimental surveys
-##### Prerequisites
+### Prerequisites
 1. New page.
 2. Default route for the newly created page.
-##### How to use?
+### How to use?
 1. Open the newly created page.
 2. Drag and drop the polar area chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -57,37 +57,37 @@ There are some other popular use cases where pie chart is used. Some of them are
 		[options] = polarChartOptions
 		```
 9. Save the page and run the application 
-##### Example
+### Example
 Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
 | Hospital Wards | Emergency &  Casualty | Labor Ward | Endoscopy Ward | Coronary Ward | Surgical Ward | General Ward |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | **Patients (%)** | 25 | 11 | 8 | 9 | 18 | 29 |
 
--   ###### Datasets:
+-   #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public polarChartData: Array<any> = [
         {data:[25, 11, 8, 9, 18, 29]}
 ];
 ```
--   ###### Labels:
+-   #### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public polarChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
 ```
--   ###### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   ###### Options:
+-   #### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public polarChartOptions:any = {
    responsive: true };
 ```
-### Associated Attributes
+## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each section of the chart area. For example, 
     ```typescript
     public polarChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];

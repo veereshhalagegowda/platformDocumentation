@@ -1,7 +1,7 @@
-### Overview
+## Overview
 It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values.
 
-#### Usages
+## Usages
 A bubble chart is widely used in business world, mass media, product analysis, survey and experimental analysis etc. 
 Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be achieved using  pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
 Some of the other popular use cases of bubble chart are:
@@ -9,10 +9,10 @@ Some of the other popular use cases of bubble chart are:
 -   Industries (for providing information on different product and services )
 -   Government offices (like revenue department)
 -   Retails (for different types of product they provide)
-##### Prerequisites
+### Prerequisites
 1. New page.
 2. Default route for the newly created page.
-##### How to use?
+### How to use?
 1. Open the newly created page.
 2. Drag and drop the bubble chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
@@ -80,7 +80,7 @@ Some of the other popular use cases of bubble chart are:
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```
 8. Save the page and run the application 
-##### Example
+### Example
 Consider a insurance company which made a survey on its client at different part of the country. The number of clietn in particular area need to be displayed on on a country map using a bubble. For example,
 
 | Data/Area | X | Y | Radius of Circle |
@@ -88,7 +88,7 @@ Consider a insurance company which made a survey on its client at different part
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
--   ###### Datasets:
+-   #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 ngxbubbleChartData = [
@@ -140,15 +140,15 @@ ngxbubbleChartData = [
   }
 ];
 ```
--   ###### Labels:
+-   #### Labels:
 Here, the labels are automatically taken by from the dataset.
--   ###### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;
 ```
 This legends is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
-### Associated Attributes
+## Associated Attributes
 - **Legends (True/False):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
 -   **Legend Title (String):** It gives a title name for the legend which is displayed for the chart. 
 -   **showGridLines (True/False):** It show or hide the grid lines in the chart. If it is true, it shows lines in the chart otherwise it does not. By default it is true.

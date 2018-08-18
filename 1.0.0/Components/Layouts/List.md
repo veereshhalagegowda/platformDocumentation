@@ -1,14 +1,14 @@
 
-### Overview:
+## Overview:
 A list component contains a number of list-items components and it forms a list.Basically a list component is a container that stores list items. There will not be any layout for list component.
 
-##### Usage:
+## Usage:
 List component contains number of list-item components, in this there is no requirement to set the number of columns, it can be anything. It is a unordered list, and the list items will come one below the other. 
 
-##### How to use
+## How to use
 Drag and drop a list-component, and set the attribute such as style and class. Now various list-items component can be inserted inside the list-component.
 
-###### Example
+### Example
 **Display a list of three items-**
 
 - Drag and drop a list-component and set the attribute such as style and class.
@@ -19,18 +19,19 @@ let folder of folders .
 - Save and run, a list will three items will be displayed.
  
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
 - **Class**- it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers:**  Latest version of all modern browsers
-- **Dependencies version:**
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
+
+## Support 
+### Devices:Android, iOS
+### Browsers:  Latest version of all modern browsers
+ ### Dependencies version: 
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 

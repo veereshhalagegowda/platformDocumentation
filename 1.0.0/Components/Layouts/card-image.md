@@ -1,16 +1,16 @@
 
 
-### Overview:
+## Overview:
 A card image component contains an image, and it can be used alone as well as it can be put inside a card.
 
-##### Usage:
+## Usage:
 We can use card image where we want to display an images.Put the image inside this component and the image will be displayed.
 
-###### How to use
+### How to use
 
 Drag and drop a card-image and fill the properties such as style,class imgSrc and alt.
 
-##### Example
+### Example
 
 **Display an image with a title**
 
@@ -24,7 +24,7 @@ Drag and drop a card-image and fill the properties such as style,class imgSrc an
 
 - A card with an title Dog and a dog image will be displayed.
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style**-It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -36,12 +36,12 @@ Drag and drop a card-image and fill the properties such as style,class imgSrc an
 
 
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers**:  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
+## Support 
+ ### Devices: Android, iOS
+ ### Browsers:  Latest version of all modern browsers
+ ### Dependencies version:
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 

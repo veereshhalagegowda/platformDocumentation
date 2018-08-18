@@ -1,13 +1,13 @@
 
-### Overview:
+## Overview:
 List-items component contains individual data of items that will be placed inside the list-component.The data can be stored in an array or object and it will be accessed  from the array by *ngFor attribute.
-##### Usage:
+## Usage:
 List items are used to store the items or data of a list.The data can be string, a number, a images etc. 
 
-##### How to use
+### How to use
 Drag and drop a list-items inside a list component, and set the attribute such as style and class, *ngFor and label.
 
-##### Example
+### Example
 **Display a list of three items-**
 
 - Drag and drop a list-component and set the attribute such as style and class.
@@ -17,7 +17,7 @@ Drag and drop a list-items inside a list component, and set the attribute such a
 - Save and run, a list will three items will be displayed.
  
 
-### Associated Attributes:
+## Associated Attributes:
 - **Style-** Accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -30,12 +30,13 @@ Drag and drop a list-items inside a list component, and set the attribute such a
 
 
 
-### Support 
-- **Devices:** Android, iOS
-- **Browsers**:  Latest version of all modern browsers
-- **Dependencies version:** 
- Angular CLI version: 5.0.0 + 
- Cordova version: 7.1.0 +
+
+## Support 
+### Devices:Android, iOS
+### Browsers:  Latest version of all modern browsers
+ ### Dependencies version: 
+ **Angular CLI version:** 5.0.0 + 
+ **Cordova version:** 7.1.0 +
 
 
 
