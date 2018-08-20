@@ -55,10 +55,22 @@ Displaylist.ts
 
 
 ## Associated Attributes 
-- **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
-(eg. color:blue).
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
+    ```
 
 - **ngFor-** ngFor is used to iterate through the array object and get the data. The syntax of ngFor is *ngFor="let d of data" where d is a loop variable and data is a array or object from which the data will be accessed. 
 
