@@ -10,6 +10,7 @@ Tabs are useful for containing and navigating between contextually related but d
 2. Drag and drop the “Tab” component(s) inside the “Tab Group” component.
 3. Set the “label” attribute of the “Tab” component(s).
 4. Drag and drop the components needed within each “Tab” component.
+5. Save the changes.
 
 ### Example
 1. Create a page.
