@@ -20,9 +20,7 @@ Tabs are useful for containing and navigating between contextually related but d
 5. Drag and drop "Image" component from the "Form Controls" category and set its attributes.
 6. Drag and drop 2 “Card” components from “Layout” category into each of the tabs.
 7. Set height of each card  to 50px. (style = height:50px;).
-8. Set the color of each card eg. color:pi4. Set the values of first and second "Tab"s' “label” property to “Image” and “Tab2” respectively.
-20
-nk;
+8. Set the color of each card eg. color:pink. 
 9. Save the changes.
 10. Now, the tabs can be navigated.
 
