@@ -26,11 +26,10 @@ When the page is loaded the "value = 55" will be the percentage of work complete
 - **Value:** Value of the progress bar. Defaults to zero. Input value should be a number.
 - **Buffervalue:** Specifies buffer value of the progress bar. Defaults to zero. Input value should be a number.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
