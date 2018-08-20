@@ -20,16 +20,18 @@ They are designed to provide easy and immediate access to users' most frequently
 
 - **Class**: it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=toolbar).
 
-- **Color**: takes the color based on angular material thing.Takes "primary", "accent" and "warn" as its value.
+- **Color**: It takes the color based on the angular material theme. Takes "primary", "accent" or "warn" as its value.
 
-- **Content**: This is displayed inside the toolbar. Its value can be plain text or valid html tags.  
-eg: 
-```This is a toolbar```
-or  
-html tags like,  
-```html
-<button mat-button>I'm a button</button>
-```
+- **Content**: This 
+is displayed inside the toolbar. Its value can be plain text or valid html tags.  
+    eg:- 
+    ```
+    This is a toolbar
+    ``` 
+    or  html tags like,
+    ```html  
+    <button mat-button>I'm a button</button>
+    ```
 
 ## Support
 - **Devices:** Android, iOS
