@@ -1,7 +1,7 @@
-### Overview
+## Overview
 Tabs should always be used inside a “Tab Group” component. “Tab Group” component is a container component that is used to contain one or more “Tab” components. “Tab” components should be contained in the “Tab Group” component.
 
-### Usage
+## Usage
 Tabgroup component used whenever tab(s) are used. A tab can not exist outside of the tab group component.
 
 ### How to use
@@ -21,12 +21,12 @@ Set height of each card  to 100px. (style = height:100px;)
 Set the color of each card. (eg.: color:pink;)
 Now, the tabs can be navigated.
 
-### Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. background:orange).
 
 - **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=”side-container”).
 
-### Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version** 
