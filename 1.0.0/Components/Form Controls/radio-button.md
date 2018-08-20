@@ -30,11 +30,10 @@ place
 - **Checked:** Used to check whether the radio button is checked or not. Value should be a boolean value i.e. either true or false.
 - **Labelposition:** Whether the labels should appear after or before the radio-buttons. Defaults to 'after'.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
