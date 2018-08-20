@@ -45,7 +45,7 @@ Menu items are what makes up a menu. Menu items are used to provide options with
     
     ```
 
-- **MenuItemName**: It is the name of the menu item that appears in the application. Takes string as its value.(eg.: item1)
+- **MenuItemName**: It is the name of the menu item that appears in the application. Takes string as its value. eg. item1
 
 ## Support
 - **Devices:** Android, iOS
