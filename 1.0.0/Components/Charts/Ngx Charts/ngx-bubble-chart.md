@@ -70,14 +70,14 @@ Some of the other popular use cases of bubble chart are:
 		[results] = ngxbubbleChartData
 		```
 5. X-axis label can be shown or hidden by providing,
-    ``` [xAxis] = true ```  OR ```[xAxis] = false ```
+    ``` [xAxis] = true ```  OR ```[xAxis] = false ```.
 
 6. Y-axis label can be shown or hidden by providing,
-    ``` [yAxis] = true ```  OR ```[yAxis] = false ```
+    ``` [yAxis] = true ```  OR ```[yAxis] = false ```.
 
 7. Legends can be shown or hidden by providing,
-    ``` [legend] = true ```  OR ```[legend] = false ```
-8. Save the page and run the application 
+    ``` [legend] = true ```  OR ```[legend] = false ```.
+8. Save the page and run the application. 
 ### Example
 Consider a insurance company which made a survey on its client at different part of the country. The number of clietn in particular area need to be displayed on on a country map using a bubble. For example,
 
