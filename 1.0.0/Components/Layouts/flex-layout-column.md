@@ -21,10 +21,22 @@ Drag and drop the flex-layout-column component, set the required attributes. Aft
 
 - When the page is loaded the components button and textbox appears vertically. And the value “layout direction = start” and perpendicular “direction = start” specifies the direction in which the flex starts.
 ## Associated Attributes
-- **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
-(eg. color:blue).
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class-** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar)
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
+    ```
 
 - **fxFlex-** This property should be used on elements within a fxLayout container and identifies the resizing of that element within the flexbox container flow such as flex-grow,flex basis, flex-shrink,flex-grow.
 - **wrap**- property specifies whether the flexible items should wrap or not. It has values such as nowrap,wrap,wrap-reverse,initial,inherit.
