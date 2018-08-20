@@ -1,5 +1,5 @@
 ## Overview
-Progress spinner component is  a circular indicators of progress and activity..
+Progress spinner component is  a circular indicators of progress and activity.
 
 ## Usage
 A progress spinner is a graphical element which is used to show the loading of a process or an activity. The progress spinner keeps spinning until the specified activity is completed.
