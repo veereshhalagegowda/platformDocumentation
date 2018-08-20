@@ -1,9 +1,9 @@
-### Overview
+## Overview
 The sidenav components are designed to add side content to a fullscreen app. Sidenav typically contains the links for different pages in the app or links for different section in that page. Sidenav is a fixed layout whose slide-in and slide-out activity can be bound to an action (ex. Button press, checkbox etc..). 
 Sidenav component has meaning only when it is placed inside the “Sidenav Container” component.
 Everything that is not contained within the “Sidenav “ component will appear as main content that is outside the sidenav bar.
 
-### Usage
+## Usage
 Sidenav is useful when the user needs to have immidiate access to the most used pages/components of an app.
 
 ### How to use
@@ -20,7 +20,7 @@ Sidenav is useful when the user needs to have immidiate access to the most used 
 5. Write an anchor tag inside that HTML component with “href” attribute set to “http://www.neutrinos.co”  and “target” attribute to “blank”.
 6. Now, pressing the button will open the neutrinos website.
 
-### Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. color:blue).
 - **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value.   (eg. class=sidenav).
 
@@ -43,7 +43,7 @@ Eg.: fxLayout=”column wrap”
 
 
 
-### Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version** 
