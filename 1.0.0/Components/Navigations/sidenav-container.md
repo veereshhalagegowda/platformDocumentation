@@ -14,7 +14,8 @@ Sidenav container is used whenever a sidenav is required. Sidenav cannot exist o
 1. Create a page called “page”.
 2. Drag and drop the “Sidenav Container”.
 3. Drag and drop the “Sidenav” component inside the “Sidenav Container”.
-4. Populate the Sidenav component with the components that are required.
+4. Populate the Sidenav component with 3 buttons.
+5. Save the changes.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
