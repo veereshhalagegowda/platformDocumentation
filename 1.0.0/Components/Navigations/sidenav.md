@@ -1,14 +1,13 @@
 ## Overview
-The sidenav components are designed to add side content to a fullscreen app. Sidenav typically contains the links for different pages in the app or links for different section in that page. Sidenav is a fixed layout whose slide-in and slide-out activity can be bound to an action (ex. Button press, checkbox etc..). 
+The sidenav components are designed to add side content to a fullscreen app. Sidenav typically contains the links for different pages in the app or links for different sections in that page. Sidenav is a fixed layout whose slide-in and slide-out activity can be bound to an action (ex. Button press, checkbox etc.). 
 Sidenav component has meaning only when it is placed inside the “Sidenav Container” component.
-Everything that is not contained within the “Sidenav “ component will appear as main content that is outside the sidenav bar.
 
 ## Usage
-Sidenav is useful when the user needs to have immidiate access to the most used pages/components of an app.
+Sidenav is useful when the user needs to have immediate access to the most used pages/components of an app.
 
 ### How to use
 
-1. Drag and drop the “Sidenav” component from the “Navigation” section inside the “Sidenav Container” component.
+1. Drag the “Sidenav” component from the “Navigation” section and drop it inside the “Sidenav Container” component.
 2. Populate the “Sidenav” component with the content that is required in the sidenav of that page.
 3. Save the changes.
 
