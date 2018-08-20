@@ -10,6 +10,7 @@ Sidenav is useful when the user needs to have immidiate access to the most used 
 
 1. Drag and drop the “Sidenav” component from the “Navigation” section inside the “Sidenav Container” component.
 2. Populate the “Sidenav” component with the content that is required in the sidenav of that page.
+3. Save the changes.
 
 ### Example
 
@@ -18,7 +19,8 @@ Sidenav is useful when the user needs to have immidiate access to the most used 
 3. Drag and drop the “Sidenav” component inside the “Sidenav Container”.
 4. Drag and drop a HTML component.
 5. Write an anchor tag inside that HTML component with “href” attribute set to “http://www.neutrinos.co”  and “target” attribute to “blank”.
-6. Now, pressing the button will open the neutrinos website.
+6. Save the changes.
+7. Now, pressing the button will open the neutrinos website.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
