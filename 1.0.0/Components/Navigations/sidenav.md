@@ -18,6 +18,9 @@ Sidenav is useful when the user needs to have immediate access to the most used 
 3. Drag and drop the “Sidenav” component inside the “Sidenav Container”.
 4. Drag and drop a HTML component.
 5. Write an anchor tag inside that HTML component with “href” attribute set to “http://www.neutrinos.co”  and “target” attribute to “blank”.
+	```html
+	<a href="http://www.neutrinos.co">neutrinos</a>
+	```
 6. Save the changes.
 7. Now, pressing the button will open the neutrinos website.
 
