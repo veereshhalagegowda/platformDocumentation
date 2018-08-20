@@ -19,9 +19,22 @@ Save it and run.
 When the page is loaded the attribute value "description = This is a description panel" will be displayed. And when the description is clicked, the expansion-header panel will be extended.
 
 ## Associated Attributes
-- **Style:** Used to specify the inline style.
-- **Class:** It specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
-place
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
+    ```
 - **description:**  Used to give description for the expansion panel. 
 
 
