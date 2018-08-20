@@ -26,7 +26,23 @@ There are some other popular use cases where bubble chart is used. Some of them 
          },
          {
            "name": "United States",
-           "value": 49737
+           "value": 49737## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
          },
          {
            "name": "France",
@@ -41,7 +57,23 @@ There are some other popular use cases where bubble chart is used. Some of them 
            "value": 33000
          },
          {
-           "name": "Italy",
+           "name": "Italy",## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
            "value": 35800
          }
         ]
@@ -52,7 +84,23 @@ There are some other popular use cases where bubble chart is used. Some of them 
 		```
 5. X-axis label can be shown or hidden by providing,
     ``` [xAxis] = true ```  OR ```[xAxis] = false ```
-
+## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
 6. Y-axis label can be shown or hidden by providing,
     ``` [yAxis] = true ```  OR ```[yAxis] = false ```
 
@@ -60,7 +108,23 @@ There are some other popular use cases where bubble chart is used. Some of them 
     ``` [legend] = true ```  OR ```[legend] = false ```
 8. Save the page and run the application 
 ### Example
-Consider an Insurance company which records the data of their client from different country. The company plot the data on the stacked horizontal bar chart to get the better comparison on variations on number of clients from different country. For example,
+Consider an Insurance company which records the data of their client from different country. The company plot the data on the stacked horizontal bar chart to get the better comparison on variations on number of clients from different country. For example,## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
 
 | Country | India | United State | Germany | France | United Kingdom |
 | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -71,14 +135,46 @@ Here is a sample of dataset that is declaired and initialized in the component c
 dataSet=[
  {
    "name": "India",
-   "value": 135148
+   "value": 135148## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
  },
  {
    "name": "United States",
    "value": 121652
  },
  {
-   "name": "Germany",
+   "name": "Germany",## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
    "value": 157885
  },
  {
@@ -86,7 +182,23 @@ dataSet=[
    "value": 965782
  },
  {
-   "name": "United Kingdom",
+   "name": "United Kingdom",## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
    "value": 987564
  }
 ]
@@ -95,21 +207,85 @@ dataSet=[
 Here, teh labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
 -   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
-```typescript
+```typescript## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
  [legend] = true;
 ```
 This legends is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
 - **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the horizontal bars in the chart.  For example, 
-    ```css
+    ```css## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
     ```
 
--   **[xAxis] (True/False):** This attribute diplays the level for the x-axis. If it is true, it will display otherwise it does not. For example,
+-   **[xAxis] (True/False):** This at## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +tribute diplays the level for the x-axis. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [xAxis] = 'True' OR [xAxis] = 'False'
     ```
--  **[yAxis] (True/False):** This attribute diplays the level for the y-axis as like x-axis. If it is true, it will display otherwise it does not. For example,
+-  **[yAxis] (True/False):** This att## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +ribute diplays the level for the y-axis as like x-axis. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [yAxis] = 'True' OR [yAxis] = 'False'
     ```
@@ -140,14 +316,46 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```
     Here in this examplee, the text we type will be in maroon color
 -   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
--   **select (Events):** It takes a click event which is done on the bars of the chart. It display some result on click or hover of mouse. For example, displaying data point, label on click of individual bars.
+-   **select (Events):** It takes a c## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +lick event which is done on the bars of the chart. It display some result on click or hover of mouse. For example, displaying data point, label on click of individual bars.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
       {
         name: 'vivid',
         selectable: true,
-        group: 'Ordinal',
+        group: 'Ordinal',## Support 
+174
+### Devices : 
+175
+-   Android
+176
+-   iOS
+177
+### Dependencies Version
+178
+-   **Angular CLI Version**
+179
+    -   Version 5.0.0 +
+180
+-   **Cordova Version**
+181
+    -   Version 7.1.0 +
         domain: ['#647c8a', '#3f51b5', '#2196f3', '#00b862', '#afdf0a', '#a7b61a', '#f3e562', '#ff9800', '#ff5722', '#ff4514'
         ]
       } ];
@@ -185,12 +393,9 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
-## Support 
-### Devices : 
--   Android
--   iOS
-### Dependencies Version
--   **Angular CLI Version**
-    -   Version 5.0.0 +
--   **Cordova Version**
-    -   Version 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
