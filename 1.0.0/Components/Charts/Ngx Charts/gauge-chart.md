@@ -53,7 +53,39 @@ Consider a IT company wants a dashboard reports for different branch to show key
 | **United State** | 49737 | 
 | **France** | 36745 |
 -   #### Datasets:
-Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
+Here is a sample of dataset that is declaired and in## Support
+131
+### Devices : 
+132
+-   Android
+133
+-   iOS
+134
+### Dependencies Version
+135
+-   **Angular CLI Version**
+136
+    -   Version 5.0.0 +
+137
+-   **Cordova Version**
+138
+    -   Version 7.1.0 +## Support
+131
+### Devices : 
+132
+-   Android
+133
+-   iOS
+134
+### Dependencies Version
+135
+-   **Angular CLI Version**
+136
+    -   Version 5.0.0 +
+137
+-   **Cordova Version**
+138
+    -   Version 7.1.0 +itialized in the component class **Ts** file of the project. 
 ```typescript
 ngxGaugeChartData = [
   {
@@ -128,11 +160,8 @@ Here, the labels are automatically taken by from the dataset.
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
 ## Support
-### Devices : 
--   Android
--   iOS
-### Dependencies Version
--   **Angular CLI Version**
-    -   Version 5.0.0 +
--   **Cordova Version**
-    -   Version 7.1.0 +
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
