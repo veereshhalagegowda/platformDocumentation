@@ -119,13 +119,11 @@ Here is a sample of options that is declaired and initialized in the component c
     ```
     Here in this examplee, the text we type will be in maroon color
 -   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-## Support 
-### Devices : 
--   Android
--   iOS
-### Dependencies Version
--   **Angular CLI Version**
-    -   Version 5.0.0 +
--   **Cordova Version**
-    -   Version 7.1.0 +
+
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
