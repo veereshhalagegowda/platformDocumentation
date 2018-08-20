@@ -34,22 +34,9 @@ Drag and drop a card actions provide the style and class attribute for that.And 
 
 
 
-
-
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 + 
-
-
-
-
-
-
-
-
-
-
-
