@@ -8,6 +8,7 @@ HTML component is used when a user wants to define elements other than the alrea
 
 1. Drag and drop the “HTML” component from “Advanced” Category where it is needed in that page.
 2. Double click on the HTML component and fill it with the HTML code.
+3. Save the changes.
 
 ### Example
 
@@ -16,7 +17,7 @@ HTML component is used when a user wants to define elements other than the alrea
 3. Double click on that component.
 4. Write the below code.
     ```html
-    <h1>This H1 tag of html</h1>
+    <h1>This is H1 tag of html</h1>
     ```
 5. Save the changes.
 
