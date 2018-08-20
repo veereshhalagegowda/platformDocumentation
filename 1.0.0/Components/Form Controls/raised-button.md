@@ -19,8 +19,21 @@ Save it and run.
 When the page is loaded the value "buttonname = submit" will be name of the button that will be displayed on the button. And "click = true" is the event that check when the button is pressed.
 
 ## Associated Attributes:
-- **style:** Used to specify the inline style.
-- **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
 - **Buttonname:** specifies the button name that is to be displayed on the screen.
 - **Color:** takes the color based on angular material thing.
 - **Click:** Is an event that checks when the button is clicked. The value should be boolean i.e. either true or false.
