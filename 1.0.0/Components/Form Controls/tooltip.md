@@ -19,8 +19,21 @@ Save it and run.
 When the page is loaded the value "matTooltip = This is tooltip" is the text that will be displayed when the mouse hovers over the tooltip area. And "tooltip text = tooltip" is text that is displyed on the tooltip field when the page is loaded.
 
 ## Associated Attributes:
-- **style:** Used to specify the inline style.
-- **class:** Specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
 - **Tooltip text:** Specifies the text that has to be displayed when the application is run.
 - **Mattooltip:** It specifies the the message to be displayed in the tooltip. Value has to be string. Example: message: string
 - **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example: position: left | right | above | below | before |after
