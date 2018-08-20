@@ -30,11 +30,9 @@ When the page is loaded "class = toggle" will assign the class name as toggle, w
 - **Checked:** Used to check whether the slide-toggle element is checked or not.
 - **Color:** specifies the theme color for the component.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
-
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
