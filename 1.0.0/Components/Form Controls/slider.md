@@ -34,10 +34,9 @@ When the page is loaded the value "invert = true" will display an inverted slide
 - **Change:** It is an event emitted when the slider value is changed.
 - **Input:** It is an event emitted when the slider thumb moves.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
