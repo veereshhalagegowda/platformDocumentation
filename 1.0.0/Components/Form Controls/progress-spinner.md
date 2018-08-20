@@ -26,11 +26,10 @@ When the page is loaded the "strokewidth = 100" will be the size of the progress
 - **Value:** Specifies the value of the progress circle. Value should be a number.
 - **Color:** Takes the color based on angular material thing.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
