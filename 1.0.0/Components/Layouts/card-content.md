@@ -17,8 +17,7 @@ the text as information.
 
 ## Associated Attributes
 - **Style:** It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
-(eg. color:blue).
-
+(eg. color:red).
 - **Class:** It accepts string value. It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet. The class name can be used by CSS to perform certain tasks for elements with the specified class name,(eg. class=toolbar)
 
 ## Support
