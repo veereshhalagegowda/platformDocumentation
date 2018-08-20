@@ -1,7 +1,7 @@
-### Overview
+## Overview
 HTML component is container component for user written HTML code.
 
-### Usage
+## Usage
 HTML component is used when a user wants to define elements other than the already available components in the neutrinos platform.
 
 ### How to use
@@ -20,7 +20,7 @@ HTML component is used when a user wants to define elements other than the alrea
     ```
 5. Save the changes.
 
-### Support
+## Support
 **Devices:** Android, iOS
 **Browsers:**  Latest version of all modern browsers
 **Dependencies version** 
