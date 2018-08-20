@@ -17,9 +17,9 @@ Drag and drop a card footer component where it can be used, basically it is used
 - Now,drag and drop a paragraph component inside card below the card-image and in text attribute provide some information about the image.
 - Now drag and drop a card footer inside the card below all components and drag a paragraph component inside the footer component and provide some text that can be displayed as a footer on the screen.
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -33,21 +33,9 @@ Drag and drop a card footer component where it can be used, basically it is used
     }
     
     ```
-- **Class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value,  (eg. class=toolbar).
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:**
 - Angular CLI version: 5.0.0 + 
 - Cordova version: 7.1.0 + 
-
-
-
-
-
-
-
-
-
-
-
