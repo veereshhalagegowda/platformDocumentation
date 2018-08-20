@@ -10,6 +10,7 @@ Drag and drop a card content it has attributes like style and class.And in this 
 
 ### Example
 **A card-content with a title and paragraph**
+
 - Drag and drop a card-content and fill the attributes such as style and class.
 
 - Drag a card title and place it inside card content and set the title=Dog breed.
