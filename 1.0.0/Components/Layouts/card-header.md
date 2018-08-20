@@ -38,11 +38,12 @@ Drag and drop a card header, and fill the title,subtitle as some text and in img
 
 
 
-## Support 
- ### Devices: Android, iOS
- ### Browsers:  Latest version of all modern browsers
- ### Dependencies version:
- **Angular CLI version:** 5.0.0 + 
- **Cordova version:** 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
+
 
 
