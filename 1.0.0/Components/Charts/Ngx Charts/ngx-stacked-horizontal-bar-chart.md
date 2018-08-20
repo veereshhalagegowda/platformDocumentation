@@ -56,6 +56,7 @@ There are some other popular use cases where bubble chart is used. Some of them 
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```
 8. Save the page and run the application 
+  
 ### Example
 Consider an Insurance company which records the data of their client from different country. The company plot the data on the stacked horizontal bar chart to get the better comparison on variations on number of clients from different country. For example,
 
