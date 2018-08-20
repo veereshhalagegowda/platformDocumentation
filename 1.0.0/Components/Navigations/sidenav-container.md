@@ -1,6 +1,6 @@
 ## Overview
 The “Sidenav Container” is the container component for the “Sidenav” component. “Sidenav” component has meaning only when it is placed inside the “Sidenav Container” component.
-Everything that is not contained within the “Sidenav “ component will appear as main content that is outside the sidenav bar.
+Everything that is not contained within the “Sidenav“ component and within "Sidenav Container" comonent will appear as main content that is outside the sidenav bar.
 
 ## Usage
 Sidenav container is used whenever a sidenav is required. Sidenav cannot exist outside sidenav container component.
