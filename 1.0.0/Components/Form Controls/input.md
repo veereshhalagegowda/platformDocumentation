@@ -1,15 +1,15 @@
-## Overview: 
+## Overview 
 Input-text component is a form control field to input user data such as numbers, alphabets, special characters, password, email, search etc. Input can be used within the forms to capture the data from the user. 
 
 ## Usage
 Input component specifies an input field where the user can enter data. Input elements are used within a form element to declare input controls that allow users to input data. An input field can vary in many ways, depending on the type attribute.
 
-### How to use:   
+### How to use   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-### Example: 
+### Example 
 Input the component field with the attribute value:
 ``` 
 value = input text here
@@ -18,7 +18,7 @@ required = true
 Save it and run.
 When the page is loaded the "value = input text here" will be the text that will be displayed. And the "required = true" specifies that the user has to compulsorily input the text. 
 
-## Associated Attributes:
+## Associated Attributes
 - **style:** Used to specify the inline style. It is applied to the specific element.
 - **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Value:** it specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
