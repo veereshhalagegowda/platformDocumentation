@@ -36,7 +36,7 @@ After creating a Menu,
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
-- **Dependencies version** 
-	- Angular CLI version: 5.0.0 + 
-	- Cordova version: 7.1.0 +
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
