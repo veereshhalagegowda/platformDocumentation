@@ -73,29 +73,14 @@ There are some other popular use cases where bubble chart is used. Some of them 
 		```
 9. Save the page and run the application 
 ### Example
-Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example, 
+Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example,
 
-| Data/Area | X | Y | Radius of Ci-   **style:** Used to specify the inline style. It is applied to the specific element. For example 
-142
-    ```css
-143
-    text {
-144
-        color: maroon;
-145
-    }
-146
-    ```
-147
-    Here in this examplee, the text we type will be in maroon color
-148
--   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.rcle |
+| Data/Area | X | Y | Radius of Circle |
 | ------ | ------ | ------ | ------ |
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
-
-#### Datasets:
+-   #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public bubbleChartData: Array<any> =
@@ -120,17 +105,17 @@ public bubbleChartData: Array<any> =
    }]
 }];
 ```
-#### Labels:
+-   #### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public bubbleChartLabels:string[] = ['Deer Population'];
 ```
-#### Legend
+-   #### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
-#### Options:
+-   #### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public bubbleChartOptions:any = {
@@ -174,25 +159,17 @@ Here is a sample of options that is declaired and initialized in the component c
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 -   **Value:** It is a value of the key that the user provided manually. For example,
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+-   **style:** Used to specify the inline style. It is applied to the specific element. For example 
     ```css
-    .class1 {
-        border-radius:10px;
-        flex-basis:10%;
-        height:100px;
+    text {
+    	color: maroon;
     }
-    .class2 {
-        border-radius:10px;
-        flex-basis:10%;
-        height:100px;
-    }
-    
     ```
+    Here in this examplee, the text we type will be in maroon color
+-   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
-    - Cordova version: 7.1.0 +
+    - Cordova version: 7.1.0 + 
