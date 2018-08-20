@@ -62,6 +62,7 @@ Consider an Insurance company which records the data of their client from differ
 | Country | India | United State | Germany | France | United Kingdom |
 | :------: | :------: | :------: | :------: | :------: | :------: |
 | **Clients** | 135148 | 121652 | 157885 | 965782 | 987564 |
+
 #### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
