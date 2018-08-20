@@ -29,12 +29,12 @@ Drag and drop the flex-layout-row component, set the required attributes. After 
     
     ```
 - **fxFlex:** This property should be used on elements within a fxLayout container and identifies the resizing of that element within the flexbox container flow such as flex-grow, flex basis, flex-shrink,flex-grow.
-- **wrap:** property specifies whether the flexible items should wrap or not. It has values such as nowrap, wrap, wrap-reverse, initial,inherit.
+- **wrap:** This property specifies whether the flexible items should wrap or not. It has values such as nowrap, wrap, wrap-reverse, initial,inherit.
 - **fxLayoutGap:** This can be used to specify margin gaps on children within a flexbox container. It accepts integer value. Such as 20px, 5em etc.
 - **Layout Direction:** This can be used to specify how the children components of this component should be aligned horizontally. It accepts string values such as center, start, end etc.
 - **Perpendicular  Direction:** This can be used to specify how the children components should be aligned vertically. It accepts string values such as center, start, end etc.
-- **fxShow:** this directive allows developers to dynamically show the element. It accepts boolean values such as true or false.
-- **fxHide:** this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
+- **fxShow:** This directive allows developers to dynamically show the element. It accepts boolean values such as true or false.
+- **fxHide:** This directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
