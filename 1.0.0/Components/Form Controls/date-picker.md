@@ -19,8 +19,21 @@ Save it and run.
 When the page is loaded the "opened = true" is the event that will be emitted when the datepicker is opened. And "placeholder = datepicker" is text that will be displayed in the datepicker field when the page is loaded. 
 
 ## Associated Attributes
-- **style:** Used to specify the inline style.
-- **class:** Specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
 - **placeholder:** Used to hold the defined text value. Example “Calendar” holds the value Calendar for the field.
 - **value:** Specifies the new value for the target datepicker input. Value has to be either null or the letter “D”.
 - **Min:** Specifies the the minimum valid date. The value should be either null or the letter “D” 
