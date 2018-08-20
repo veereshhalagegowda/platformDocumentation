@@ -25,11 +25,10 @@ When the page is loaded the value "buttonname = submit" will be name of the butt
 - **Color:** takes the color based on angular material thing.
 - **Click:** Is an event that checks when the button is clicked. The value should be boolean i.e. either true or false.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
