@@ -31,11 +31,10 @@ When the page is loaded the value "placeholder = select" will display the value 
 - **Optiondata:** Display the options which are entered when the user clicks on the select option.
 - **Ngfor:** Used for iterating.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
