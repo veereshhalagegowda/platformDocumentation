@@ -34,7 +34,7 @@ Drag and drop the flex-layout-row component, set the required attributes. After 
 - **Layout Direction:** This can be used to specify how the children components of this component should be aligned horizontally. It accepts string values such as center, start, end etc.
 - **Perpendicular  Direction:** This can be used to specify how the children components should be aligned vertically. It accepts string values such as center, start, end etc.
 - **fxShow:** this directive allows developers to dynamically show the element. It accepts boolean values such as true or false.
-- **fxHide-** this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
+- **fxHide:** this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
