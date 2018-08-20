@@ -80,7 +80,8 @@ Consider a survey on population at different part of the country. The number of 
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
--   #### Datasets:
+
+#### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public bubbleChartData: Array<any> =
@@ -105,17 +106,17 @@ public bubbleChartData: Array<any> =
    }]
 }];
 ```
--   #### Labels:
+#### Labels:
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public bubbleChartLabels:string[] = ['Deer Population'];
 ```
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   #### Options:
+#### Options:
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public bubbleChartOptions:any = {
