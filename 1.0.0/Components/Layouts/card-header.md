@@ -12,17 +12,12 @@ Drag and drop a card header, and fill the title,subtitle as some text and in img
 
 ### Example                                     
 **Display a card header with title Agra,subtitle as Taj Mahal and a taj image-** 
-
-  - Drag and drop a card header.
-
+- Drag and drop a card header.
 - Provide the title= Agra, subtitle=Taj Mahal  and for imgSrc give the path of the image as assets:\android\taj.jpg. If the image is in android folder under assets.  
 - Save and Run.
-
 - A card with a title Agra, a subtitle Taj Mahal and a image will be displayed on the screen.
-
 - Like this multiple card header can be put inside a card.  
  
-
 ##Associated Attributes 
 - **Style**-accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
