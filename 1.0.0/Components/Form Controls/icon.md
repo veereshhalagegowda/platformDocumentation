@@ -23,11 +23,9 @@ When the page is loaded the value "iconname = home" will be name of the icon tha
 - **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Iconname:** Specifies an icon that is displayed for the icon. Image path should be given or the image should be placed inside assets folder.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
-
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
