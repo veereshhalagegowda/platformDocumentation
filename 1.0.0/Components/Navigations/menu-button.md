@@ -1,5 +1,5 @@
 ## Overview
-A menu button is always associated with a “Menu” component that contains a list of “Menu Items”. When a menu button is clicked , the associated menu will be shown. Menu is hidden 
+A menu button is always associated with a “Menu” component that contains a list of “Menu Items”. When a menu button is clicked , the associated menu will be shown.
 
 ## Usage
 A menu button is used to provide an interface for the user to trigger a menu list. The menu appears where menu button exists.
@@ -21,7 +21,7 @@ After creating a Menu,
 6. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute as “Menu” and “[matMenuTriggerFor]” attribute to “menu”.
  7. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
  
-##Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. background:orange).
 
 - **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=”side-container”).
