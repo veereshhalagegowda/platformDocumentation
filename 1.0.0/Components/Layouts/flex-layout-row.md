@@ -36,10 +36,10 @@ Drag and drop the flex-layout-row component, set the required attributes. After 
 - **Perpendicular  Direction-** This can be used to specify how the children components should be aligned vertically. It accepts string values such as center,start,end etc.
 - **fxShow-** this directive allows developers to dynamically show the element. It accepts boolean values such as true or false.
 - **fxHide-** this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
 
-## Support 
-### Devices: Android, iOS
-### Browsers:  Latest version of all modern browsers
-### Dependencies version
- **Angular CLI version:** 5.0.0 + 
- **Cordova version:** 7.1.0 +
