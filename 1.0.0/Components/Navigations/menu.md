@@ -41,6 +41,6 @@ Menu is used when the user is to be provided with the ability to select from a l
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
-- **Dependencies version** 
-	- Angular CLI version: 5.0.0 + 
-	- Cordova version: 7.1.0 +
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
