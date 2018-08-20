@@ -1,12 +1,12 @@
 ## Overview
-HTML component is container component for user written HTML code.
+HTML component is a container component for user written HTML code.
 
 ## Usage
 HTML component is used when a user wants to define elements other than the already available components in the neutrinos platform.
 
 ### How to use
 
-1. Drag and drop the “HTML” component from “Advanced” Category where it is needed in that page.
+1. Drag and drop the “HTML” component from the “Advanced” Category where it is needed in that page.
 2. Double click on the HTML component and fill it with the HTML code.
 3. Save the changes.
 
