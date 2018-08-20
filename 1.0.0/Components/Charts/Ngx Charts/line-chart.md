@@ -1,7 +1,7 @@
 ## Overview
 A line chart is a chart that plots the data values using a line and connects those point using a straight line. It does not contain any background color." 
 
-## Usages
+## Usage
 A line chart is widely used in comparing the trending data such as stock market shares. 
 The use case for line chart depends on the scope where it is being used. For example, industries use line chart to display the report of all their product used by clients from different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a line chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where bubble chart is used. Some of them are:

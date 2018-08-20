@@ -1,7 +1,7 @@
 ## Overview
 It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values.
 
-## Usages
+## Usage
 A bubble chart is widely used in business world, mass media, product analysis, survey and experimental analysis etc. 
 Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be achieved using  pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
 Some of the other popular use cases of bubble chart are:

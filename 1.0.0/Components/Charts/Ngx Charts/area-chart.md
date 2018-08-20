@@ -1,7 +1,7 @@
 ## Overview
 An area chart is based on line chart. The area between the axis and line are colored with different colors, textures, and hatchings.
 
-## Usages
+## Usage
 An area chart is widely used in comparing the trending data such as stock market shares.
 The use case for line chart depends on the scope where it is being used. For example, industries use area chart to display the report of product sales in different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a line chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where bubble chart is used. Some of them are:

@@ -1,7 +1,7 @@
 ## Overview
 It uses needles to show the information about the data values on a speedometer. Each section in the gauge needle is colored with different color and placed on different axis. 
 
-## Usages
+## Usage
 A gauge chart is widely used in executive dashboard reports to show key business indicators. They are useful for comparing small number of variables using a multiple needles on speedometer space.
 ### Prerequisites
 1. New page.

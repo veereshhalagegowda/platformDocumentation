@@ -1,7 +1,7 @@
 ## Overview
 Polar area chart gives detailed comparison information from its structure. The radius of the slice differs according the value in datasets whereas in pie chart the radius of each slice are same. In this chart, the difference in data can be found easily looking at the radius of the slice.
 
-## Usages
+## Usage
 A polar area chart is used as a optional to the pie chart in different fields such as hospitals, retails, industries, data science and analytics etc.
 Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be done by using pie chart however it would not provide proper readability from the chart. Therefore, in this case if polar area chart is used, it would provide global understanding them just from the structure of the chart slice.   
 There are some other popular use cases where pie chart is used. Some of them are:

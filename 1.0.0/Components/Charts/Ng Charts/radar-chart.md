@@ -1,7 +1,7 @@
 ## Overview
 It is also know as web chart, cobweb chart or spider chart. It plots the data in irregular polygon. All the axis in this chart are connected from a common center point on which data values are plotted. This ploting method forms a spider web like structure which gives proper comparison between the data groups.
 
-## Usages
+## Usage
 A radar chart is widely used in hospitals, cricket world, industry, etc.
 Let us consider a scenario from a particular industry where a human resource (HR) team want to prepare a chart on the performance of hiring candidates skills score obtained during the selection process. In this case, the HR should be able to take a glance of all the candidates performance score. This can be achieved using radar chart. It will plot all the candidates performance score in a spider web form and provide a better understandability from it. 
 There are some other popular use cases where radar chart is used. Some of them are:

@@ -1,6 +1,6 @@
 ## Overview
 A line chart is a chart which is used to display the data points in connected straight line segments. In the chart, the point is plotted in a way that the point has appeared.
-## Usages
+## Usage
 The line chart is popularly used in chart of the trending data. For an instance, stock market share chart.
 Let us consider a scenario of Insurance Company, where a company wants to track the overall performance of the year with insured client and month. The company chart needs to show the performance of the individual months with the number of clients that are insured. The company KPI (Key Performance Indicator) should be able to see the previous data as well as the current data along with the graph indicating the rise or fall of the insured client. In this use case, line chart will successfully provide all of these features.
 Some of the other popular use cases of line chart are:
