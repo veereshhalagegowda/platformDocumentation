@@ -14,7 +14,7 @@ Sidenav container is used whenever a sidenav is required. Sidenav cannot exist o
 1. Create a page called “page”.
 2. Drag and drop the “Sidenav Container”.
 3. Drag and drop the “Sidenav” component inside the “Sidenav Container”.
-4. Populate the Sidenav component with 3 buttons.
+4. Populate the Sidenav component with 3 buttons and provide button names.
 5. Save the changes.
 
 ## Associated Attributes
