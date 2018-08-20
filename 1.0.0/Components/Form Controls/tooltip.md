@@ -1,15 +1,15 @@
-## Overview: 
+## Overview 
 The tooltip will be displayed below the element but this can be configured using the matTooltipPosition input. The tooltip can be displayed above, below, left, or right of the element. By default the position will be below. If the tooltip should switch left/right positions, then the positions before and after should be used instead of left and right, respectively.
 
 ## Usage
 Tooltip is used to display text (or other content) when you hover over an HTML element. 
 
-### How to use:   
+### How to use   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-### Example: 
+### Example 
 Input the component field with the attribute value:
 ``` 
 matTooltip = This is tooltip
@@ -18,7 +18,7 @@ tooltip text = tooltip
 Save it and run.
 When the page is loaded the value "matTooltip = This is tooltip" is the text that will be displayed when the mouse hovers over the tooltip area. And "tooltip text = tooltip" is text that is displyed on the tooltip field when the page is loaded.
 
-## Associated Attributes:
+## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
