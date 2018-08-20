@@ -27,14 +27,46 @@ There are some other popular use cases where pie chart is used. Some of them are
         public doughnutChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
         ```
     * Legend value (either true or false). For example, 
-        ```typescript
+        ```typescript## Support 
+171
+### Devices : 
+172
+-   Android
+173
+-   iOS
+174
+### Dependencies Version
+175
+-   **Angular CLI Version**
+176
+    -   Version 5.0.0 +
+177
+-   **Cordova Version**
+178
+    -   Version 7.1.0 +
         public legend=false;
         ```
     * Options value. For example,
         ```typescript
         public doughnutChartOptions:any = {
         responsive: true
-        };
+        };## Support 
+171
+### Devices : 
+172
+-   Android
+173
+-   iOS
+174
+### Dependencies Version
+175
+-   **Angular CLI Version**
+176
+    -   Version 5.0.0 +
+177
+-   **Cordova Version**
+178
+    -   Version 7.1.0 +
         ```
 4. Now switch back to Html file of the page and 
 5. Provide the dataset array name in the [datasets] attribute. For example,
@@ -114,13 +146,10 @@ Here is a sample of options that is declaired and initialized in the component c
     ```
     Here in this examplee, the text we type will be in maroon color
 -   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
-## Support 
-### Devices : 
--   Android
--   iOS
-### Dependencies Version
--   **Angular CLI Version**
-    -   Version 5.0.0 +
--   **Cordova Version**
-    -   Version 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
