@@ -59,7 +59,7 @@ When the user is needed to upload certain files (such as  scanned images, log fi
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
-- **Dependencies version** 
+- **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
 
