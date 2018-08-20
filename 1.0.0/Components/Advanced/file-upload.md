@@ -2,12 +2,12 @@
 File Upload is a button by clicking which the selected files can be uploaded.
 
 ## Usage
-When the user is needed to upload certain files (such as  scanned images, log file etc…) , this component is used to provide that interface.
+When the user is needed to upload certain files (such as  scanned images, log file etc.), this component is used to provide that interface.
 
 
 ### How to use
 
-1. Drag and drop the “File Upload” component from “Advanced” Category where it is needed in that page.
+1. Drag and drop the “File Upload” component from the “Advanced” Category where it is needed in that page.
 2. Double click on the component and give values to the attributes.
 3. Save the changes.
 
@@ -31,7 +31,7 @@ When the user is needed to upload certain files (such as  scanned images, log fi
     ```
 
 7. Save the changes.
-8. Open the address where the app is running
+8. Open the address where the app is running.
 9. A button with “choose file” as its value should appear.
 10. Click the button, select the file to upload.
 11. Click on the button again to upload.
@@ -54,21 +54,22 @@ When the user is needed to upload certain files (such as  scanned images, log fi
     }
     
     ```
-- **[uploadOptions]**: Takes the name of the object of type :
+- **[uploadOptions]**: Takes the name of the object that is defined in Ts file. The object is of type:
     ```typescript
-    {“entityName”: “buttonValue”, “metadata”:{“key”: “aUniqueKey”}}.
+    {“entityName”: “buttonValue”, “metadata”:{“key”: “aUniqueKey”}}
     ```
     >Where ,
         “entityName” is the name under which the files with same “entityName” are grouped.
         “key” is used to uniquely identify the uploaded file.
     
-        Eg.
-
+    
+    eg.
+    ```typescript
       uploadOptions = {"entityName":"users",
       "metadata":{"key":"sankarshanaj@gmail.com"}}
-
-- **(onSuccess)**: Takes function( that is defined in Ts file) name as argument which will be called when the upload is successful. Eg: onSuccess().
-- **(indexChange)**:  Takes function( that is defined in Ts file) name as argument which will be called when an error occurs. Eg: onError().
+    ```
+- **(onSuccess)**: Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. onSuccess()
+- **(indexChange)**: Takes function (that is defined in Ts file) name as argument which will be called when an error occurs. eg. onError()
 
 ## Support
 - **Devices:** Android, iOS
