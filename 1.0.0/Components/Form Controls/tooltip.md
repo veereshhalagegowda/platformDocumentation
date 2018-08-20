@@ -26,10 +26,10 @@ When the page is loaded the value "matTooltip = This is tooltip" is the text tha
 - **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example: position: left | right | above | below | before |after
 - **Mattooltipshowdelay:** Specifies the default delay in ms before showing the tooltip after show method is called 
 - **Mattooltiphidedelay:** The default delay in ms before hiding the tooltip after hide method is called.
-## Support 
-- **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
 
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
