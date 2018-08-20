@@ -1,7 +1,7 @@
-### Overview
+## Overview
 Signature Widget component creates a canvas for handwritten signatures where it is dragged. It contains options to “save”, “undo” a stroke, “reset” the canvas and “cancel”. 
 
-### Usage
+## Usage
 Signature Widget Component is used when there is a need for handwritten signature. It also removes the need to scan and upload the signature.
 
 ### How to use
@@ -27,7 +27,7 @@ Signature Widget Component is used when there is a need for handwritten signatur
 11. After the signature is saved, if there is a need to edit it, click on the 'pencil' icon.
 
 
-### Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.
 - **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=”side-container”).
 - **[(imageData)]**: It takes a property name that in ts file which stores the signature image data.//TODO -> type of property.
@@ -43,7 +43,7 @@ Signature Widget Component is used when there is a need for handwritten signatur
 - **[onBegin]**: Function that should be executed when stroke begins.
 - **[onEnd]**: Function that should be executed when stroke ends.
 
-### Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version** 
