@@ -1,5 +1,5 @@
 ## Overview 
-The tooltip will be displayed below the element but this can be configured using the matTooltipPosition input. The tooltip can be displayed above, below, left, or right of the element. By default the position will be below. If the tooltip should switch left/right positions, then the positions before and after should be used instead of left and right, respectively.
+The tooltip will be displayed below the element but this can be configured using the matTooltipPosition input. The tooltip can be displayed above, below, left, or right of the element. By default the position will be below. If the tooltip should switch left/right positions, then the positions before and after should be used instead of left and right respectively.
 
 ## Usage
 Tooltip is used to display text (or other content) when you hover over an HTML element. 
