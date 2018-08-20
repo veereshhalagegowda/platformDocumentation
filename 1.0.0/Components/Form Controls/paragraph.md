@@ -23,11 +23,10 @@ When the page is loaded the value "text = This is a paragraph", will be the text
 - **class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 - **Text:** Used to insert the text inside the paragraph tag. The text entered here will be displayed inside the paragraph tag when the application is run.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
