@@ -1,7 +1,7 @@
-### Overview
+## Overview
 Tabs are used to navigate between different views within the same context. Only one view is rendered at a time. Tabs should always be used inside a “Tab Group” component.
 
-### Usage
+## Usage
 Tabs are useful for containing and navigating between contextually related but distinct contents.
 
 ### How to use
@@ -23,14 +23,14 @@ Tabs are useful for containing and navigating between contextually related but d
 9. Save the changes.
 10. Now, the tabs can be navigated.
 
-### Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. background:orange).
 
 - **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=”side-container”).
 
 - **label**: Name of the Tab that. Takes string as its value.
 
-### Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version** 
