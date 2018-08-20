@@ -5,13 +5,12 @@ A card header is similar to card, in which there will be title, subtitle and ima
 ## Usage
 A card header can be used where a block should be displayed with a image, a title,a subtitle.
 Multiple card header can be placed inside a card to display a page which contains items as title,a subtitle and a image. 
-                                                                                                                              
+        
 ### How to use 
 Drag and drop a card header, and fill the title,subtitle as some text and in imgSrc attribute give the path of the image which will be loaded. So if the image wallpaper.jpg is in assets folder the path can be assets:\android\wallpaper.jpg.
 
-
 ### Example                                     
-**Display a card header with title Agra,subtitle as Taj Mahal and a taj image**
+
 - Drag and drop a card header.
 - Provide the title= Agra, subtitle=Taj Mahal  and for imgSrc give the path of the image as assets:\android\taj.jpg. If the image is in android folder under assets.
 - Save and Run.
