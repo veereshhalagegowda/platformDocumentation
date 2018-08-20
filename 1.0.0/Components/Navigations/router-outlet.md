@@ -14,9 +14,9 @@ Router Outlet is used to render a page in a desired location within another page
 1. Create 2 pages called “home” and “child”.
 2. Define a route for the “child” page as a child path of the home component.
 3. Create a button component in the "home" page.
-4. Set the button’s **routerLink** attribute to “child” page’s path.
-5. Drag and drop the “Router Outlet” component from the “Navigation” category in the “home” page container where the routed page(“child”) should be rendered.
-6. Now, when the button is clicked, the "child" page will be rendered where the "Router Outlet" component was placed in "home" page.
+4. Set the button’s "routerLink" attribute to “child” page’s path.
+5. Drag and drop the “Router Outlet” component from the “Navigation” category in the “home” page container where the routed page (“child”) should be rendered. Save the changes.
+6. Now, when the button is clicked, the "child" page will be rendered where the "Router Outlet" component was placed in the "home" page.
 
 
 ## Associated Attributes
