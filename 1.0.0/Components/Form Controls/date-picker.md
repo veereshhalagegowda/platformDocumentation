@@ -39,10 +39,9 @@ When the page is loaded the "opened = true" is the event that will be emitted wh
 - **Name:** Specifies the name for the date picker.
 - **Picker:** It is an id for the date picker.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
