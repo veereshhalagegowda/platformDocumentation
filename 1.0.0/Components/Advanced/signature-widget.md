@@ -44,7 +44,7 @@ Signature Widget Component is used when there is a need for handwritten signatur
     }
     
     ```
-- **[(imageData)]**: It takes a property name that is in ts file which stores the signature image data.
+- **[(imageData)]**: It takes a property name that is defined in Ts file which stores the signature image data.
 - **[mode]**: Mode of the canvas. Takes ‘responsive’ and ‘click-fullscreen’ as its value. (with single quotes).
 - **[dotSize]**: Radius of a single dot. Takes number as its value.
 - **[minWidth]**: Minimum width of a line.
