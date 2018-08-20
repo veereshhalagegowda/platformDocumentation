@@ -77,7 +77,23 @@ dataSet=[
    "value": 121652
  },
  {
-   "name": "Germany",
+   "name": "Germany",## Support 
+397
+### Devices : 
+398
+-   Android
+399
+-   iOS
+400
+### Dependencies Version
+401
+-   **Angular CLI Version**
+402
+    -   Version 5.0.0 +
+403
+-   **Cordova Version**
+404
+    -   Version 7.1.0 +
    "value": 157885
  },
  {
@@ -87,7 +103,39 @@ dataSet=[
  {
    "name": "United Kingdom",
    "value": 987564
- }
+ }## Support 
+397
+### Devices : 
+398
+-   Android
+399
+-   iOS
+400
+### Dependencies Version
+401
+-   **Angular CLI Version**
+402
+    -   Version 5.0.0 +
+403
+-   **Cordova Version**## Support 
+397
+### Devices : 
+398
+-   Android
+399
+-   iOS
+400
+### Dependencies Version
+401
+-   **Angular CLI Version**
+402
+    -   Version 5.0.0 +
+403
+-   **Cordova Version**
+404
+    -   Version 7.1.0 +
+404
+    -   Version 7.1.0 +
 ]
 ```
 -   #### Labels:
@@ -124,7 +172,23 @@ This legends is taken from the dataset, and displayed on the right side of the c
 -  **[showXAxisLabel] (True/False):** It displayes the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showXAxisLabel]  = 'True' OR [showXAxisLabel]  = 'False'
-    ```
+    ```## Support 
+397
+### Devices : 
+398
+-   Android
+399
+-   iOS
+400
+### Dependencies Version
+401
+-   **Angular CLI Version**
+402
+    -   Version 5.0.0 +
+403
+-   **Cordova Version**
+404
+    -   Version 7.1.0 +
 -  **[showYAxisLabel] (True/False):** It displayes the name that is given to the [yAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showYAxisLabel] = 'True' OR [showYAxisLabel] = 'False'
@@ -153,7 +217,23 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```
 -   **Results (object[]):** It provide a data to the chart which is plotted on a graph using horizontal bars. For example,
     ```ts
-    dataSet=[
+    dataSet=[## Support 
+397
+### Devices : 
+398
+-   Android
+399
+-   iOS
+400
+### Dependencies Version
+401
+-   **Angular CLI Version**
+402
+    -   Version 5.0.0 +
+403
+-   **Cordova Version**
+404
+    -   Version 7.1.0 +
      {
        "name": "India",
        "value": 135148
@@ -184,12 +264,9 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
-## Support 
-### Devices : 
--   Android
--   iOS
-### Dependencies Version
--   **Angular CLI Version**
-    -   Version 5.0.0 +
--   **Cordova Version**
-    -   Version 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
