@@ -35,7 +35,7 @@ When the page is loaded the value "matTooltip = This is tooltip" is the text tha
     }
     
 - **Tooltip text:** Specifies the text that has to be displayed when the application is run.
-- **Mattooltip:** It specifies the the message to be displayed in the tooltip. Value has to be string. Example: message: string
+- **Mattooltip:** It specifies the message to be displayed in the tooltip. Value has to be string. Example: message: string
 - **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example: position: left | right | above | below | before |after
 - **Mattooltipshowdelay:** Specifies the default delay in ms before showing the tooltip after show method is called 
 - **Mattooltiphidedelay:** The default delay in ms before hiding the tooltip after hide method is called.
