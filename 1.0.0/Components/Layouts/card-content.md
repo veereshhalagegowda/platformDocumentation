@@ -7,6 +7,7 @@ It is a container of blocks that can contain text.And it can also store buttons,
 Drag and drop a card content it has attributes like style and class.And in this card-content other content can be rendered and they can be displayed in a block. 
 
 ### Example
+**A card-content with a title and paragraph**
 - Drag and drop a card-content and fill the attributes such as style and class.
 - Drag a card title and place it inside card content and set the title=Dog breed.
 - Drag and drop a paragraph component inside a card content below the card title and provide 
