@@ -49,13 +49,13 @@ Sidenav is useful when the user needs to have immediate access to the most used 
 - **position**: Position can be either "start" or "end" which places the side content on the left or right side. Default is "start".
 
 - **fxLayout**: Specifies the flex-direction and whether the contents should be wrapped or not.  
-Eg.: fxLayout=”column wrap”
+eg. fxLayout=”column wrap”
 
-- **(opened)**: Takes function as the value which is executed when the sidenav is opened.
+- **(opened)**: Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is opened.
 
-- **(closed)**: Takes function as the value which is executed when the sidenav is closed.
+- **(closed)**: Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is closed.
 
-- **(toggle)**: Takes function as the value which is executed when the sidenav is toggled.
+- **(toggle)**: Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is toggled.
 
 
 
