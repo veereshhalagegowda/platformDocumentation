@@ -12,7 +12,7 @@ Flex-layout-row is used to display the components in a row. Components placed in
 ### How to use
 Drag and drop the flex-layout-row component, set the required attributes. After that drag and drop any other components inside the flex-layout-row component.
 
-### Example:
+### Example 
 - Drag and drop a flexlayoutrow component.
 
 - Set the component attributes value with “layout direction = start” and perpendicular “direction = start”
@@ -23,7 +23,7 @@ Drag and drop the flex-layout-row component, set the required attributes. After 
 
 - When the page is loaded the components button and textbox appears horizontally. And the value “layout direction = start” and perpendicular “direction = start” specifies the direction in which the flex starts.
 
-## Associated Attributes
+## Associated Attributes 
 - **Style-** It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -35,11 +35,11 @@ Drag and drop the flex-layout-row component, set the required attributes. After 
 - **Layout Direction-** This can be used to specify how the children components of this component should be aligned horizontally. It accepts string values such as center,start,end etc.
 - **Perpendicular  Direction-** This can be used to specify how the children components should be aligned vertically. It accepts string values such as center,start,end etc.
 - **fxShow-** this directive allows developers to dynamically show the element. It accepts boolean values such as true or false.
-- **fxHide***-this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
+- **fxHide-** this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
 
 ## Support 
-### Devices:Android, iOS
+### Devices: Android, iOS
 ### Browsers:  Latest version of all modern browsers
- ### Dependencies version: 
+### Dependencies version
  **Angular CLI version:** 5.0.0 + 
  **Cordova version:** 7.1.0 +

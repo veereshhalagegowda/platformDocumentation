@@ -10,7 +10,7 @@ Flex-layout-column is used to display the components in a row. Components placed
 ### How to use
 Drag and drop the flex-layout-column component, set the required attributes. After that drag and drop any other components inside the flex-layout-column component.
 
-### Example:
+### Example 
 - Drag and drop a flexlayoutcolumn component.
 
 - Set the component attributes value with “layout direction = start” and perpendicular “direction = start”
@@ -30,14 +30,14 @@ Drag and drop the flex-layout-column component, set the required attributes. Aft
 - **wrap**- property specifies whether the flexible items should wrap or not. It has values such as nowrap,wrap,wrap-reverse,initial,inherit.
 - **fxLayoutGap-** This can be used to specify margin gaps on children within a flexbox container. It accepts integer value. Such as 20px, 5em etc.
 - **Layout Direction-** This can be used to specify how the children components of this component should be aligned horizontally. It accepts string values such as center,start,end etc.
-- **Perpendicular  Direction -** This can be used to specify how the children components should be aligned vertically. It accepts string values such as center,start,end etc.
+- **Perpendicular  Direction-** This can be used to specify how the children components should be aligned vertically. It accepts string values such as center,start,end etc.
 - **fxShow-** this directive allows developers to dynamically show the element. It accepts boolean values such as true or false.
 - **fxHide-** this directive allows developers to dynamically hide the element. It accepts boolean values such as true or false.
 
 ## Support 
-### Devices:Android, iOS
+### Devices: Android, iOS
 ### Browsers:  Latest version of all modern browsers
- ### Dependencies version: 
+### Dependencies version
  **Angular CLI version:** 5.0.0 + 
  **Cordova version:** 7.1.0 +
 

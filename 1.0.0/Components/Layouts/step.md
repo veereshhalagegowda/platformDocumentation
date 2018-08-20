@@ -1,15 +1,15 @@
-## Overview:
+## Overview 
 Step component can contain anything, such as a textbox,buttons,radio buttons,checkbox, images etc. So the step component can only be used inside a stepper component.A page can be just divided into steps using stepper and step.  
 
-## Usage:
+## Usage 
 Step component can be used to create a page that is divided into various steps, it can be displayed as horizontally or vertically. 
 
 
-### How to use:
+### How to use 
 Drag and drop a stepper component and fill the required properties.
 
 ### Example:
-**Create a stepper with login process.**
+**Create a stepper with login process.** 
 - Drag and drop a stepper component. In matHorizontalStepper set the same value to make it horizontal.Suppose there are three steps component, labeled as getUsername, getPassword, and submit.
 - Drag and drop three step components inside stepper component, and give the label as getUsername,getPassword and submit.
 
@@ -21,27 +21,27 @@ Drag and drop a stepper component and fill the required properties.
 
   
 
-## Associated Attributes:
-- **Style-** It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+## Associated Attributes 
+- **Style:** It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
-- **Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
+- **Class:** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
 
 
-- **Label-** Label is the name given to the step and each step will have  different labels. It accepts text values.
+- **Label:** Label is the name given to the step and each step will have  different labels. It accepts text values.
 
 
 
-- **completed-** This accepts boolean values as true or false depending on whether step is marked as completed.
+- **completed:** This accepts boolean values as true or false depending on whether step is marked as completed.
 
 - **editable:** This attribute accepts boolean value as true or false to make it whether the user can return to this step once it has been marked as completed.
 
-- **interacted-** This attribute is used to check whether user has seen the expanded step content or not. it accepts boolean values and by default the value will  be false.
+- **interacted:** This attribute is used to check whether user has seen the expanded step content or not. it accepts boolean values and by default the value will  be false.
 
-- **optional-** This attribute accepts boolean values as true or false, to make it whether the given step is optional.
+- **optional:** This attribute accepts boolean values as true or false, to make it whether the given step is optional.
 
 
-- **[stepControl]-**
+- **stepControl:**
 
 
 

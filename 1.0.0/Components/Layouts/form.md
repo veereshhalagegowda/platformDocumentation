@@ -12,7 +12,7 @@ A form component can be used whenever there is a requirement for data-entry task
 Drag and drop a form component and set the style and class attribute. 
 
 ### Example
-**Display a login page**
+**Display a login page** 
 - Display a block as a login page .
 - Drag and drop a form component.
 - Drag and drop a paragraph component inside and set the text as Username.
@@ -25,8 +25,8 @@ Drag and drop a form component and set the style and class attribute.
 
 
 
-## Associated Attributes
-- **Style-** accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
+## Associated Attributes  
+- **Style-** it accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
 - **Class-** it specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name. It accepts string value. (eg. class=toolbar).
@@ -36,9 +36,9 @@ Drag and drop a form component and set the style and class attribute.
 
 
 ## Support 
-### Devices:Android, iOS
+### Devices: Android, iOS
 ### Browsers:  Latest version of all modern browsers
- ### Dependencies version
+### Dependencies version
  **Angular CLI version:** 5.0.0 + 
  **Cordova version:** 7.1.0 +
 

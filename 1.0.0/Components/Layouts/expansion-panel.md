@@ -1,7 +1,7 @@
-## Overview:
+## Overview
 Expansion panel is a container which contains some of the components such as  expansion header, expansion title,expansion description etc. Expansion panel can be used alone with all these component or it can be put inside a expansion panel outlet component.
 
-## Usage:
+## Usage
 Expansion panel component can be used where the data to be displayed in a expanded view, and will be shown and hidden onclick event. Only the title and description will be shown and other components will be hidden and they will displayed when the user clicks on it. 
 
 ### Example
@@ -13,7 +13,7 @@ Expansion panel component can be used where the data to be displayed in a expand
 - A expansion panel will be displayed with the title as Personal Detail and description as enter your name. Many other component can be inserted inside it and it can be implemented more.
 
 
-## Associated Attributes:
+## Associated Attributes 
 - **Style-** It accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -24,14 +24,14 @@ Expansion panel component can be used where the data to be displayed in a expand
 - **(closed)-** This attribute contains an event that should be emitted every time the Accordion Item is closed, so a method or function will be defined and it will be called. Inside the function the actions will be defined that what should happen when the item is closed.
 
 - **hideToggle-** It accepts boolean values as true or false, this attribute is used to check whether the expansion indicator should be hidden.
-- **[expanded]-** It accepts any type of values, to check whether the Accordion Item is expanded.
+- **expanded-** It accepts any type of values, to check whether the Accordion Item is expanded.
 
 
 
 ## Support 
-### Devices:Android, iOS
+### Devices: Android, iOS
 ### Browsers:  Latest version of all modern browsers
- ### Dependencies version: 
+### Dependencies version
  **Angular CLI version:** 5.0.0 + 
  **Cordova version:** 7.1.0 +
 
