@@ -6,7 +6,7 @@ Tabgroup component is used whenever tab(s) are used. A tab can not exist outside
 
 ### How to use
 
-1. Drag and drop the “Tab Group” Component from the “Navigation” category.
+1. Drag and drop the “Tab Group” component from the “Navigation” category.
 2. Drag and drop the “Tab” component(s) inside the “Tab Group” component.
 3. Set the “label” attribute of the “Tab” component(s).
 4. Drag and drop the components needed within each “Tab” component.
