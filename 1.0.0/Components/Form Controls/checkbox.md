@@ -29,11 +29,10 @@ When the page is loaded the attribute "checked = true" specifies whether the che
 - **Required:** Used to check whether the checkbox is required or not.
 - **Value:** Specifies the value attribute of the native input element.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
