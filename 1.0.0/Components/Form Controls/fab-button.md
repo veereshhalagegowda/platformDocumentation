@@ -25,11 +25,10 @@ When the page is loaded the value "fabicon = decorate" will be name of the butto
 - **Color:** Takes the color based on angular material thing.
 - **Click:** Is an event that checks when the button is clicked.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
