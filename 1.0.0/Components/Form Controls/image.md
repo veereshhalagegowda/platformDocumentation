@@ -27,11 +27,10 @@ When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will 
 - **Imgsrc:** The src attribute specifies the URL(web address) of the image. Images should be saved inside assets editor and placed within the folders Android or Materiallcons or Web or iOS folders and the appropriate path should be given.
 - **Alt:** THe alt attribute provides an alternate text for an image, if the user cannot view it.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
