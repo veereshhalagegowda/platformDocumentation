@@ -2,7 +2,7 @@
 “Tab Group” component is a container component that is used to contain one or more “Tab” components. “Tab” components should always be contained in the “Tab Group” component.
 
 ## Usage
-Tabgroup component used whenever tab(s) are used. A tab can not exist outside of the tab group component.
+Tabgroup component is used whenever tab(s) are used. A tab can not exist outside of the tab group component.
 
 ### How to use
 
@@ -16,8 +16,8 @@ Tabgroup component used whenever tab(s) are used. A tab can not exist outside of
 1. Create a page.
 2. Drag and drop the “Tab Group” Component from the “Navigation” category.
 3. Drag and drop 3 “Tab” components inside the “Tab Group” component.
-4. Set the values of 1st, 2nd and 3rd Tab’s “label” property as “Tab1”, “Tab2” and “Tab3” respectively.
-5. Drag and drop a “Card” component from “Layout” category into each of the tabs.
+4. Set the values of “label” property of 1st, 2nd and 3rd Tab as “Tab1”, “Tab2” and “Tab3” respectively.
+5. Drag and drop a “Card” component (from “Layout” category) within each tab.
 6. Set height of each card  to 100px. (style = height:100px;).
 7. Set the color of each card. (eg.: color:pink;).
 8. Save the changes.
