@@ -29,11 +29,10 @@ When the page is loaded the "value = input text here" will be the text that will
 - **Type:** specifies the type of text to be input i.e number, text, etc.
 - **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
