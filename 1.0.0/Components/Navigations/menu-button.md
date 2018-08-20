@@ -10,6 +10,7 @@ After creating a Menu,
 
 1. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute.
 2. Set the “[matMenuTriggerFor]” attribute to the same value as the “matMenu” attribute of the “Menu” component.
+3. Save the changes.
 
 ### Example
 
@@ -21,7 +22,8 @@ After creating a Menu,
 6. Set the “MenuItemName” attribute of the second "Menu Item" component to “item2”.
 7. Set the “MenuItemName” attribute of the third "Menu Item" component to “item3”.
 8. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute to “Menu” and “[matMenuTriggerFor]” attribute to “menu”.
-9. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
+9. Save the changes.
+10. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
  
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
