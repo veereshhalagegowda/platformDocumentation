@@ -1,7 +1,7 @@
-### Overview
+## Overview
 A toolbar is a container which contains headers, titles, menus or actions that perform specific functions. 
 
-### Usage
+## Usage
 They are designed to provide easy and immediate access to users' most frequently used functions or provide relavent information about the page or application.
 
 ### How to use
@@ -14,7 +14,7 @@ They are designed to provide easy and immediate access to users' most frequently
 2. Drag and drop the "Toolbar" component from "Navigation" section.
 3. set the "Content" attribute to "I'm a toolbar".
 
-### Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.  
 (eg. height:50px; background: orange).
 
@@ -31,7 +31,7 @@ html tags like,
 <button mat-button>I'm a button</button>
 ```
 
-### Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version** 
