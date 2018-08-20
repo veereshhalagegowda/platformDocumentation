@@ -8,12 +8,12 @@ Drag and drop a card content it has attributes like style and class, and in this
 
 ### Example
 **A card-content with a title and paragraph**  
-1. -Drag and drop a card-content and fill the attributes such as style and class.
-2. -Drag a card title and place it inside card content and set the title=Dog breed.
-3. -Drag and drop a paragraph component inside a card content below the card title and provide 
+1. Drag and drop a card-content and fill the attributes such as style and class.
+2. Drag a card title and place it inside card content and set the title=Dog breed.
+3. Drag and drop a paragraph component inside a card content below the card title and provide 
 the text as information.
 4. Save and Run.
-5. -A block with the title as Dog breed and the paragraph will be displayed.
+5. A block with the title as Dog breed and the paragraph will be displayed.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
