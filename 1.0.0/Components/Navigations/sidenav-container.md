@@ -1,8 +1,8 @@
-### Overview
+## Overview
 The “Sidenav Container” is the container component for the “Sidenav” component. “Sidenav” component has meaning only when it is placed inside the “Sidenav Container” component.
 Everything that is not contained within the “Sidenav “ component will appear as main content that is outside the sidenav bar.
 
-### Usage
+## Usage
 Sidenav container is used whenever a sidenav is required. Sidenav cannot exist outside sidenav container component.
 
 ### How to use
@@ -16,12 +16,12 @@ Sidenav container is used whenever a sidenav is required. Sidenav cannot exist o
 3. Drag and drop the “Sidenav” component inside the “Sidenav Container”.
 4. Populate the Sidenav component with the components that are required.
 
-### Associated Attributes
+## Associated Attributes
 - **Style**: Accepts string value and it is applied as inline css to element and it is affected based on property given.An inline CSS is used to apply a unique style to a single HTML element.An inline CSS uses the style attribute of an HTML element.(eg. height:100%).
 
 - **Class**: It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.It accepts string value. (eg. class=”side-container”).
 
-### Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version** 
