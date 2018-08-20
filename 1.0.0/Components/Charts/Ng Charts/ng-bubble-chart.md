@@ -73,14 +73,13 @@ There are some other popular use cases where bubble chart is used. Some of them 
 		```
 9. Save the page and run the application 
 ### Example
-Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example,
-
+Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example, 
 | Data/Area | X | Y | Radius of Circle |
 | ------ | ------ | ------ | ------ |
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
--   ###### Datasets:
+-   #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public bubbleChartData: Array<any> =
