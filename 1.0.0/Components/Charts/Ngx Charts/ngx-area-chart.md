@@ -9,10 +9,8 @@ There are some other popular use cases where bubble chart is used. Some of them 
 -   Industries 
 -   Health centers
 -   Data analysis
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the line chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
@@ -64,10 +62,10 @@ There are some other popular use cases where bubble chart is used. Some of them 
 Consider an industry which records the data of their product sales from different country. The company plot the data on the area chart to get the better comparison on variations on sales of products from different country. For example,
 
 | Country | Germany | USA |
-| ------ | ------ | ------ |
+| :------: | :------: | :------: |
 | **2010** | 7300000 | 7870000 |
 | **2011** | 8940000 | 8270000 |
--   #### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 dataSet = [
@@ -82,42 +80,10 @@ dataSet = [
         "name": "2011",
         "value": 8940000
       }
-    ]## Support 
-121
-### Devices : 
-122
--   Android
-123
--   iOS
-124
-### Dependencies Version
-125
--   **Angular CLI Version**
-126
-    -   Version 5.0.0 +
-127
--   **Cordova Version**
-128
-    -   Version 7.1.0 +
+    ]
   },
   {
-    "name": "USA",## Support 
-121
-### Devices : 
-122
--   Android
-123
--   iOS
-124
-### Dependencies Version
-125
--   **Angular CLI Version**
-126
-    -   Version 5.0.0 +
-127
--   **Cordova Version**
-128
-    -   Version 7.1.0 +
+    "name": "USA",
     "series": [
       {
         "name": "2010",
@@ -131,9 +97,9 @@ dataSet = [
   }
 ];
 ```
--   #### Labels:
+#### Labels
 Here, teh labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;

@@ -9,10 +9,8 @@ There are some other popular use cases where bubble chart is used. Some of them 
 -   Industries 
 -   Health centers
 -   Data analysis
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the stacked vertical bar chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
@@ -62,9 +60,9 @@ There are some other popular use cases where bubble chart is used. Some of them 
 Consider an Insurance company which records the data of their client from different country. The company plot the data on the stacked vertical bar chart to get the better comparison on variations on number of clients from different country. For example,
 
 | Country | India | United State | Germany | France | United Kingdom |
-| ------ | ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: | :------: |
 | **Clients** | 135148 | 121652 | 157885 | 965782 | 987564 |
--   #### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 dataSet=[
@@ -77,23 +75,7 @@ dataSet=[
    "value": 121652
  },
  {
-   "name": "Germany",## Support 
-397
-### Devices : 
-398
--   Android
-399
--   iOS
-400
-### Dependencies Version
-401
--   **Angular CLI Version**
-402
-    -   Version 5.0.0 +
-403
--   **Cordova Version**
-404
-    -   Version 7.1.0 +
+   "name": "Germany",
    "value": 157885
  },
  {
@@ -103,44 +85,12 @@ dataSet=[
  {
    "name": "United Kingdom",
    "value": 987564
- }## Support 
-397
-### Devices : 
-398
--   Android
-399
--   iOS
-400
-### Dependencies Version
-401
--   **Angular CLI Version**
-402
-    -   Version 5.0.0 +
-403
--   **Cordova Version**## Support 
-397
-### Devices : 
-398
--   Android
-399
--   iOS
-400
-### Dependencies Version
-401
--   **Angular CLI Version**
-402
-    -   Version 5.0.0 +
-403
--   **Cordova Version**
-404
-    -   Version 7.1.0 +
-404
-    -   Version 7.1.0 +
+ }
 ]
 ```
--   #### Labels:
+#### Labels
 Here, teh labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;

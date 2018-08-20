@@ -9,10 +9,8 @@ Some of the other popular use cases of line chart are:
 -   Health centers (Disease and cure comparison)
 -   Retails (Sales comparison)
 -   Government Surveys (GDP (Gross Domestic Product), PCI (Per Capita Income) etc)
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the bar chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -37,8 +35,7 @@ Some of the other popular use cases of line chart are:
         responsive: true
         };
         ```
-4. Now switch back to Html file of the page and 
-5. Provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = barChartData
 		```
@@ -59,14 +56,14 @@ Some of the other popular use cases of line chart are:
 Let's take an example from banking scope generating a report on different years which includes the performance parameter i.e. net profit margin, assets, Investors, and net bank credit to government (NBCG).
 
 | Months (2017) | Net Profit Margin (%) | Assets (%) | Investors (%) | Net bank credit to govt. (%) |
-| ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: |
 | **2013** | 69 | 60 | 47 | 23 |
 | **2014** | 72 | 64 | 59 | 47 |
 | **2015** | 82 | 69 | 65 | 50 |
 | **2016** | 79 | 79 | 69 | 55 |
 | **2017** | 92 | 60 | 80 | 65 |
 
--   #### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public barChartData:Array<any> = [
@@ -75,17 +72,17 @@ public barChartData:Array<any> = [
    {data: [47, 59, 65, 69, 80], label: 'Investors (%)'},
    {data: [23, 47, 50, 55, 65], label: 'Net Bank Credit to Government(%)'} ];
 ```
--   #### Labels:
+#### Labels
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public barChartLabels:Array<any> = ['2013', '2014', '2015','2016','2017'];
 ```
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   #### Options:
+#### Options
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public barChartOptions:any = {

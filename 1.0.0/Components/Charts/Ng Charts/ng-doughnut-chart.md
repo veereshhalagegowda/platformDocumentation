@@ -9,10 +9,8 @@ There are some other popular use cases where pie chart is used. Some of them are
 -   Industries (for providing information on different product and services )
 -   Government offices (like revenue department)
 -   Retails (for different types of product they provide)
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the doughnut chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -27,49 +25,16 @@ There are some other popular use cases where pie chart is used. Some of them are
         public doughnutChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
         ```
     * Legend value (either true or false). For example, 
-        ```typescript## Support 
-171
-### Devices : 
-172
--   Android
-173
--   iOS
-174
-### Dependencies Version
-175
--   **Angular CLI Version**
-176
-    -   Version 5.0.0 +
-177
--   **Cordova Version**
-178
-    -   Version 7.1.0 +
+        ```typescript
         public legend=false;
         ```
     * Options value. For example,
         ```typescript
         public doughnutChartOptions:any = {
         responsive: true
-        };## Support 
-171
-### Devices : 
-172
--   Android
-173
--   iOS
-174
-### Dependencies Version
-175
--   **Angular CLI Version**
-176
-    -   Version 5.0.0 +
-177
--   **Cordova Version**
-178
-    -   Version 7.1.0 +
+        };
         ```
-4. Now switch back to Html file of the page and 
-5. Provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = doughnutChartData
 		```
@@ -85,32 +50,32 @@ There are some other popular use cases where pie chart is used. Some of them are
         ```
 		[options] = doughnutChartOptions
 		```
-9. Save the page and run the application 
+9. Save the page and run the application. 
 ### Example
 Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
 | Hospital Wards | Emergency &  Casualty | Labor Ward | Endoscopy Ward | Coronary Ward | Surgical Ward | General Ward |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | **Patients (%)** | 25 | 11 | 8 | 9 | 18 | 29 |
 
--   ###### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public doughnutChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
  ];
 ```
--   #### Labels:
+#### Labels
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public doughnutChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
 ```
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   #### Options:
+#### Options
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public doughnutChartOptions:any = {

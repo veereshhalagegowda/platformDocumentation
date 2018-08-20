@@ -9,10 +9,8 @@ There are some other popular use cases where bubble chart is used. Some of them 
 -   Health care centers
 -   Industries
 -   Experimental surveys
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the bubble chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -54,8 +52,7 @@ There are some other popular use cases where bubble chart is used. Some of them 
         responsive: true
         };
         ```
-4. Now switch back to Html file of the page and 
-5. Provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = bubbleChartData
 		```
@@ -76,12 +73,12 @@ There are some other popular use cases where bubble chart is used. Some of them 
 Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example,
 
 | Data/Area | X | Y | Radius of Circle |
-| ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: |
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
 
-#### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public bubbleChartData: Array<any> =
@@ -106,7 +103,7 @@ public bubbleChartData: Array<any> =
    }]
 }];
 ```
-#### Labels:
+#### Labels
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public bubbleChartLabels:string[] = ['Deer Population'];
@@ -116,7 +113,7 @@ Here is a sample of legend that is declaired and initialized in the component cl
 ```typescript
   public legend=true;
 ```
-#### Options:
+#### Options
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public bubbleChartOptions:any = {

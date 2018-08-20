@@ -10,10 +10,8 @@ Some of the other popular use cases of line chart are:
 - Education
 - Product Analysis in Industries
 - Climate Change Statistic
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the line chart from Ng Charts category.
 3. Switch to Ts file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -38,8 +36,7 @@ Some of the other popular use cases of line chart are:
         responsive: true
         };
         ```
-4. Now switch back to Html file of the page and 
-5. Provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = lineChartData
 		```
@@ -61,16 +58,16 @@ Let's take an example of Insurance company. The KPI (Key Performance Indicator) 
 Here is the data for the year 2017. 
 
 | Months (2017) | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | **Insured Client** | 13245 | 15401 | 13524 | 9252 | 15025 | 6524 | 8551 | 19321 | 13054 | 15655 | 11024 | 16542 |
 
-#### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public lineChartData: Array<any> = [
        {data: [8654, 11254, 11958, 13545, 13965, 12548, 13554, 14696, 14979, 16585, 16964, 17015], label: ' Insurance Statistic Year 2017'}];
 ```
-#### Labels:
+#### Labels
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public lineChartLabels:Array<any> = ['Jan', 'Feb', 'Mar','Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -80,7 +77,7 @@ Here is a sample of legend that is declaired and initialized in the component cl
 ```typescript
   public legend=true;
 ```
-#### Options:
+#### Options
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public lineChartOptions:any = {

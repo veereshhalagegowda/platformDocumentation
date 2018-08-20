@@ -9,10 +9,8 @@ Some of the other popular use cases of line chart are:
 -   Industries (for providing information on different product and services )
 -   Government offices (like revenue department)
 -   Retails (for different types of product they provide)
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the pie chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
@@ -59,9 +57,9 @@ Some of the other popular use cases of line chart are:
 Consider an IT industry which makes a survery on how many users use their product from different part of the world. The sample data can be recoded as follows:
 
 | Country | Germany | USA | Spain | France | Nepal | India |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | **Users** | 730000 | 7870000 | 1569558 | 1645553 | 1058048 | 1546488 |
--   #### Datasets:
+#### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 ngxpieChartData = [
@@ -91,9 +89,9 @@ ngxpieChartData = [
   }
 ]
 ```
--   #### Labels:
+#### Labels:
 Here, the labels are automatically taken by from the dataset.
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;

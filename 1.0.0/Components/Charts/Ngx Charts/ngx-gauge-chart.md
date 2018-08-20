@@ -3,10 +3,8 @@ It uses needles to show the information about the data values on a speedometer. 
 
 ## Usage
 A gauge chart is widely used in executive dashboard reports to show key business indicators. They are useful for comparing small number of variables using a multiple needles on speedometer space.
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the gauge chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
@@ -48,44 +46,12 @@ A gauge chart is widely used in executive dashboard reports to show key business
 Consider a IT company wants a dashboard reports for different branch to show key business performance indicators so that it can be compared easily with KPI (Key Performance Indicator). Here is an example,
 
 | Parameters | KPI |
-| ------ | ------ | 
+| :------: | :------: | 
 | **Germany** | 406323 |
 | **United State** | 49737 | 
 | **France** | 36745 |
--   #### Datasets:
-Here is a sample of dataset that is declaired and in## Support
-131
-### Devices : 
-132
--   Android
-133
--   iOS
-134
-### Dependencies Version
-135
--   **Angular CLI Version**
-136
-    -   Version 5.0.0 +
-137
--   **Cordova Version**
-138
-    -   Version 7.1.0 +## Support
-131
-### Devices : 
-132
--   Android
-133
--   iOS
-134
-### Dependencies Version
-135
--   **Angular CLI Version**
-136
-    -   Version 5.0.0 +
-137
--   **Cordova Version**
-138
-    -   Version 7.1.0 +itialized in the component class **Ts** file of the project. 
+#### Datasets
+Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 ngxGaugeChartData = [
   {
@@ -102,7 +68,7 @@ ngxGaugeChartData = [
   }
 ]
 ```
--   #### Labels:
+#### Labels
 Here, the labels are automatically taken by from the dataset.
 ## Associated Attributes
 -   **angleSpan (Number):** It is the angle provided to the gauge spans. The unit is in degrees and default value is 240 degree.

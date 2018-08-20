@@ -10,10 +10,8 @@ There are some other popular use cases where radar chart is used. Some of them a
 -   Retails
 -   Hospitals
 -   Experimental surveys
-### Prerequisites
-1. New page.
-2. Default route for the newly created page.
-### How to use?
+
+### How to use
 1. Open the newly created page.
 2. Drag and drop the radar chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
@@ -38,8 +36,7 @@ There are some other popular use cases where radar chart is used. Some of them a
         responsive: true
         };
         ```
-4. Now switch back to Html file of the page and 
-5. Provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = radarChartData
 		```
@@ -49,22 +46,7 @@ There are some other popular use cases where radar chart is used. Some of them a
         ```
 7. Provide the options name in [options] attribute. For example,
         ```
-        [legend] = legend- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
-    ```css
-    .class1 {
-        border-radius:10px;
-        flex-basis:10%;
-        height:100px;
-    }
-    .class2 {
-        border-radius:10px;
-        flex-basis:10%;
-        height:100px;
-    }
-    
-    ```
+        [legend] = legend
         ```
 8. Provide the legend name in [legend] attributes. For example,
         ```
@@ -75,11 +57,11 @@ There are some other popular use cases where radar chart is used. Some of them a
 Consider an example of an industry where HR (Human Resource) Team hires some professional. They conduct different activities to monitor the following skills of the candidates, Communication skills, technical knowledge, teamwork, meeting deadline, problem-solving, and punctuality. The head HR should be able to glance at the candidates' performance through a graph or chart which reflects the good comparison with all candidates. This can be achieved using a radar chart. For example,
 
 | Skills/Candidates | Communication Skills | Technical Knowledge | Team Work | Meeting Deadline | Problem Solving | Punctuality |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | **Dayashankar** | 7 | 8 | 6 | 9 | 7 | 9 |
 | **Oliver** | 6 | 7 | 7 | 8 | 6 | 8 |
 
--   #### Datasets:
+#### Datasets
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public radarChartData:Array<any> = [
@@ -87,17 +69,17 @@ public radarChartData:Array<any> = [
     {data: [6, 7, 7, 8, 6, 8], label: 'Oliver'}
   ];
 ```
--   #### Labels:
+#### Labels
 Here is a sample of labels that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
 public radarChartLabels:string[] = ['Communication Skills', 'Technical Knowledge', 'Team Work', 'Meeting Deadline', 'Problem Solving', 'Punctuality'];
 ```
--   #### Legend
+#### Legend
 Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
--   #### Options:
+#### Options
 Here is a sample of options that is declaired and initialized in the component class of **Ts** file of the project.
 ```typescript
  public radarChartOptions:any = {
