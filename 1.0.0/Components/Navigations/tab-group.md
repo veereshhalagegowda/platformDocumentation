@@ -10,7 +10,7 @@ Tabgroup component is used whenever tab(s) are used. A tab can not exist outside
 2. Drag and drop the “Tab” component(s) inside the “Tab Group” component.
 3. Set the “label” attribute of the “Tab” component(s).
 4. Drag and drop the components needed within each “Tab” component.
-5. Sav the changes
+5. Save the changes
 
 ### Example
 1. Create a page.
