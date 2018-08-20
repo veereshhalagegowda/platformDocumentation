@@ -21,7 +21,7 @@ Save it and run.
 When the page is loaded the attribute "checked = true" specifies whether the checkbox is checked or not. And the "id = check" is the unique id given for the checkbox which can be used to apply styles or give reference to point to the checkbox.
 ## Associated Attributes
 - **Checked:** Used to check whether the checkbox is checked or not.
-- **Color:** Takes the color based on angular material thing.
+- **Color:** It takes the color based on the angular material theme. Takes "primary", "accent" or "warn" as its value.
 - **Disabled:** Used to check whether the checkbox is disabled or not.
 - **Id:** A unique id for the checkbox input.
 - **Labelposition:** Specifies whether the label should appear after or before the checkbox. Defaults to 'after'
