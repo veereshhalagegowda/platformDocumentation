@@ -11,7 +11,7 @@ Card footer can be used where the data should be displayed as footer,at the bott
 ### How to use
 Drag and drop a card footer component where it can be used, basically it is used at the bottom that is below every components.
 ### Example
- **Display a card with a title, a image, a paragraph about that image and a card footer** 
+ **Display a card with a title, a image, a paragraph about that image and a card footer**  
 - Drag and drop a card component and provide the style and class for that.
 - Drag and drop a card title inside the card and give the title=Tajmahal
 - Drag and drop a paragraph inside the card component below the card-title and provide the path of the image in imgSrc attribute that is stored in the system so if the image is in asset folder then the path can be (asset\android\taj.jpg) and,the image taj.jpg will be displayed on the screen.
