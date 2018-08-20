@@ -12,6 +12,7 @@ Menu is used when the user is to be provided with the ability to select from a l
 4. Set the “MenuItemName” of “Menu Item” component to a string value.
 5. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute.
 6. Set the “[matMenuTriggerFor]” attribute to the same value as the “matMenu” of the “Menu” component.
+7. Save the changes.
 
 ### Example
 
@@ -23,7 +24,8 @@ Menu is used when the user is to be provided with the ability to select from a l
 6. Set the “MenuItemName” attribute of the second "Menu Item" component to “item2”.
 7. Set the “MenuItemName” attribute of the third "Menu Item" component to “item3”.
 8. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute to “Menu” and “[matMenuTriggerFor]” attribute to “menu”.
-9. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
+9. Save the changes.
+10. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
