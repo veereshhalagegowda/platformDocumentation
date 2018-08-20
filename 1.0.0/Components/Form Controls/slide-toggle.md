@@ -19,8 +19,21 @@ Save it and run.
 When the page is loaded "class = toggle" will assign the class name as toggle, which can be used to point to a class in a style sheet. And the "text = on/off" is the text that is displayed next to the component.
 
 ## Associated Attributes:
-- **Style:** Used to specify the inline style. It is applied to the specific element.
-- **Class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
 - **Required:** used to check whether the slide-toggle is required or not. Value should be boolean i.e. either true or false.
 - **Text:** Specifies the text to be displayed for the slide-toggle when the application is run.
 - **Id:** A unique id for the slide-toggle input.
