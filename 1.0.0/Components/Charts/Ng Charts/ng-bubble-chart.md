@@ -74,6 +74,7 @@ There are some other popular use cases where bubble chart is used. Some of them 
 9. Save the page and run the application 
 ### Example
 Consider a survey on population at different part of the country. The number of population in particular area need to be displayed on on a country map using a bubble. For example, 
+
 | Data/Area | X | Y | Radius of Circle |
 | ------ | ------ | ------ | ------ |
 | **Area 1** | 100 | 50 | 20 |
