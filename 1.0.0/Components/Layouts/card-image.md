@@ -36,12 +36,13 @@ Drag and drop a card-image and fill the properties such as style,class imgSrc an
 
 
 
-## Support 
-### Devices: Android, iOS
-### Browsers:  Latest version of all modern browsers
-### Dependencies version
- **Angular CLI version:** 5.0.0 + 
- **Cordova version:** 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
+
 
 
 
