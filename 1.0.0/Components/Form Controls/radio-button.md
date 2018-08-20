@@ -19,9 +19,20 @@ Save it and run.
 When the page is loaded the checked attribute checks whether the radio button is checked or not. Value attribute display the value “option1” for the radio button.
 
 ## Associated Attributes:
-- **style:** Used to specify the inline style.
-- **class:** It specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
-place
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
 - **Value:** It is the value given for the radio button. 
 - **Required:** Used to check whether the radio button is required or not. Value should be a boolean value i.e. either true or false.
 - **Label:** Is the value given for the radio button. Example “abc” display the value “abc” next to the radio button
