@@ -4,7 +4,7 @@ Form component are the container which contains several components such as input
 
 
 
-# Usage:
+## Usage:
 A form component can be used whenever there is a requirement for data-entry task. It is basically a block in which other component can be inserted such as a paragraph, a button, a input text etc.
 
 
