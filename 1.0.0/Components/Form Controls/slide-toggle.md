@@ -1,15 +1,15 @@
-## Overview: 
+## Overview 
 Slide toggle component is used to toggle between on/off. Toggle allows the user to change a setting between two states.
 
 ## Usage
 A toggle is a specialized control which has the ability to be selected. Typically a toggle is rendered similarly to a button.
 
-### How to use:   
+### How to use   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-### Example: 
+### Example
 Input the component field with the attribute value:
 ``` 
 Class = toggle
@@ -18,7 +18,7 @@ Text = on/off
 Save it and run.
 When the page is loaded "class = toggle" will assign the class name as toggle, which can be used to point to a class in a style sheet. And the "text = on/off" is the text that is displayed next to the component.
 
-## Associated Attributes:
+## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
