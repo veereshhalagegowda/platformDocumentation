@@ -308,14 +308,22 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 -   **Value:** It is a value of the key that the user provided manually. For example,
--   **style:** Used to specify the inline style. It is applied to the specific element. For example 
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
-    text {
-    	color: maroon;
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
     }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
     ```
-    Here in this examplee, the text we type will be in maroon color
--   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 -   **select (Events):** It takes a c## Support 
 174
 ### Devices : 
