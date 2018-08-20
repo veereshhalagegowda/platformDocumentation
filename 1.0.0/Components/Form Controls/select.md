@@ -19,8 +19,21 @@ Save it and run.
 When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
 
 ## Associated Attributes:
-- **style:** Used to specify the inline style.
-- **class:** it specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+    ```css
+    .class1 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    .class2 {
+        border-radius:10px;
+        flex-basis:10%;
+        height:100px;
+    }
+    
 - **Value:** it specifies the pre-defined text that is displayed in the select area. when the select field is clicked, it displays the value that is entered in the field when the application is run. Example “Select” defined in this field will display Select in the select field when the application is run.
 - **Placeholder:** used to hold the defined text value. Example “Select” holds the value Select for the field, when the application is run.
 - **Required:** specifies that the field is required and should not hold empty values. Input given should be either true or false.
