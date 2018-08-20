@@ -30,12 +30,12 @@ the text as information.
 
 - **Class-** It accepts string value. It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.The class name can be used by CSS to perform certain tasks for elements with the specified class name.(eg. class=toolbar)
 
-## Support 
-### Devices: Android, iOS
-### Browsers:  Latest version of all modern browsers
-### Dependencies version
- **Angular CLI version:** 5.0.0 + 
- **Cordova version:** 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
 
 
 
