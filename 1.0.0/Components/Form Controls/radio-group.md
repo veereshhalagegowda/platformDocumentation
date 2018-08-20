@@ -28,11 +28,10 @@ When the page is run the label appears after the radio button. And name specifie
 - **Selected:** The currently selected radio button. If set to a new radio button, the radio group value will be updated to match the new selected button.
 - **labelposition:** defines the label to appear after or before the radio button. Defaults to 'after'.
 
-## Support 
+## Support
 - **Devices:** Android, iOS
-- **Browsers:** Latest version of all modern browsers
-
-**Dependencies version:**
-- **Angular CLI version:** 5.0.0 + 
-- **Cordova version:** 7.1.0 +
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
 
