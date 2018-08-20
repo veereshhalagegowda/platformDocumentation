@@ -25,9 +25,10 @@ place
 - **description:**  Used to give description for the expansion panel. 
 
 
-## Support 
-### Devices: Android, iOS
-### Browsers:  Latest version of all modern browsers
-### Dependencies version
- **Angular CLI version:** 5.0.0 + 
- **Cordova version:** 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
+
