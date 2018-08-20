@@ -16,10 +16,10 @@ Tabgroup component is used whenever tab(s) are used. A tab can not exist outside
 1. Create a page.
 2. Drag and drop the “Tab Group” Component from the “Navigation” category.
 3. Drag and drop 3 “Tab” components inside the “Tab Group” component.
-4. Set the value of the “label” property of 1st, 2nd and 3rd Tab as “Tab1”, “Tab2” and “Tab3” respectively.
+4. Set the value of the “label” property of first, second and third Tabs as “Tab1”, “Tab2” and “Tab3” respectively.
 5. Drag and drop a “Card” component (from “Layout” category) within each tab.
 6. Set height of each card  to 100px. (style = height:100px;).
-7. Set the color of each card. (eg.: color:pink;).
+7. Set the color of each card. eg. color:pink;
 8. Save the changes.
 9. Now, the tabs can be navigated.
 
