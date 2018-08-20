@@ -1,15 +1,15 @@
-## Overview: 
+## Overview
 The select component is used along with one or more option elements, creates a drop-down list of options for a web form. The select element creates the list and each option element is displayed as an available option in the list.
 
 ## Usage
 Select component is used to select the list of options available within the select field. When clicked it displays the list in drop-down view, where the user can select the option.
 
-### How to use:   
+### How to use   
 - Drag and drop the component. 
 - Double click the component to display the list of attributes that can be used with it.
 - Fill the attributes which are needed and save the page.
 
-### Example: 
+### Example 
 Input the component field with the attribute value:
 ``` 
 placeholder = select
@@ -18,7 +18,7 @@ required = true
 Save it and run.
 When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
 
-## Associated Attributes:
+## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
