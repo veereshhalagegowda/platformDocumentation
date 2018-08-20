@@ -1,5 +1,5 @@
 ## Overview
-A menu is a list of options from which an option can be selected to perform a specific operation. A menu item is the individual option that can be selected. A menu item is always contained in the “Menu” component. 
+A menu is a list of options from which an option can be selected to perform a specific operation. A menu item is the individual option that can be selected. It is always contained in the “Menu” component. 
 
 ## Usage
 Menu items are what makes up a menu. Menu items are used to provide options within a menu.
@@ -17,11 +17,13 @@ Menu items are what makes up a menu. Menu items are used to provide options with
 
 1. Create a page called “page”.
 2. Drag and drop the “Menu” component.
-3. Set the “matMenu” attribute as “menu”.
+3. Set the “matMenu” attribute to “menu”.
 4. Drag and drop 3 “Menu Item” components inside the “Menu” component.
-5. Set the “MenuItemName” as “item1”, “item2” and “item3” respectively.
-6. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute as “Menu” and “[matMenuTriggerFor]” attribute to “menu”.
- 7. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
+5. Set the “MenuItemName” attribute of the first "Menu Item" component to “item1”.
+6. Set the “MenuItemName” attribute of the second "Menu Item" component to “item2”.
+7. Set the “MenuItemName” attribute of the third "Menu Item" component to “item3”.
+8. Drag and drop the “Menu Button” component to the desired position and set “MenuName” attribute to “Menu” and “[matMenuTriggerFor]” attribute to “menu”.
+9. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
