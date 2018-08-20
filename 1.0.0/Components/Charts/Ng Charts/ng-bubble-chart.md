@@ -80,7 +80,8 @@ Consider a survey on population at different part of the country. The number of 
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
--   #### Datasets:
+
+- #### Datasets:
 Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
 ```typescript
 public bubbleChartData: Array<any> =
