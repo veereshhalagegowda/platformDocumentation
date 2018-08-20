@@ -45,9 +45,9 @@ Menu is used when the user is to be provided with the ability to select from a l
     
     ```
 
-- **xPosition**: Specifies the horizontal position of the menu list. Values can be : “before” or “after”
+- **xPosition**: Specifies the horizontal position of the menu list. Values can be: “before” or “after”.
 
-- **yPosition**: Specifies the vertical position of the menu list.Values can be: “above” or “below”
+- **yPosition**: Specifies the vertical position of the menu list. Values can be: “above” or “below”.
 
 - **templateRef**: Creates a template reference variable. Takes string as its value.
 
