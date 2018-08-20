@@ -6,16 +6,16 @@ Card footer can be used where the data should be displayed as footer, at the bot
 Drag and drop a card footer component where it can be used, basically it is used at the bottom that is below every components.
 ### Example
 **Display a card with a title, a image, a paragraph about that image and a card footer** 
-- Drag and drop a card component and provide the style and class for that. 
-- Drag and drop a card title inside the card and give the title=Taj Mahal.
-- Drag and drop a paragraph inside the card component below the card-title and provide the path of the image in imgSrc attribute that is stored in the system so if the image is in asset folder then the path can be (asset\android\taj.jpg) and,the image taj.jpg will be displayed on the screen. 
-- Now,drag and drop a paragraph component inside card below the card-image and in text attribute provide some information about the image.
-- Now drag and drop a card footer inside the card below all components and drag a paragraph component inside the footer component and provide some text that can be displayed as a footer on the screen.  
-- Drag and drop a card component and provide the style and class for that.
-- Drag and drop a card title inside the card and give the title=Tajmahal.
-- Drag and drop a paragraph inside the card component below the card-title and provide the path of the image in imgSrc attribute that is stored in the system so if the image is in asset folder then the path can be (asset\android\taj.jpg) and,the image taj.jpg will be displayed on the screen.
-- Now,drag and drop a paragraph component inside card below the card-image and in text attribute provide some information about the image.
-- Now drag and drop a card footer inside the card below all components and drag a paragraph component inside the footer component and provide some text that can be displayed as a footer on the screen.
+1.Drag and drop a card component and provide the style and class for that. 
+2.Drag and drop a card title inside the card and give the title=Taj Mahal.
+3.Drag and drop a paragraph inside the card component below the card-title and provide the path of the image in imgSrc attribute that is stored in the system so if the image is in asset folder then the path can be (asset\android\taj.jpg) and,the image taj.jpg will be displayed on the screen. 
+4.Now,drag and drop a paragraph component inside card below the card-image and in text attribute provide some information about the image.
+5.Now drag and drop a card footer inside the card below all components and drag a paragraph component inside the footer component and provide some text that can be displayed as a footer on the screen.  
+6.Drag and drop a card component and provide the style and class for that.
+7.Drag and drop a card title inside the card and give the title=Tajmahal.
+8.Drag and drop a paragraph inside the card component below the card-title and provide the path of the image in imgSrc attribute that is stored in the system so if the image is in asset folder then the path can be (asset\android\taj.jpg) and,the image taj.jpg will be displayed on the screen.
+9.Now,drag and drop a paragraph component inside card below the card-image and in text attribute provide some information about the image.
+10.Now drag and drop a card footer inside the card below all components and drag a paragraph component inside the footer component and provide some text that can be displayed as a footer on the screen.
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
