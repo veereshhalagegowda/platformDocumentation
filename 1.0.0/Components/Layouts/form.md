@@ -1,10 +1,10 @@
 
-## Overview:
+## Overview
 Form component are the container which contains several components such as input, radio button,checkbox,buttons etc. Users interacts with all this component and can change the value according to that.
 
 
 
-## Usage:
+## Usage
 A form component can be used whenever there is a requirement for data-entry task. It is basically a block in which other component can be inserted such as a paragraph, a button, a input text etc.
 
 
@@ -25,7 +25,7 @@ Drag and drop a form component and set the style and class attribute.
 
 
 
-## Associated Attributes:
+## Associated Attributes
 - **Style-** accepts string value and it is applied as inline css to element and it is affected based on property given. An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.
 (eg. color:blue).
 
@@ -38,7 +38,7 @@ Drag and drop a form component and set the style and class attribute.
 ## Support 
 ### Devices:Android, iOS
 ### Browsers:  Latest version of all modern browsers
- ### Dependencies version: 
+ ### Dependencies version
  **Angular CLI version:** 5.0.0 + 
  **Cordova version:** 7.1.0 +
 
