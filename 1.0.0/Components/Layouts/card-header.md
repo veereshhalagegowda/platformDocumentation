@@ -29,11 +29,11 @@ Drag and drop a card header, and fill the title,subtitle as some text and in img
 - **Subtitle-** we can give the subtitle also,which will be displayed below the title attribute,and it will be normal text.
 - **imgSrc**-this property stores the path of the image stored in the system and it displays the images based on the path if present. Such as (android\wallpaper.jpg). So this display the image of name wallpaper that is in jpg format.
 
-- **Alt-** this will be displayed instead of image when the imgSrc does not load the image because of some reason. It can be string such as image not available.
+- **Alt-** this will be displayed instead of image when the imgSrc does not load the image because of some reason. It can be string such as image not available.    
 
 ## Support
-- **Devices:** Android, iOS
-- **Browsers:**  Latest version of all modern browsers
+- **Devices:** Android, iOS    
+- **Browsers:** Latest version of all modern browsers
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 + 
