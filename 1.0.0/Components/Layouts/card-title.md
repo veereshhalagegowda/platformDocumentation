@@ -32,12 +32,13 @@ Drag and drop the card-title component. It has three attributes style, class and
 - **Title-** it accepts string value and we can give the title what we want to set as title. The text will be displayed in bold property. 
 
 
-## Support 
-### Devices: Android, iOS
-### Browsers:  Latest version of all modern browsers
-### Dependencies version
- **Angular CLI version:** 5.0.0 + 
- **Cordova version:** 7.1.0 +
+## Support
+- **Devices:** Android, iOS
+- **Browsers:**  Latest version of all modern browsers
+- **Dependencies version:** 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
+
 
 
 
