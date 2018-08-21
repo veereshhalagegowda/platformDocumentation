@@ -5,9 +5,9 @@ The Datepicker component is used to present an interface which makes it easy for
 Datepicker component is used to select the date easily instead of entering it manually. 
 
 ### How to use   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Fill the attributes which are needed and save the page.
 
 ### Example 
 Input the component field with the attribute value:
