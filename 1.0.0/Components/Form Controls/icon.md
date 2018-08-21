@@ -10,13 +10,13 @@ Icons are used when we need to improve visual interest and grab the user's atten
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     iconname = home
     class = icon
     ```
 2. Save it and run.
-3. When the page is loaded the value "iconname = home" will be the name of the icon that will be displayed on the button. And "class = icon" is the name of the class that can be used to point in a styling sheet.
+3. When the page is loaded the value "iconname = home" will be the name of the icon that will be displayed on the button and "class = icon" is the name of the class that can be used to point in a styling sheet.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
