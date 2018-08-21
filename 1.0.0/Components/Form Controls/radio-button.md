@@ -10,19 +10,19 @@ Radio buttons are typically rendered as small circles, which are filled or highl
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     Checked = oncheck()
     Value = option1
     ```
-    In the "Ts" file write the function
+    In the "Ts" file write the following function
     ```
     oncheck() { 
         alert("checkbox checked");
     }
     ```
 2. Save it and run.
-3. When the page is loaded the attribute "checked = oncheck()" is the event that checks when the radio button is checked. On checking the radio button the alert message "checkbox checked" will be displayed. Value attribute displays the value “option1” for the radio button.
+3. When the page is loaded the attribute "checked = oncheck()" is the event that checks when the radio button is checked. On checking the radio button the alert message "checkbox checked" will be displayed. The value attribute displays the value “option1” for the radio button.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
