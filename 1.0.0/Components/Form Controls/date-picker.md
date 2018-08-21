@@ -46,10 +46,10 @@ Datepicker component is used to select the date easily instead of entering it ma
 - **max:** Specifies the maximum valid date. The value should be either null or the letter “D”
 - **Startat:** Specifies the date to open the calendar to initially. It should be in the format D | null
 - **Startview:** Specifies the view that the calendar should start in. It should be in the format 'month' | 'year'
-- **Touchui:** Specifies whether the calendar UI is in touch mode. In touch mode, the calendar opens in a dialog rather than a popup and elements have more padding to allow for bigger touch targets. The value should be a boolean i.e. either true or false.
+- **Touchui:** Specifies whether the calendar UI is in touch mode. In touch mode, the calendar opens in a dialog rather than a popup and elements have more padding to allow for bigger touch targets.
 - **Id:** Specifies the id for the datepicker calendar. The value should be string.
-- **Selectedchanged:** Is an event that is emitted when the selected date is changed. The value should be a boolean i.e. either true or false.
-- **Opened:** Specifies whether the calendar is open or not. The value should be a boolean i.e. either true or false.
+- **Selectedchanged:** Is an event that is emitted when the selected date is changed.
+- **Opened:** Specifies whether the calendar is open or not.
 - **Disabled:** Specifies whether the datepicker pop-up should be disabled or not. The value should be a boolean i.e. either true or false.
 - **Open:** Is an event called when the calendar is open (Has been deprecated).
 - **Close:** Is an event called when the calendar is closed (Has been deprecated).
