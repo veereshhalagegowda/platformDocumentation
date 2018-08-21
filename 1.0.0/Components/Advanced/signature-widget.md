@@ -28,9 +28,9 @@ Signature Widget Component is used when there is a need for handwritten signatur
 
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -44,18 +44,18 @@ Signature Widget Component is used when there is a need for handwritten signatur
     }
     
     ```
-- **[(imageData)]**: It takes a property name that is defined in Ts file which stores the signature image data.
-- **[mode]**: Mode of the canvas. Takes ‘responsive’ and ‘click-fullscreen’ as its value (with single quotes).
-- **[dotSize]**: Radius of a single dot. Takes number as its value.
-- **[minWidth]**: Minimum width of a line.
-- **[maxWidth]**: Maximum width of a line.
-- **[throttle]**:  The max rate (per millisecond) at which the next point is drawn.
-- **[minDistance]**: Add the next point only if the previous one is farther than x pixels.
-- **[backgroundColor]**: Color of the canvas. Color format accepted is ‘rgb(255,255,255)’ (with single quotes).
-- **[penColor]**: Color used to draw the lines. Color format accepted is ‘rgb(255,255,255)’ (with single quotes).
-- **[velocityFilterWeight]**: Weight used to modify new velocity based on the previous velocity.
-- **[onBegin]**: Function that should be executed when stroke begins. It takes function name as its value.
-- **[onEnd]**: Function that should be executed when stroke ends. It takes function name as its value.
+- **[(imageData)]:** It takes a property name that is defined in Ts file which stores the signature image data.
+- **[mode]:** Mode of the canvas. Takes ‘responsive’ and ‘click-fullscreen’ as its value (with single quotes).
+- **[dotSize]:** Radius of a single dot. Takes number as its value.
+- **[minWidth]:** Minimum width of a line.
+- **[maxWidth]:** Maximum width of a line.
+- **[throttle]:**  The max rate (per millisecond) at which the next point is drawn.
+- **[minDistance]:** Add the next point only if the previous one is farther than x pixels.
+- **[backgroundColor]:** Color of the canvas. Color format accepted is ‘rgb(255,255,255)’ (with single quotes).
+- **[penColor]:** Color used to draw the lines. Color format accepted is ‘rgb(255,255,255)’ (with single quotes).
+- **[velocityFilterWeight]:** Weight used to modify new velocity based on the previous velocity.
+- **[onBegin]:** Function that should be executed when stroke begins. It takes function name as its value.
+- **[onEnd]:** Function that should be executed when stroke ends. It takes function name as its value.
 
 ## Support
 - **Devices:** Android, iOS
