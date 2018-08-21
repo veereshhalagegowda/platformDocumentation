@@ -10,13 +10,13 @@ A toggle is a specialized control which has the ability to be selected. Typicall
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     Class = toggle
     Text = on/off
     ```
 2. Save it and run.
-3. When the page is loaded "class = toggle" will assign the class name as a toggle, which can be used to point to a class in a style sheet. And the "text = on/off" is the text that is displayed next to the component.
+3. When the page is loaded "class = toggle" will assign the class name as a toggle, which can be used to point to a class in a style sheet and the "text = on/off" is the text that is displayed next to the component.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
