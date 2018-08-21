@@ -46,10 +46,7 @@ Some of the other popular use cases of a pie chart are:
         ```
 		[options] = pieChartOptions
 		```
-8. Provide the legend name in [legend] attribute. For example,
-	```
-        [legend] = legend
-        ```
+8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
 9. Save the page and run the application. 
 ### Example
 Consider an example of a hospital that wants to plot a chart to record the percentage of patients admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
