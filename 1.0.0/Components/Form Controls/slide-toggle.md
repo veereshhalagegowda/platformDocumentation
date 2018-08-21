@@ -34,7 +34,7 @@ A toggle is a specialized control which has the ability to be selected. Typicall
         height:100px;
     }
     
-- **Required:** used to check whether the slide-toggle is required or not. Value should be boolean i.e. either true or false.
+- **Required:** used to check whether the slide-toggle is required or not.
 - **Text:** Specifies the text to be displayed for the slide-toggle when the application is run.
 - **Id:** A unique id for the slide-toggle input.
 - **Labelposition:** Whether the label should appear after or before the slide-toggle. Defaults to 'after'. Values to be specified are before and after.
