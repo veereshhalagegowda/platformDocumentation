@@ -11,10 +11,10 @@ Select component is used to select the list of options available within the sele
 
 ### Example 
 1. Input the component field with the attribute value:
-``` 
-placeholder = select
-required = true
-```
+    ``` 
+    placeholder = select
+    required = true
+    ```
 2. Save it and run.
 3. When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
 
