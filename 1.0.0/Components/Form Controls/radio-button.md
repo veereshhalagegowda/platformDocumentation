@@ -10,13 +10,13 @@ Radio buttons are typically rendered as small circles, which are filled or highl
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-Input the component field with the attribute value:
+1. Input the component field with the attribute value:
 ``` 
 Checked = true
 Value = option1
 ```
-Save it and run.
-When the page is loaded the checked attribute checks whether the radio button is checked or not. Value attribute display the value “option1” for the radio button.
+2. Save it and run.
+3. When the page is loaded the checked attribute checks whether the radio button is checked or not. Value attribute display the value “option1” for the radio button.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
