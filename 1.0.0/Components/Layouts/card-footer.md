@@ -5,7 +5,7 @@ Card footer can be used where the data should be displayed as footer, at the bot
 ### How to use     
 1. Drag and drop a card footer component where it can be used.
 2. Fill the attribute such as style and class.
-3. It can be used with in pages which require a footer.
+3. It can be used within pages which require a footer.
 4. Put other components inside the footer component which can be displayed as a footer.
 
 ### Example
