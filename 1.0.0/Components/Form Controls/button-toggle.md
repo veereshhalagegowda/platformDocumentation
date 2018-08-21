@@ -39,7 +39,7 @@ buttonname = on/off
 - **Buttonname:** Specifies the button name.
 - **Name:** Name attribute for the underlying input element.
 - **Id:** The unique ID for this button toggle.
-- **Checked:** Used to check whether the button is checked. Value should be boolean i.e. either true or false.
+- **Checked:** Used to check whether the button is checked. The Value should be boolean i.e. either true or false.
 - **Changed:** Is the event emitted when the group value changes.",
 - **Click:** Is the event used to check whether the button is clicked or not. Value should be boolean i.e. either true or false.
 
