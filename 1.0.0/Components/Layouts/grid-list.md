@@ -3,11 +3,13 @@ This is component which allows us to create a container of list of particular ro
 ## Usage 
 It is a container of list which has user defined layout. So the layout will be set by the user, and according to that layout the list item will be placed inside that layout.
 ### How to use 
-Drag and drop a grid list component and set the attributes such as style, class,cols,gutterSize,rowHeight how it should be displayed and according to that the list item will be displayed on the screen.
+1. Drag and drop a grid list component. 
+2. Set the attributes such as style, class, cols, gutterSize, rowHeight how it should be displayed. 
+3. According to that the list item will be displayed on the screen.
 ### Example
 **Display a grid list component with a grid-tile component and under that 3 items.** 
-- Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
-- Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
+1. Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
+2. Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
 **colspan:** Allows a single table cell to span the width of more than one cell or column.
 So in this case give colspan=1
 **rowspan:** Allows a single table cell to span the height of more than one cell or row.
@@ -32,9 +34,9 @@ Displaylist.ts
     {text: 'Four'},
   ];
   ```
-So in the above example grid has two columns, and tile is a array which has four items which contains string value that are basically labels. So using ngFor the labels will be displayed.
-- Save and Run
-- A table with four items will be displayed inside a grid-list.
+3. So in the above example grid has two columns, and tile is a array which has four items which contains string value that are basically labels. So using ngFor the labels will be displayed.
+4. Save and Run
+5. A table with four items will be displayed inside a grid-list.
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
