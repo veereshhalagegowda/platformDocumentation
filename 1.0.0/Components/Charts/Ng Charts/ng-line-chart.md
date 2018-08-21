@@ -5,7 +5,7 @@ The line chart is popularly used to chart out trending data. For instance, in st
 Let us consider a scenario where an Insurance Company wants to track the overall performance of the year along with insured clients and the month. The company chart needs to show the performance of the individual months with the number of clients that are insured. The company KPI (Key Performance Indicator) should be able to see the previous data as well as the current data along with the graph indicating the rise or fall of the insured client. In this case, line chart will successfully provide all of these features.
 Some of the other popular use cases of line chart are:
 - Banking
-- Health center
+- Health centre
 - Retail
 - Education
 - Product Analysis in Industries
