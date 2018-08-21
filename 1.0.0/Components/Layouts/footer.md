@@ -9,17 +9,18 @@ A footer components is used when the content should be displayed at the bottom o
 4. The footer will be dislayed at the bottom.
 ### Example
 **Display a block with a title a subtitle, a paragraph component and a footer.** 
-- Drag and drop a header component, and provide the style and class attribute.
-- Now drag and drop a h3 component inside header for a title and provide the text such as Agra. So the title will be set as Agra.
-- After setting the title, drag and drop a h5 component inside header below h3 component to set a subtitle because subtitle should be smaller than title, and provide the subtitle as Taj Mahal.
-- Now drag and drop a paragraph component inside the header component below the h5 component, and provide some text as content that will be displayed below subtitle.
-- Drag and drop a footer component below the header component.
-- Drag and drop a paragraph component inside footer component, give the content as (published by a blogger).
-- Save and Run, a block with title Taj in h3,a subtitle with Agra in h5 and a paragraph with some content in header component and a footer at the bottom will be displayed.
+1. Drag and drop a header component, and provide the style and class attribute.
+2. Now drag and drop a h3 component inside header for a title and provide the text such as Agra. So the title will be set as Agra.
+3. After setting the title, drag and drop a h5 component inside header below h3 component to set a subtitle because subtitle should be smaller than title, and provide the subtitle as Taj Mahal.
+4. Now drag and drop a paragraph component inside the header component below the h5 component, and provide some text as content that will be displayed below subtitle.
+5. Drag and drop a footer component below the header component.
+6 Drag and drop a paragraph component inside footer component, give the content as (published by a blogger).
+7. Save and Run the studio. 
+8. A block with title Taj in h3, a subtitle with Agra in h5 and a paragraph with some content in header component and a footer at the bottom will be displayed.
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -33,9 +34,9 @@ A footer components is used when the content should be displayed at the bottom o
     }
     
     ```
-    ## Support
+## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
-    - Cordova version: 7.1.0 + 
+- Angular CLI version: 5.0.0 + 
+- Cordova version: 7.1.0 + 
