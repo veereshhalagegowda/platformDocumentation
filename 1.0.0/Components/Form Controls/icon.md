@@ -1,11 +1,11 @@
 ## Overview
-The Icon component represents an icon in the application. Icons are most effective when they improve visual interest and grab the user's attention. They help guide users while they're navigating a page.
+The icon component represents an icon in the application. Icons are most effective when they improve visual interest and grab the user's attention. They help guide users while they're navigating a page.
 
 ## Usage
 Icons are used when we need to improve visual interest and grab the user's attention. They help guide users while they're navigating a page.
 
 ### How to use   
-1. Drag and drop the component. 
+1. Drag and drop the component.
 2. Double click the component to display the list of attributes that can be used with it.
 3. Fill the attributes which are needed and save the page.
 
@@ -32,7 +32,7 @@ Icons are used when we need to improve visual interest and grab the user's atten
         flex-basis:10%;
         height:100px;
     }
-- **Iconname:** Specifies an icon that is displayed for the icon. Image path should be given or the image should be placed inside the assets folder.
+- **Iconname:** Specifies a name for the icon. Image path should be given or the image should be placed inside the assets folder.
 
 ## Support
 - **Devices:** Android, iOS
