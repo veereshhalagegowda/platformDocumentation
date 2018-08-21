@@ -3,15 +3,16 @@ Step component can contain anything, such as a textbox,buttons,radio buttons,che
 ## Usage 
 Step component can be used to create a page that is divided into various steps, it can be displayed as horizontally or vertically. 
 ### How to use 
-Drag and drop a stepper component and fill the required properties.
+1. Drag and drop a stepper component.
+2. fill the required properties.
 ### Example:
 **Create a stepper with login process.** 
-- Drag and drop a stepper component. In matHorizontalStepper set the same value to make it horizontal.Suppose there are three steps component, labeled as getUsername, getPassword, and submit.
-- Drag and drop three step components inside stepper component, and give the label as getUsername,getPassword and submit.
-- Click at the stepper component and set the attribute such as type=horizontal, selected=getUsername  and set the index as 0 so that the getUsername step will come at first.
-- Now in getUsername step drag and drop a input text to accept username from the user, now drag and drop a input component inside getPassword step to accept password, and in submit step drag and drop a button and name that button as Login.
-- So by providing all this information save and run.
-- A stepper will be displayed with getUsername, getPassword and submit label will be displayed. 
+1. Drag and drop a stepper component. In matHorizontalStepper set the same value to make it horizontal.Suppose there are three steps component, labeled as getUsername, getPassword, and submit.
+2. Drag and drop three step components inside stepper component, and give the label as getUsername,getPassword and submit.
+3. Click at the stepper component and set the attribute such as type=horizontal, selected=getUsername  and set the index as 0 so that the getUsername step will come at first.
+4. Now in getUsername step drag and drop a input text to accept username from the user, now drag and drop a input component inside getPassword step to accept password, and in submit step drag and drop a button and name that button as Login.
+5. So by providing all this information save and run.
+6. A stepper will be displayed with getUsername, getPassword and submit label will be displayed. 
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
