@@ -11,6 +11,7 @@ Multiple card header can be placed inside a card to display a page which contain
 2. Fill the attribute such as title, subtitle and imgSrc attribute. 
 3. Provide the title and subtitle as some text.
 4. Give the path of the image which will be loaded, so if the image wallpaper.jpg is in assets folder the path can be assets:\android\wallpaper.jpg.
+
 ### Example                            
 
 1. Drag and drop a card header.
