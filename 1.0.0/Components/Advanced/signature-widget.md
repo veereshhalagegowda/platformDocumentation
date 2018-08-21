@@ -10,7 +10,7 @@ Signature Widget Component is used when there is a need for handwritten signatur
 2. Double click on the component and give values to the attributes.
 3. Save the changes.
 
-## Example
+### Example
 
 1. Create a page called “page”.
 2. Drag and drop the “Signature Widget” component.
