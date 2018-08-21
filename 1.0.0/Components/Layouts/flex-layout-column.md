@@ -5,7 +5,7 @@ Flex-layout-column is used to set the positions or flow of the child components 
 Flex-layout-column is used to display the components in a row. Components placed inside flex-layout-column appears vertically.
 ### How to use
 1. Drag and drop the flex-layout-column component.
-2. Set the required attributes such as style, class,fxflex, wrap, fxlayoutgap, layout direction perpendicular direction, fxshow and fxhide.
+2. Set the required attributes such as style, class, fxflex, wrap, fxlayoutgap, layout direction perpendicular direction, fxshow and fxhide.
 3. After that, drag and drop any other components inside the flex-layout-column component.
 
 ### Example 
