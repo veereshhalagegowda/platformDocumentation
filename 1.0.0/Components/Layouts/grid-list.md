@@ -6,6 +6,7 @@ It is a container of list which has user defined layout. So the layout will be s
 1. Drag and drop a grid list component. 
 2. Set the attributes such as style, class, cols, gutterSize, rowHeight how it should be displayed. 
 3. According to that the list item will be displayed on the screen.
+
 ### Example
 **Display a grid list component with a grid-tile component and under that 3 items.** 
 1. Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
@@ -37,6 +38,7 @@ Displaylist.ts
 3. So in the above example grid has two columns, and tile is a array which has four items which contains string value that are basically labels. So using ngFor the labels will be displayed.
 4. Save and Run
 5. A table with four items will be displayed inside a grid-list.
+
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
