@@ -1,16 +1,16 @@
 
 ## Overview 
-This is component which allows us to create a container of list of particular rows and columns it can be used alone as well as inside the grid-list.The column will contain the attribute and the row will contain the data of the particular attribute.And the data of the list can be iterated by ngFor loop which can access all the data from the array and can be displayed on the screen.
+This component allows us to create a container of list of particular rows and columns it can be used alone or inside the grid-list. The column will contain the attribute and the row will contain the data of the particular attribute. The data of the list can be iterated by ngFor loop which can access all the data from the array and can be displayed on the screen.
 
 
 ## Usage 
-Grid-tile component can be used where the list of items should be displayed. It can be used as alone or it can be put inside a grid-list component to set the layout of the list.
+Grid-Tile component can be used where the list of items should be displayed. It can be used as alone or inside a grid-list component to set the layout of the list.
 
 ### How to use
-Drag and drop a grid tile component and set the attributes such as style,class,*ngFor,[rowspan],[colspan], and label.
+Drag and drop a grid-tile component and set the attributes such as style,class,*ngFor,[rowspan],[colspan], and label.
 ### Example 
 **Display a grid tile component inside grid-list component with three items** 
-- Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
+- Drag and drop a grid list component and fill the attribute (such as cols = 4) indicating the number of columns, row height will be the height of the row (such as rowHeight=100px).
 
 
 
@@ -18,12 +18,12 @@ Drag and drop a grid tile component and set the attributes such as style,class,*
 
 
 
-- Drag and drop a grid tile component inside a grid list. It contains attribute such as-
+- Drag and drop a grid-tile component inside a grid list. It contains attribute such as:
 **colspan-** Allows a single table cell to span the width of more than one cell or column.
 So in this case give colspan=1
 **rowspan-** Allows a single table cell to span the height of more than one cell or row.
 Give rowspan=1
-**Label-** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.
+**Label-** This attribute contains the data of the cell that will be stored inside the row, will be displayed as a list item.
 ***ngFor-** This attribute is used to iterate through the list item which is stored in the grid-tile object. It will iterate through each item and display that data.
 
 ```
