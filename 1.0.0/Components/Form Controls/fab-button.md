@@ -11,10 +11,10 @@ Fab button can be used to contain more related actions.
 
 ### Example
 1. Input the component field with the attribute value:
-``` 
-fabicon = decorate
-Click = true
-```
+    ``` 
+    fabicon = decorate
+    Click = true
+    ```
 2. Save it and run.
 3. When the page is loaded the value "fabicon = decorate" will be the name of the button that will be displayed on the button. And "click = true" is the event that checks when the button is pressed.
 
