@@ -13,10 +13,10 @@ Checkbox component allows the users to select any combination of options in a gr
 
 ### Example 
 1. Input the component field with the attribute value:
-``` 
-Checked = true
-Id = check
-```
+    ``` 
+    Checked = true
+    Id = check
+    ```
 2. Save it and run.
 3. When the page is loaded the attribute "checked = true" specifies whether the checkbox is checked or not. And the "id = check" is the unique id given for the checkbox which can be used to apply styles or give reference to point to the checkbox.
 
