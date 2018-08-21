@@ -10,13 +10,13 @@ Radio group component is used to contain the radio buttons.
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     Labelposition = after
     Name = rdgroup
     ```
 2. Save it and run.
-3. When the page is run the label appears after the radio button. And name specifies the name given to the component. All radio buttons inside the group will use this name.
+3. When the page is run the label appears after the radio button and name specifies the name given to the component. All radio buttons inside the group will use this name.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
