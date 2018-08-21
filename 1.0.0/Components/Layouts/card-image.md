@@ -1,18 +1,17 @@
 ## Overview
 A card image component contains an image, and it can be used alone as well as it can be put inside a card.
-
 ## Usage
 We can use card image where we want to display an images. Put the image inside this component and the image will be displayed.
 ### How to use
 1. Drag and drop a card-image.
 2. Fill the properties such as style, class imgSrc and alt.
-3. In imgSrc provide the path of the image which should be available in the assests folder. 
+3. In imgSrc provide the path of the image which should be available in the assests folder.
 ### Example
-1. Drag and drop a card component.
-2. Drag a card-title component and place it inside the card and set the title as Dog.
-3. Drag and drop a card-image component inside a  card below the card title component. And fill the properties such as style, class, in imgSrc set the path of the image which is stored in the system. Such as (assets:\android\dogimage.jpg) and in alt attribute set some text that will be displayed when the image will not load. Such as alt="image not available". 
-4. Save and Run.
-5. A card with an title Dog and a dog image will be displayed.
+4. Drag and drop a card component.
+5. Drag a card-title component and place it inside the card and set the title as Dog.
+6. Drag and drop a card-image component inside a  card below the card title component. And fill the properties such as style, class, in imgSrc set the path of the image which is stored in the system. Such as (assets:\android\dogimage.jpg) and in alt attribute set some text that will be displayed when the image will not load. Such as alt="image not available".
+7. Save and Run.
+8. A card with an title Dog and a dog image will be displayed.
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
