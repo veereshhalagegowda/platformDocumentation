@@ -43,7 +43,7 @@ Raisedbutton provides the user a simple way to trigger an event, like searching 
     ```
 - **Buttonname:** specifies the button name that is to be displayed on the screen.
 - **Color:** takes the color based on the angular material thing.
-- **Click:** Is an event that checks when the button is clicked. The value should be boolean i.e. either true or false.
+- **Click:** Is an event that checks when the button is clicked.
 
 ## Support
 - **Devices:** Android, iOS
