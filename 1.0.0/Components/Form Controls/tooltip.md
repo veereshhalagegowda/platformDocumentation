@@ -5,9 +5,9 @@ The tooltip will be displayed below the element but this can be configured using
 Tooltip is used to display text (or other content) when you hover over an HTML element. 
 
 ### How to use   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Fill the attributes which are needed and save the page.
 
 ### Example 
 Input the component field with the attribute value:
@@ -35,9 +35,9 @@ When the page is loaded the value "matTooltip = This is tooltip" is the text tha
     }
     
 - **Tooltip text:** Specifies the text that has to be displayed when the application is run.
-- **Mattooltip:** It specifies the message to be displayed in the tooltip. Value has to be string. Example: message: string
-- **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example: position: left | right | above | below | before |after
-- **Mattooltipshowdelay:** Specifies the default delay in ms before showing the tooltip after show method is called 
+- **Mattooltip:** It specifies the message to be displayed in the tooltip. Value has to be string. Example: message: string.
+- **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example: position: left | right | above | below | before |after.
+- **Mattooltipshowdelay:** Specifies the default delay in ms before showing the tooltip after show method is called.
 - **Mattooltiphidedelay:** The default delay in ms before hiding the tooltip after hide method is called.
 
 ## Support
