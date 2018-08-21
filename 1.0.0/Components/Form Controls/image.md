@@ -9,7 +9,7 @@ The image in used to display an image in a page. The image has two required attr
 ### How to use   
 1. Drag and drop the component. 
 2. Double click the component to display the list of attributes that can be used with it.
-3. Place the images inside the assets editor and save the image inside one of the folders available inside assets editor, and give the path in imgsrc attribute
+3. Place the images inside the assets editor and save the image inside one of the folders available inside assets editor, and give the path in imgsrc attribute.
 4. Fill the attributes which are needed and save the page.
 
 ### Example 
