@@ -4,16 +4,16 @@ It plots the point using the bubble in three dimensions at the same time. The pl
 ## Usage
 A bubble chart is widely used in industries, health centers, climate, government surveys etc.
 Let's consider a use case in Industry, where the industry wants to show the service and product provided in the different part of the country. The collected data need to plot on a map of the country region. The bubble graph displays the service of the corresponding industry in the different part of the country. 
-There are some other popular use cases where bubble chart is used. Some of them are:
+There are some other popular use cases where a bubble chart is used. Some of them are:
 -   Government Survey
--   Health care centers
+-   Healthcare centers
 -   Industries
 -   Experimental surveys
 
 ### How to use
 1. Open the newly created page.
 2. Drag and drop the bubble chart from Ng Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
+3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class : 
     * A dataset array (contains y-axis values and labels of the legend). For example,
         ```typescript 
         public bubbleChartData: Array<any> =
@@ -79,7 +79,7 @@ Consider a survey on population at different part of the country. The number of 
 | **Area 3** | 80 | 65 | 15 |
 
 #### Datasets
-Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
+Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
 public bubbleChartData: Array<any> =
       [{
@@ -120,7 +120,7 @@ Here is a sample of options that is declaired and initialized in the component c
    responsive: true };
 ```
 ## Associated Attributes
-- **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each data plotted in circular shape.  For example, 
+- **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each data plotted in a circular shape.  For example, 
     ```typescript
     public bubbleChartLabels:string[] = ['Deer Population'];
     ```
@@ -149,7 +149,7 @@ Here is a sample of options that is declaired and initialized in the component c
     }]
     }];
     ```
-- **chartHover/chartClick (mouse Events):** It is a event which appears when the mouse is taken or clicked over chart area. For example, displaying label and point value when mouse is clicked on the bubble of of the chart or mouse is moved over it. 
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over chart area. For example, displaying label and point value when the mouse is clicked on the bubble of the chart or mouse is moved over it. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the bubble chart. If it is true, it shows the legends otherwise it does not show.
 - **Color (Color/color hexadecimal code):** This property provides user desire color to the radar chart. For example, 
     ```css
@@ -163,7 +163,7 @@ Here is a sample of options that is declaired and initialized in the component c
     	color: maroon;
     }
     ```
-    Here in this examplee, the text we type will be in maroon color
+    Here in this example, the text we type will be in maroon color
 -   **class:** It specifies one or more class names for an element. The class attribute is mostly used to point to a class in a style sheet.
 ## Support
 - **Devices:** Android, iOS
