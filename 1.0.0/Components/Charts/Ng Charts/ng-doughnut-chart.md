@@ -3,7 +3,7 @@ Doughnut chart is similar to the pie chart but the difference is that doughnut c
 
 ## Usage
 A Doughnut chart is widely used in the business world, mass media, and institutions.
-Let us consider a health center scenario where a particular hospital wants to plot a chart to record the number of patients admitted to different wards. The chart should represent the overall hospital and be divided into different sections which represent the wards of the hospital. This can be achieved by using the Doughnut chart where a complete chart represents the hospital and the slices represent the wards of the hospital. 
+Let us consider a health centre scenario where a particular hospital wants to plot a chart to record the number of patients admitted to different wards. The chart should represent the overall hospital and be divided into different sections which represent the wards of the hospital. This can be achieved by using the Doughnut chart where a complete chart represents the hospital and the slices represent the wards of the hospital. 
 There are some other popular use cases as well. Some of them are:
 -   Pharmaceutical Industries (indicating the different types of drugs)
 -   Industries (for providing information on different products and services )
