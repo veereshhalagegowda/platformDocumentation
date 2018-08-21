@@ -2,7 +2,7 @@
 Button toggle component is used to toggle between on/off. When the button is clicked it will be activated and when the button is clicked again the button will be deactivated.
 
 ## Usage
-A Toggle is a specialized control which has the ability to be selected. It is used to activate button on/off.
+A toggle is a specialized control which has the ability to be selected. It is used to activate button on/off.
 
 ### How to use   
 1. Drag and drop the component. 
@@ -39,8 +39,8 @@ buttonname = on/off
 - **Buttonname:** Specifies the button name.
 - **Name:** Name attribute for the underlying input element.
 - **Id:** The unique ID for this button toggle.
-- **Checked:** Used to check whether the button is checked. The Value should be boolean i.e. either true or false.
-- **Changed:** Is the event emitted when the group value changes.",
+- **Checked:** Used to check whether the button is checked. The value should be boolean i.e. either true or false.
+- **Changed:** Is the event emitted when the group value changes.
 - **Click:** Is the event used to check whether the button is clicked or not. Value should be boolean i.e. either true or false.
 
 ## Support
