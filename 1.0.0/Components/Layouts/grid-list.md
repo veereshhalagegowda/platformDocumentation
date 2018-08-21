@@ -11,10 +11,10 @@ It is a container of list which has user defined layout. So the layout will be s
 1. Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
 2. Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
 **colspan:** Allows a single table cell to span the width of more than one cell or column.
-So in this case give colspan=1
+So in this case give colspan=1.  
 **rowspan:** Allows a single table cell to span the height of more than one cell or row.
-Give rowspan=1
- **Label:** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.
+Give rowspan=1.  
+ **Label:** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.  
 **ngFor:** This attribute is used to iterate through the list item which is stored in the object. It will iterate through each item and display that data.
 ```sh
 Displaylist.html file
