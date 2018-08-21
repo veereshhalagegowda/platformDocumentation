@@ -5,9 +5,9 @@ Button toggle component is used to toggle between on/off. When the button is cli
 A Toggle is a specialized control which has the ability to be selected. It is used to activate button on/off.
 
 ### How to use   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Fill the attributes which are needed and save the page.
 
 ### Example 
 Input the component field with the attribute value:
