@@ -100,7 +100,7 @@ Here is a sample of the options that are declared and initialized in the compone
     ```
 - **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the bar chart. For example, displaying label and point value when the mouse is clicked on the chart or mouse is moved over the chart. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the bar chart. If it is true, it shows the legends otherwise it does not show.
-- **Color (Color/color hexadecimal code):** This property allows user to provide the desired color to the line chart. For example, 
+- **Color (Color/color hexadecimal code):** This property allows user to provide the desired color to the bar chart. For example, 
     ```css
     background-color: #92a8d1;
     ```
