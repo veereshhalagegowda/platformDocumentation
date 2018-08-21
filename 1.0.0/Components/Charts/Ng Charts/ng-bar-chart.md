@@ -43,14 +43,10 @@ Some of the other popular use cases of bar charts are:
         ```
         [labels] = barChartLabels
         ```
-7. Provide the options name in [options] attribute. For example,
-        ```
-        [legend] = legend
-        ```
-8. Provide the legend name in [legend] attributes. For example,
-        ```
-		[options] = barChartOptions
-		```
+7. Provide the options name in [options] attribute. For example, `[options] = barChartOptions`
+        
+8. Provide the legend name in [legend] attributes. For example, `[legend] = legend`
+        
 9. Save the page and run the application.
 ### Example
 Let's take an example of a bank generating a report on different years which includes the performance parameter i.e. net profit margin, assets, investors, and net bank credit to government (NBCG).
