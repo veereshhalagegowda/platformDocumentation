@@ -1,14 +1,14 @@
 ## Overview
-Flex-layout-column is used to set the positions or flow of the child components vertically. It has following properties like style, Class , fxFlex, fxLyoutWrap, fxLayoutgap, Fxlayoutalign, fxShow, fxHide.
-**Note:** By default some of the attributes will be set to default values. Change it according to the need.
+Flex-layout-column is used to set the positions or flow of the child components vertically. It has following properties like style, Class , fxFlex, fxLayoutWrap, fxLayoutgap, fxLayoutAlign, fxShow, fxHide.
+**Note:** By default some of the attributes will be set to default values. Change it accordingly.
 ## Usage
 Flex-layout-column is used to display the components in a row. Components placed inside flex-layout-column appears vertically.
 ### How to use
 Drag and drop the flex-layout-column component, set the required attributes. After that drag and drop any other components inside the flex-layout-column component.
 ### Example 
-- Drag and drop a flexlayoutcolumn component.
+- Drag and drop a flex-layout-column component.
 - Set the component attributes value with “layout direction = start” and perpendicular “direction = start”.
-- Drag and drop some other components like button and textbox inside the flexlayoutcolumn component.
+- Drag and drop some other components like button and textbox inside the flex-layout-column component.
 - Save it and run.
 - When the page is loaded the components button and textbox appears vertically. And the value “layout direction = start” and perpendicular “direction = start” specifies the direction in which the flex starts.
 ## Associated Attributes
