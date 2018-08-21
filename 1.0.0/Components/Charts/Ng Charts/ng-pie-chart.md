@@ -4,7 +4,7 @@ A pie chart is an excellent chart type for representing the relational proportio
 ## Usage
 A pie chart is widely used in the business world and mass media.
 Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be achieved using a pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
-Some of the other popular use cases of line chart are:
+Some of the other popular use cases of a pie chart are:
 -   Pharmaceutical Industries (indicating the different section of drugs)
 -   Industries (for providing information on different product and services )
 -   Government offices (like revenue department)
@@ -50,7 +50,7 @@ Some of the other popular use cases of line chart are:
         ```
 		[options] = pieChartOptions
 		```
-9. Save the page and run the application 
+9. Save the page and run the application. 
 ### Example
 Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
@@ -103,7 +103,7 @@ Here is a sample of options that is declared and initialized in the component cl
 -   **Value:** It is a value of the key that the user provided manually. For example,
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
