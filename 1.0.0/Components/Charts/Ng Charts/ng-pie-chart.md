@@ -3,17 +3,17 @@ A pie chart is an excellent chart type for representing the relational proportio
 
 ## Usage
 A pie chart is widely used in the business world and mass media.
-Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and should be divided into different sections which represent the wards of the hospital. This can be achieved using a pie chart where a complete pie represents the hospital and divided sliced of the pie chart represent the wards of the hospital. 
+Consider a health centre scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and should be divided into different sections which represent the wards of the hospital. This can be achieved using a pie chart where a complete pie represents the hospital and slices of the pie chart represent the wards of the hospital. 
 Some of the other popular use cases of a pie chart are:
--   Pharmaceutical Industries (indicating the different section of drugs)
--   Industries (for providing information on different products and services )
+-   Pharmaceutical Industries (indicating the different types of drugs)
+-   Industries (for providing information on different products and services)
 -   Government offices (like revenue department)
--   Retails (for different types of product they provide)
+-   Retail (for different types of products they provide)
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the pie chart from Ng Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class : 
+2. Drag and drop the pie chart from the Ng Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the following in the component class: 
     * A dataset array (contains y-axis values and labels of the legend). For example,
         ```typescript 
         public pieChartData: Array<any> = [
@@ -34,7 +34,7 @@ Some of the other popular use cases of a pie chart are:
         responsive: true
         };
         ```
-4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = pieChartData
 		```
@@ -44,15 +44,15 @@ Some of the other popular use cases of a pie chart are:
         ```
 7. Provide the options name in [options] attribute. For example,
         ```
-        [legend] = legend
-        ```
-8. Provide the legend name in [legend] attributes. For example,
-        ```
 		[options] = pieChartOptions
 		```
+8. Provide the legend name in [legend] attribute. For example,
+	```
+        [legend] = legend
+        ```
 9. Save the page and run the application. 
 ### Example
-Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
+Consider an example of a hospital that wants to plot a chart to record the percentage of patients admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
 | Hospital Wards | Emergency &  Casualty | Labor Ward | Endoscopy Ward | Coronary Ward | Surgical Ward | General Ward |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -66,17 +66,17 @@ public pieChartData: Array<any> = [
  ];
 ```
 #### Labels
-Here is a sample of labels that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the labels that are declared and initialized in the component class of **Ts** file of the project.
 ```typescript
 public pieChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
 ```
 #### Legend
-Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
 #### Options
-Here is a sample of options that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the options that are declared and initialized in the component class of **Ts** file of the project.
 ```typescript
  public pieChartOptions:any = {
    responsive: true };
@@ -91,9 +91,9 @@ Here is a sample of options that is declared and initialized in the component cl
     ```typescript
     pieChartData: Array<any> = [{data: [69, 72, 82, 79, 92], label: 'Net Profit Margin (%)'} ];
     ```
-- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the pie chart. For example, displaying label and point value when the mouse is clicked on the chart or mouse is moved over the chart. 
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is clicked or placed over the pie chart. For example, displaying label and point value when the mouse is clicked on the chart or mouse is moved over the chart. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the pie chart. If it is true, it shows the legends otherwise it does not show.
-- **Color (Color/color hexadecimal code):** This property provides user desire color to the pie chart. For example, 
+- **Color (Color/color hexadecimal code):** This property provides user desired color to the pie chart. For example, 
     ```css
     background-color: #92a8d1;
     ```
