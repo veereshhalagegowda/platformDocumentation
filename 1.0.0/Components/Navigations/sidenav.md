@@ -25,9 +25,9 @@ Sidenav is useful when the user needs to have immediate access to the most used 
 7. Now, pressing the button will open the neutrinos website.
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -41,21 +41,21 @@ Sidenav is useful when the user needs to have immediate access to the most used 
     }
     
     ```
-- **mode**: Sidenav can render in one of three different ways based on the “mode” property.
+- **mode:** Sidenav can render in one of three different ways based on the “mode” property.
 	* over - Sidenav floats over the primary content, which is covered by a backdrop
 	* push - Sidenav pushes the primary content out of its way, also covering it with a backdrop
 	* side - Sidenav appears side-by-side with the main content, shrinking the main content's width to make space for the sidenav.
-- **opened**: It decides whether the sidenav is opened. It can be “true” or “false”.
-- **position**: Position can be either "start" or "end" which places the side content on the left or right side. Default is "start".
+- **opened:** It decides whether the sidenav is opened. It can be “true” or “false”.
+- **position:** Position can be either "start" or "end" which places the side content on the left or right side. Default is "start".
 
-- **fxLayout**: Specifies the flex-direction and whether the contents should be wrapped or not.  
+- **fxLayout:** Specifies the flex-direction and whether the contents should be wrapped or not.  
 eg. fxLayout=”column wrap”
 
-- **(opened)**: Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is opened.
+- **(opened):** Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is opened.
 
-- **(closed)**: Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is closed.
+- **(closed):** Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is closed.
 
-- **(toggle)**: Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is toggled.
+- **(toggle):** Takes function name as the value. This function is defined in Ts file and is executed when the sidenav is toggled.
 
 
 
