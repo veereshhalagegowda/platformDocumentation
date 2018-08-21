@@ -28,9 +28,9 @@ Menu items are what makes up a menu. Menu items are used to provide options with
 10. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -45,7 +45,7 @@ Menu items are what makes up a menu. Menu items are used to provide options with
     
     ```
 
-- **MenuItemName**: It is the name of the menu item that appears in the application. Takes string as its value. eg. item1
+- **MenuItemName:** It is the name of the menu item that appears in the application. Takes string as its value. eg. item1
 
 ## Support
 - **Devices:** Android, iOS
