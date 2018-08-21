@@ -10,12 +10,12 @@ Fab button can be used to contain more related actions.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     fabicon = decorate
     Click = clickEvent()
     ```
-    In the "Ts" file write the function
+    In the "Ts" file write the following function:
     ```
     clickEvent() { 
         alert("Button clicked!!!");
