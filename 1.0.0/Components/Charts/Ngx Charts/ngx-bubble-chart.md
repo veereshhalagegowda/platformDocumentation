@@ -2,8 +2,8 @@
 It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values.
 
 ## Usage
-A bubble chart is widely used in business world, mass media, product analysis, survey and experimental analysis etc. 
-Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represent the wards of the hospital. This can be achieved using  pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
+A bubble chart is widely used in the business world, mass media, product analysis, survey and experimental analysis etc. 
+Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be achieved using a bubble chart. 
 Some of the other popular use cases of bubble chart are:
 -   Pharmaceutical Industries (indicating the different section of drugs)
 -   Industries (for providing information on different product and services )
@@ -13,7 +13,7 @@ Some of the other popular use cases of bubble chart are:
 ### How to use
 1. Open the newly created page.
 2. Drag and drop the bubble chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. Sample is given below:- 
+3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below:- 
     * Dataset which consists of all other parameters like labels, and legends. For example, 
         ```ts
         ngxbubbleChartData = [
@@ -79,7 +79,7 @@ Some of the other popular use cases of bubble chart are:
     ``` [legend] = true ```  OR ```[legend] = false ```.
 8. Save the page and run the application. 
 ### Example
-Consider a insurance company which made a survey on its client at different part of the country. The number of clietn in particular area need to be displayed on on a country map using a bubble. For example,
+Consider an insurance company which made a survey of its client located in different part of the country. The number of clients in a particular area needs to be displayed on on a country map using a bubble. For example,
 
 | Data/Area | X | Y | Radius of Circle |
 | :------: | :------: | :------: | :------: |
@@ -87,7 +87,7 @@ Consider a insurance company which made a survey on its client at different part
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |
 #### Datasets
-Here is a sample of dataset that is declaired and initialized in the component class **Ts** file of the project. 
+Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
 ngxbubbleChartData = [
   {
@@ -141,11 +141,11 @@ ngxbubbleChartData = [
 #### Labels
 Here, the labels are automatically taken by from the dataset.
 #### Legend
-Here is a sample of legend that is declaired and initialized in the component class of **Ts** file of the project.
+Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;
 ```
-This legends is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
+This legend is taken from the dataset and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
 - **Legends (True/False):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
 -   **Legend Title (String):** It gives a title name for the legend which is displayed for the chart. 
@@ -153,11 +153,11 @@ This legends is taken from the dataset, and displayed on the right side of the c
 -   **roundDomains (True/False):** It round the domain for aligned gridlines in the chart. By default it is false.
 -   **minRadius (number):** It is a minimum bubble radius provided the chart. It is measured in px. 
 -   **maxRadius (number):** It is a maximum bubble radius that is fixed to the chart. It is measured in px.
--   **[xAxis] (True/False):** This attribute diplays the level for the x-axis. If it is true, it will display otherwise it does not. For example,
+-   **[xAxis] (True/False):** This attribute displays the level for the x-axis. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [xAxis] = 'True' OR [xAxis] = 'False'
     ```
--  **[yAxis] (True/False):** This attribute diplays the level for the y-axis as like x-axis. If it is true, it will display otherwise it does not. For example,
+-  **[yAxis] (True/False):** This attribute displays the level for the y-axis as like x-axis. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [yAxis] = 'True' OR [yAxis] = 'False'
     ```
@@ -169,19 +169,19 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```typescript
     [yAxisLabel] = "No. of Clients"
     ```
--  **[showXAxisLabel] (True/False):** It displayes the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
+-  **[showXAxisLabel] (True/False):** It displays the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showXAxisLabel]  = 'True' OR [showXAxisLabel]  = 'False'
     ```
--  **[showYAxisLabel] (True/False):** It displayes the name that is given to the [yAxisLabel]. If it is true, it will display otherwise it does not. For example,
+-  **[showYAxisLabel] (True/False):** It displays the name that is given to the [yAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showYAxisLabel] = 'True' OR [showYAxisLabel] = 'False'
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 -   **Value:** It is a value of the key that the user provided manually.
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -195,7 +195,7 @@ This legends is taken from the dataset, and displayed on the right side of the c
     }
     
     ```
--   **select (Events):** It takes a click event which is done on the bars of the chart. It display some result on click or hover of mouse. For example, displaying data point, label on click of individual bars.
+-   **select (Events):** It takes a click event which is done on the bars of the chart. It displays some result on click or hover of the mouse. For example, displaying data point and the label when clicked on individual bars.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
