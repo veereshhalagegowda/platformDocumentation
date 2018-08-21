@@ -6,7 +6,8 @@ We can use card image where we want to display an images. Put the image inside t
 ### How to use
 1. Drag and drop a card-image.
 2. Fill the properties such as style, class imgSrc and alt.
-3. In imgSrc provide the path of the image which should be available in the assests folder. 
+3. In imgSrc provide the path of the image which should be available in the assests folder.
+
 ### Example
 1. Drag and drop a card component.
 2. Drag a card-title component and place it inside the card and set the title as Dog.
