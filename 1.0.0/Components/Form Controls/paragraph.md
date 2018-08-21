@@ -10,13 +10,13 @@ Paragraph component is used to add a paragraph in a page.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-Input the component field with the attribute value:
+1. Input the component field with the attribute value:
 ``` 
 text = This is a paragraph
 Class = para
 ```
-Save it and run.
-When the page is loaded the value "text = This is a paragraph", will be the text that is displayed. And "Class = para" is the class name that can be used to point in a style sheet.
+2. Save it and run.
+3. When the page is loaded the value "text = This is a paragraph", will be the text that is displayed. And "Class = para" is the class name that can be used to point in a style sheet.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
