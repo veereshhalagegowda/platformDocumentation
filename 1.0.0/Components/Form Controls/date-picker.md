@@ -10,7 +10,7 @@ Datepicker component is used to select the date easily instead of entering it ma
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     opened = opened()
     placeholder = datepicker 
