@@ -6,6 +6,8 @@ It can be used where we want to set the title of any component. It can be used i
 1. Drag and drop the card-title component.
 2. It has three attributes style, class and title.
 3. Provide the value of style and class, and in title attribute give the title that will be set as title.
+
+
 ### Example
 **Display a card with card-title and some block of text.** 
 1. Drag and drop a card.
@@ -13,6 +15,7 @@ It can be used where we want to set the title of any component. It can be used i
 3. Now provide the title=Big Data and in paragraph provide some information about Big Data.
 4. Save and Run.
 5. A card with title as Big Data and below that block of text will be displayed.
+
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 

@@ -1,9 +1,9 @@
 ## Overview
-Polar area chart gives detailed comparison information from its structure. The radius of the slice differs according to the value in datasets whereas in pie chart the radius of each slice is same. In this chart, the difference in data can be found easily by looking at the radius of the slice.
+Polar area chart gives detailed comparison information from its structure. The radius of the sector differs according to the value in datasets whereas in pie chart the radius of each slice is same. In this chart, the difference in data can be found easily by looking at the radius of the slice.
 
 ## Usage
 A polar area chart is used as an optional to the pie chart in different fields such as hospitals, retails, industries, data science and analytics etc.
-Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be done by using a pie chart however it would not provide proper readability from the chart. Therefore, in this case, if the polar area chart is used, it would provide global understanding them just from the structure of the chart slice.
+Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be done by using a pie chart however it would not provide proper readability from the chart. Therefore, in this case, if the polar area chart is used, it would provide global understanding just from the structure of the chart slice.
 There are some other popular use cases where a pie chart is used. Some of them are:
 -   Industries
 -   Industries
@@ -54,7 +54,7 @@ There are some other popular use cases where a pie chart is used. Some of them a
         ```
 		[options] = polarChartOptions
 		```
-9. Save the page and run the application 
+9. Save the page and run the application. 
 ### Example
 Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
@@ -91,23 +91,23 @@ Here is a sample of options that is declared and initialized in the component cl
     public polarChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
     ```
 
--   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on a circular slice. For example,
+-   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on different sectors. For example,
     ```typescript
     public polarChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
     ];
     ```
-- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the slice of the polar area chart. For example, displaying label and point value when the mouse is clicked on the slice of the chart or mouse is moved over it. 
-- **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the polar chart. If it is true, it shows the legends otherwise it does not show.
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the sector of the polar area chart. For example, displaying label and point value when the mouse is clicked on the sector of the chart or mouse is moved over it. 
+- **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the polar area chart. If it is true, it shows the legends otherwise it does not show.
 - **Color (Color/color hexadecimal code):** This property provides user desire color to the polar chart. For example, 
     ```css
     background-color: #92a8d1;
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
--   **Value:** It is a value of the key that the user provided manually. For example,
+-   **Value:** It is a value of the key that the user provided manually.
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;

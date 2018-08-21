@@ -10,13 +10,19 @@ Fab button can be used to contain more related actions.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     fabicon = decorate
-    Click = true
+    Click = clickEvent()
+    ```
+    In the "Ts" file write the following function:
+    ```
+    clickEvent() { 
+        alert("Button clicked!!!");
+    }
     ```
 2. Save it and run.
-3. When the page is loaded the value "fabicon = decorate" will be the name of the button that will be displayed on the button. And "click = true" is the event that checks when the button is pressed.
+3. When the page is loaded the value "fabicon = decorate" will be the name of the button that will be displayed on the button and "click = clickEvent()" is the event that checks when the button is pressed. On clicking the button the alert message "Button clicked!!!" will be displayed.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).

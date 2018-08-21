@@ -10,13 +10,19 @@ Datepicker component is used to select the date easily instead of entering it ma
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
-    opened = true
+    opened = opened()
     placeholder = datepicker 
     ```
+    In the "Ts" file write the following function:
+    ```
+    opened() { 
+        alert("Datepicker opened");
+    }
+    ```
 2. Save it and run.
-3. When the page is loaded the "opened = true" is the event that will be emitted when the datepicker is opened. And "placeholder = datepicker" is text that will be displayed in the datepicker field when the page is loaded. 
+3. After the page is loaded, "opened()" is the event that will be emitted when the datepicker is opened and "placeholder = datepicker" is the text that will be displayed in the datepicker field when the page is loaded. 
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
@@ -38,17 +44,17 @@ Datepicker component is used to select the date easily instead of entering it ma
 - **value:** Specifies the new value for the target datepicker input. Value has to be either null or the letter “D”.
 - **Min:** Specifies the minimum valid date. The value should be either null or the letter “D” 
 - **max:** Specifies the maximum valid date. The value should be either null or the letter “D”
-- **Startat:** Specifies the date to open the calendar to initially. It should be in the format D | null
-- **Startview:** Specifies the view that the calendar should start in. It should be in the format 'month' | 'year'
-- **Touchui:** Specifies whether the calendar UI is in touch mode. In touch mode, the calendar opens in a dialog rather than a popup and elements have more padding to allow for bigger touch targets. The value should be a boolean i.e. either true or false.
-- **Id:** Specifies the id for the datepicker calendar. The value should be string.
-- **Selectedchanged:** Is an event that is emitted when the selected date is changed. The value should be a boolean i.e. either true or false.
-- **Opened:** Specifies whether the calendar is open or not. The value should be a boolean i.e. either true or false.
+- **Startat:** Specifies the initial date to open the calendar to. It should be in the format: D | null.
+- **Startview:** Specifies the view that the calendar should start in. It should be in the format: 'month' | 'year'.
+- **Touchui:** Specifies whether the calendar UI is in touch mode. In touch mode, the calendar opens in a dialog rather than a popup and elements have more padding to allow for bigger touch targets.
+- **Id:** Specifies the id for the datepicker calendar. The value should be a string.
+- **Selectedchanged:** Is an event that is emitted when the selected date is changed.
+- **Opened:** Specifies whether the calendar is open or not.
 - **Disabled:** Specifies whether the datepicker pop-up should be disabled or not. The value should be a boolean i.e. either true or false.
-- **Open:** Is an event called when the calendar is open (Has been deprecated).
-- **Close:** Is an event called when the calendar is closed (Has been deprecated).
+- **Open:** Is an event called when the calendar is open (deprecated).
+- **Close:** Is an event called when the calendar is closed (deprecated).
 - **Matdatepickerfilter:** It is a function that can be used to filter out dates within the datepicker. The value should be given in this format. (date: D | null) => boolean(true or false)
-- **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
+- **Ngmodel:** Used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
 - **Name:** Specifies the name for the date picker.
 - **Picker:** It is an id for the date picker.
 

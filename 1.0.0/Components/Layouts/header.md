@@ -6,7 +6,8 @@ A header components is used when the content should be displayed with some speci
 ### How to use
 1. Drag and drop a header component.
 2. Fill the attribute such as style and class. 
-2. Inside this component some component can be inserted such as h1-h6 component, paragraph component etc. 
+2. Inside this component some component can be inserted such as h1-h6 component, paragraph component etc.
+
 ### Example
 **Display a header component with title  a subtitle in and a paragraph component** 
 1. Drag and drop a header component, and provide the style and class attribute.
@@ -15,6 +16,7 @@ A header components is used when the content should be displayed with some speci
 4. Now drag and drop a paragraph component inside the header component below the h5 component, and provide some text as content that will be displayed below subtitle.
 5. Save and Run. 
 6. A block with title Taj in h3,a subtitle with Agra in h5 and a paragraph will be displayed.
+
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
