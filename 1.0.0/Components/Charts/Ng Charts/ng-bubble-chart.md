@@ -1,19 +1,17 @@
 ## Overview
-It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values. 
+It plots the point using a bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values. 
 
 ## Usage
-A bubble chart is widely used in industries, health centers, climate, government surveys etc.
-Let's consider a use case in Industry, where the industry wants to show the service and product provided in the different part of the country. The collected data need to plot on a map of the country region. The bubble graph displays the service of the corresponding industry in the different part of the country. 
+Bubble charts are widely used in industries. Let's consider a use case where the industry wants to show the services and products it provides, in the different parts of the country. The collected data needs to be plotted on a map of the country region. The bubble graph displays the services provided by the corresponding industry in the different parts of the country. 
 There are some other popular use cases where a bubble chart is used. Some of them are:
 -   Government Survey
 -   Healthcare centers
--   Industries
 -   Experimental surveys
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the bubble chart from Ng Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class : 
+2. Drag and drop the bubble chart from the Ng Charts category.
+3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class: 
     * A dataset array (contains y-axis values and labels of the legend). For example,
         ```typescript 
         public bubbleChartData: Array<any> =
