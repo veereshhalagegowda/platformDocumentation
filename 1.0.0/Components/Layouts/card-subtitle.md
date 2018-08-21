@@ -6,6 +6,7 @@ It can be used where we want to set the subtitle of any block. It can be used in
 1. Drag and drop the card-subtitle component.
 2. It has three attributes style, class and subtitle.
 3. Provide the value of style and class, and in subtitle attribute give the subtitle that will be set.
+
 ### Example
 **Display a card with card-title subtitle and some block of text**
 1. Drag and drop a card.
