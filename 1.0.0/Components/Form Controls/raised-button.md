@@ -38,7 +38,6 @@ Raisedbutton provides the user a simple way to trigger an event, like searching 
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 - **Buttonname:** specifies the button name that is to be displayed on the screen.
 - **Color:** takes the color based on the angular material thing.
