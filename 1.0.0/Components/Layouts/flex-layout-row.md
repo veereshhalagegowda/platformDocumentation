@@ -7,12 +7,15 @@ Flex-layout-row is used to display the components in a row. Components placed in
 1. Drag and drop the flex-layout-row component.
 2. Fill the required attributes. 
 3. After that drag and drop any other components inside the flex-layout-row component.
+
 ### Example 
+
 1. Drag and drop a flexlayoutrow component.
 2. Set the component attributes value with “layout direction = start” and perpendicular “direction = start”.
 3. Drag and drop some other components like button and textbox inside the flexlayoutrow component.
 4. Save it and run.
 5. When the page is loaded the components button and textbox appears horizontally. And the value “layout direction = start” and perpendicular “direction = start” specifies the direction in which the flex starts.
+
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
