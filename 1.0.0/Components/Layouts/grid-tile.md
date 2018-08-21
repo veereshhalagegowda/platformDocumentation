@@ -3,11 +3,13 @@ This is component which allows us to create a container of list of particular ro
 ## Usage 
 Grid-tile component can be used where the list of items should be displayed. It can be used as alone or it can be put inside a grid-list component to set the layout of the list.
 ### How to use
-Drag and drop a grid tile component and set the attributes such as style,class,*ngFor,[rowspan],[colspan], and label.
+1. Drag and drop a grid tile component.
+2. Set the attributes such as style,class,*ngFor,[rowspan],[colspan], and label.
+3. According to this to grid list items will be displayed.
 ### Example 
 **Display a grid tile component inside grid-list component with three items** 
-- Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
-- Drag and drop a grid tile component inside a grid list. It contains attribute such as-
+1. Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
+2. Drag and drop a grid tile component inside a grid list. It contains attribute such as-
 **colspan:** Allows a single table cell to span the width of more than one cell or column.
 So in this case give colspan=1
 **rowspan:** Allows a single table cell to span the height of more than one cell or row.
@@ -33,9 +35,9 @@ Displaylist.ts
     {text: 'Four'},
   ];
   ```
-So in the above example grid has two columns, and tile is a array which has four items which contains string value that are basically labels. So using ngFor the labels will be displayed.
-- Save and Run.
--  table with four items will be displayed inside a grid-list.
+4. So in the above example grid has two columns, and tile is a array which has four items which contains string value that are basically labels. So using ngFor the labels will be displayed.
+5. Save and Run.
+6.  table with four items will be displayed inside a grid-list.
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
