@@ -10,13 +10,13 @@ Select component is used to select the list of options available within the sele
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     placeholder = select
     class = select
     ```
 2. Save it and run.
-3. When the page is loaded the value "placeholder = select" will display the value “Select”. And "class = select" is the class name that can be used to point in a style sheet.
+3. When the page is loaded the value "placeholder = select" will display the value “Select” and "class = select" is the class name that can be used to point in a style sheet.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
