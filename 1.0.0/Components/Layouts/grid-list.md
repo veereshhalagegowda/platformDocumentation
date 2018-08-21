@@ -4,24 +4,24 @@
 
 
 ## Overview 
-This is component which allows us to create a container of list of particular rows and columns.The column will contain the attribute and the row will contain the data of the particular attribute.And the list will be generated. It must specify a cols attribute which sets the number of columns in the grid. The number of rows will be automatically determined based on the number of columns and the number of items. 
+This is component which allows us to create a container of list of particular rows and columns. The column will contain the attribute and the row will contain the data of the particular attribute, and the output will be a list. It must specify a cols attribute which sets the number of columns in the grid. The number of rows will be automatically determined based on the number of columns and the number of items. 
 
 
 ## Usage 
-It is a container of list which has user defined layout. So the layout will be set by the user, and according to that layout the list item will be placed inside that layout.
+It is a container of list which has user defined layout, the layout will be set by the user, w.r.to that layout a list item will be placed inside that layout.
 
 ### How to use 
-Drag and drop a grid list component and set the attributes such as style, class,cols,gutterSize,rowHeight how it should be displayed and according to that the list item will be displayed on the screen.
+Drag and drop a grid list component and set the attributes such as style, class, cols, gutterSize, rowHeight. Based on the values for the attributes, the list item will be displayed on the screen.
 
 ### Example
 **Display a grid list component with a grid-tile component and under that 3 items.** 
-- Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
+- Drag and drop a grid list component and fill the attribute (such as cols = 4) the number of columns depends on this value and row height will be the height of the row (such as rowHeight=100px).
 - Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
 **colspan-** Allows a single table cell to span the width of more than one cell or column.
 So in this case give colspan=1
   **rowspan-** Allows a single table cell to span the height of more than one cell or row.
 Give rowspan=1
- **Label-** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.
+ **Label-** This attribute contains the data of the cell that will be stored inside the row, to be displayed as a list item.
 **ngFor-** This attribute is used to iterate through the list item which is stored in the object. It will iterate through each item and display that data.
 ```sh
 Displaylist.html file
@@ -69,7 +69,7 @@ Displaylist.ts
     
     ```
 
-- **Cols-** this property is used to specify the number of columns in the list. It accepts integer value.this section is mandatory.once we provide the column value the structure Of the list will be created,and we just give the details and that filled as a row.
+- **Cols-** This property is used to specify the number of columns in the list. It accepts an integer value and is a  mandatory field. The list creation is dependent on this value.
 
 - **gutterSize-** The gutter size can be set to any px, em, or rem value with the gutterSize property. If no units are specified, px units are assumed. By default the gutter size is 1px.
 
