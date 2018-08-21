@@ -2,7 +2,7 @@
 Button toggle group contains many buttons whose behavior is similar to radio buttons. Only one of the buttons can be selected at a time.
 
 ## Usage
-Selecting any one of the unselected buttons in a button group will unselect the previously selected button and selects the currently selected button.
+Selecting any one of the unselected buttons in a button group will unselect the previously selected button and selects that button.
 
 
 ### How to use
@@ -28,7 +28,7 @@ Selecting any one of the unselected buttons in a button group will unselect the 
 ```
 
 6. Set the (valueChanged) attribute to “onValueChange()”.
-7. Set [disableIndex] to “0”.
+7. Set "[disableIndex]" to “0”.
 7. Save the changes.
 8. Open the address where the app is running, and try selecting a button from the button group.
 9. The console will output “val changed”. 
@@ -54,8 +54,8 @@ Selecting any one of the unselected buttons in a button group will unselect the 
 - **[align]:** Sets the alignment of the buttons in button group. Takes 'vertical' or 'Horizontal' as its value (with single quotes).
 - **[disableIndex]:** Index of the button that should be disabled by default. Takes a number as its value.
 - **[checkIndex]:**  Index of the button that should be selected by default. Takes a number as its value.
-- **(valueChange):** Takes function( that is defined in Ts file) name as an argument which will be called whenever the value of button group changes. eg. onValChange()
-- **(indexChange):**  Takes function( that is defined in Ts file) name as an argument which will be called whenever different button gets selected in button group. eg. onIndexChange()
+- **(valueChange):** Takes function( that is defined in the "Ts" file) name as an argument which will be called whenever the value of button group changes. eg. onValChange()
+- **(indexChange):**  Takes function( that is defined in the "Ts" file) name as an argument which will be called whenever different button gets selected in button group. eg. onIndexChange()
 
 ## Support
 - **Devices:** Android, iOS
