@@ -13,13 +13,13 @@ The image is used to display an image in a page. The image has two required attr
 4. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     imgsrc = /home/prashanth/Documents/neutrinos.png
     Alt  = Neutrinos
     ```
 2. Save it and run.
-3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path. And the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or not found.
+3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path and the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or not found.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).

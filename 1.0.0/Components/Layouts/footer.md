@@ -7,6 +7,7 @@ A footer components is used when the content should be displayed at the bottom o
 2. Fill the attributes such as style and class.
 3. Inside that some component can be inserted for the content such as paragraph component etc.
 4. The footer will be dislayed at the bottom.
+
 ### Example
 **Display a block with a title a subtitle, a paragraph component and a footer.** 
 1. Drag and drop a header component, and provide the style and class attribute.
@@ -17,6 +18,7 @@ A footer components is used when the content should be displayed at the bottom o
 6 Drag and drop a paragraph component inside footer component, give the content as (published by a blogger).
 7. Save and Run the studio. 
 8. A block with title Taj in h3, a subtitle with Agra in h5 and a paragraph with some content in header component and a footer at the bottom will be displayed.
+
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 

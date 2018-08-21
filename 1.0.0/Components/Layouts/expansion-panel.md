@@ -6,6 +6,7 @@ Expansion panel component can be used where the data to be displayed in a expand
 1. Drag and drop a expansion panel component.
 2. Fill the attributes such as style, class, ngFor, opened, closed, hideToggle and expanded.
 3. Now a container is there various exapansion component can be placed inside this.
+
 ### Example
 1. Drag and drop a expansion panel outlet component, and inside that drag and drop a expansion panel component.
 2. Drag and drop a expansion header component inside the expansion panel.
@@ -13,6 +14,7 @@ Expansion panel component can be used where the data to be displayed in a expand
 4.  Click on the title and provide the title= Personal Detail and click on description component and provide the description attribute as enter your name.
 5. Save and run.
 6. A expansion panel will be displayed with the title as Personal Detail and description as enter your name. Many other component can be inserted inside it and it can be implemented more.
+
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 

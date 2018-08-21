@@ -1,10 +1,13 @@
 ## Overview
 List-items component contains individual data of items that will be placed inside the list-component. The data can be stored in an array or object and it will be accessed from the array by *ngFor attribute.
+
 ## Usage
 List items are used to store the items or data of a list.The data can be string, a number, a images etc. 
+
 ### How to use
-1. Drag and drop a list-items inside a list component. 
+1. Drag and drop a list-items inside a list component.
 2. Set the attribute such as style and class, *ngFor and label.
+
 ### Example
 **Display a list of three items** 
 1. Drag and drop a list-component and set the attribute such as style and class.

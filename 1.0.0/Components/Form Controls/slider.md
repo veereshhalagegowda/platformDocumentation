@@ -10,13 +10,13 @@ Slider component is used to select a range of values through mouse, touch or key
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     invert = true
     step = 50
     ```
 2. Save it and run.
-3. When the page is loaded the value "invert = true" will display an inverted slider. And "step=50" specifies the value at which the slider will slide, in this example, the slider takes two clicks to move to the end of the slider. 
+3. When the page is loaded the value "invert = true" will display an inverted slider and "step=50" specifies the value at which the slider will slide, in this example, the slider takes two clicks to move to the end of the slider. 
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).

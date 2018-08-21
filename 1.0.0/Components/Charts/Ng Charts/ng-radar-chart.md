@@ -52,7 +52,7 @@ There are some other popular use cases where a radar chart is used. Some of them
         ```
 		[options] = radarChartOptions
 		```
-9. Save the page and run the application 
+9. Save the page and run the application. 
 ### Example
 Consider an example of an industry where HR (Human Resource) Team hires some professional. They conduct different activities to monitor the following skills of the candidates, Communication skills, technical knowledge, teamwork, meeting deadline, problem-solving, and punctuality. The head HR should be able to glance at the candidates' performance through a graph or chart which reflects the good comparison with all candidates. This can be achieved using a radar chart. For example,
 
@@ -91,24 +91,24 @@ Here is a sample of options that is declared and initialized in the component cl
     public radarChartLabels:string[] = ['Communication Skills', 'Technical Knowledge', 'Team Work', 'Meeting Deadline', 'Problem Solving', 'Punctuality'];
     ```
 
--   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on a circular slice. For example,
+-   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on the spider web format which is proportional to the data values. For example,
     ```typescript
     public radarChartData:Array<any> = [
     {data: [7, 8, 6, 9, 7, 9], label: 'Dayashankar'},
     {data: [6, 7, 7, 8, 6, 8], label: 'Oliver'}
-  ];
+  	];
     ```
-- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over chart area. For example, displaying label and point value when the mouse is clicked on the slice of the chart or mouse is moved over it. 
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over chart area. For example, displaying label and point value when the mouse is clicked on the section of the chart or mouse is moved over it. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the radar chart. If it is true, it shows the legends otherwise it does not show.
 - **Color (Color/color hexadecimal code):** This property provides user desire color to the radar chart. For example, 
     ```css
     background-color: #92a8d1;
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
--   **Value:** It is a value of the key that the user provided manually. For example,
+-   **Value:** It is a value of the key that the user provided manually.
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;

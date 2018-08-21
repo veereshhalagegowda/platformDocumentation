@@ -10,7 +10,7 @@ A toggle is a specialized control which has the ability to be selected. It is us
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     Class = toggle
     buttonname = on/off
@@ -39,9 +39,9 @@ A toggle is a specialized control which has the ability to be selected. It is us
 - **Buttonname:** Specifies the button name.
 - **Name:** Name attribute for the underlying input element.
 - **Id:** The unique ID for this button toggle.
-- **Checked:** Used to check whether the button is checked. The value should be boolean i.e. either true or false.
+- **Checked:** Used to check whether the button is checked. 
 - **Changed:** Is the event emitted when the group value changes.
-- **Click:** Is the event used to check whether the button is clicked or not. Value should be boolean i.e. either true or false.
+- **Click:** Is the event used to check whether the button is clicked or not.
 
 ## Support
 - **Devices:** Android, iOS

@@ -13,10 +13,16 @@ Raisedbutton provides the user a simple way to trigger an event, like searching 
 1. Input the component field with the attribute value:
     ``` 
     buttonname = submit
-    Click = true
+    Click = clickEvent()
+    ```
+    In the "Ts" file write the function
+    ```
+    clickEvent() { 
+        alert("Button clicked!!!");
+    }
     ```
 2. Save it and run.
-3. When the page is loaded the value "buttonname = submit" will be name of the button that will be displayed on the button. And "click = true" is the event that checks when the button is pressed.
+3. When the page is loaded the value "buttonname = submit" will be name of the button that will be displayed on the button. And "click = clickEvent()" is the event that checks when the button is pressed. On clicking the button the alert message "Button clicked!!!" will be displayed.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
@@ -37,7 +43,7 @@ Raisedbutton provides the user a simple way to trigger an event, like searching 
     ```
 - **Buttonname:** specifies the button name that is to be displayed on the screen.
 - **Color:** takes the color based on the angular material thing.
-- **Click:** Is an event that checks when the button is clicked. The value should be boolean i.e. either true or false.
+- **Click:** Is an event that checks when the button is clicked.
 
 ## Support
 - **Devices:** Android, iOS
