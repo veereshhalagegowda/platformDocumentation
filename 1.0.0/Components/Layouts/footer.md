@@ -3,7 +3,10 @@ A footer component typically contains authorship information, copyright informat
 ## Usage 
 A footer components is used when the content should be displayed at the bottom of the page. It can contain multiple components inside it. In footer the data can be anything such as contact information, copyright etc.
 ### How to use
-Drag and drop a footer component and inside that some component can be inserted for the content such as paragraph component etc. 
+1. Drag and drop a footer component.
+2. Fill the attributes such as style and class.
+3. Inside that some component can be inserted for the content such as paragraph component etc.
+4. The footer will be dislayed at the bottom.
 ### Example
 **Display a block with a title a subtitle, a paragraph component and a footer.** 
 - Drag and drop a header component, and provide the style and class attribute.
