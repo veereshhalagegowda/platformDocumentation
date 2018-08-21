@@ -40,11 +40,11 @@ Radio buttons are typically rendered as small circles, which are filled or highl
         height:100px;
     }
 - **Value:** It is the value given for the radio button. 
-- **Required:** Used to check whether the radio button is required or not. The value should be a boolean value i.e. either true or false.
+- **Required:** Used to check whether the radio button is required or not. 
 - **Label:** Is the value given for the radio button. Example “abc” display the value “abc” next to the radio button
 - **Id:** Is the unique ID for the radio button.
 - **Name:** Attribute used to group radios for unique selection.
-- **Checked:** Used to check whether the radio button is checked or not. The value should be a boolean value i.e. either true or false.
+- **Checked:** Used to check whether the radio button is checked or not.
 - **Labelposition:** Whether the labels should appear after or before the radio-buttons. Defaults to 'after'.
 
 ## Support
