@@ -8,9 +8,9 @@ We can use card image where we want to display an images. Put the image inside t
 2. Fill the properties such as style, class imgSrc and alt.
 3. In imgSrc provide the path of the image which should be available in the assests folder. 
 ### Example
-1. Drag and drop a card.
-2. Drag a card-title and place it inside the card and set the title as Dog.
-3. Drag and drop a card-image component inside a  card below the card title. And fill the properties such as style, class, in imgSrc set the path of the image which is stored in the system. Such as (assets:\android\dogimage.jpg) and in alt attribute set some text that will be displayed when the image will not load. Such as alt=”image not available” 
+1. Drag and drop a card component.
+2. Drag a card-title component and place it inside the card and set the title as Dog.
+3. Drag and drop a card-image component inside a  card below the card title component. And fill the properties such as style, class, in imgSrc set the path of the image which is stored in the system. Such as (assets:\android\dogimage.jpg) and in alt attribute set some text that will be displayed when the image will not load. Such as alt="image not available". 
 4. Save and Run.
 5. A card with an title Dog and a dog image will be displayed.
 ## Associated Attributes
