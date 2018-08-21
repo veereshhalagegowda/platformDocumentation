@@ -3,7 +3,7 @@ An area chart is based on a line chart. The area between the axis and line are c
 
 ## Usage
 An area chart is widely used in comparing the trending data such as stock market shares.
-The use case for the line chart depends on the scope where it is being used. For example, industries use area chart to display the report of product sales in different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a line chart is for comparison of data categorized on different parameters. 
+The use case for the line chart depends on the scope where it is being used. For example, industries use area chart to display the report of product sales in different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of an area chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where a line chart is used. Some of them are:
 -   Insurance companies
 -   Industries 
@@ -12,7 +12,7 @@ There are some other popular use cases where a line chart is used. Some of them 
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the line chart from Ngx Charts category.
+2. Drag and drop the area chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. The sample is given below:- 
     * Dataset which consists of all other parameters like labels, and legends. 
         ```ts
