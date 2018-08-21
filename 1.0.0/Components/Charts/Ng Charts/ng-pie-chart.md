@@ -42,10 +42,7 @@ Some of the other popular use cases of a pie chart are:
         ```
         [labels] = pieChartLabels
         ```
-7. Provide the options name in [options] attribute. For example,
-        ```
-		[options] = pieChartOptions
-		```
+7. Provide the options name in [options] attribute. For example, `[options] = pieChartOptions`
 8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
 9. Save the page and run the application. 
 ### Example
