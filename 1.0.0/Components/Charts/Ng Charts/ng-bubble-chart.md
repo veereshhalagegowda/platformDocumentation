@@ -147,7 +147,7 @@ Here is a sample of the options that are declared and initialized in the compone
     }]
     }];
     ```
-- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the chart area. For example, displaying label and point value when the mouse is clicked on the bubble of the chart or mouse is moved over it. 
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is clicked or placed over the chart area. For example, displaying label and point value when the mouse is clicked on the bubble of the chart or mouse is moved over it. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the bubble chart. If it is true, it shows the legends otherwise it does not show.
 - **Color (Color/color hexadecimal code):** This property provides user desired color to the chart. For example, 
     ```css
