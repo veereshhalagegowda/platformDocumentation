@@ -3,18 +3,18 @@ The expansion-panel-header shows a summary of the panel content and acts as the 
 ## Usage
 Expansion-header is used to show the summary of the panel content. 
 ### How to use  
-- Drag and drop the expansion panel component. 
-- Inside the expansion panel component, drag and drop the expansion header component.
-- Double click the expansion header component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the expansion panel component. 
+2. Inside the expansion panel component, drag and drop the expansion header component.
+3. Double click the expansion header component to display the list of attributes that can be used with it.
+4. Fill the attributes which are needed and save the page.
 ### Example
-- Input the component field with the attribute value:
+1. Input the component field with the attribute value:
 ``` 
 collapsedheight = 50
 expandedheight =  50
 ```
-- Save it and run.
-When the page is loaded the attribute value "collapsedheight = 50". And "expandedheight = 50" specifies the height of header when the header is collapsed and expanded.
+2. Save it and run.
+3. When the page is loaded the attribute value "collapsedheight = 50". And "expandedheight = 50" specifies the height of header when the header is collapsed and expanded.
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
