@@ -1,12 +1,12 @@
 ## Overview
-A pie chart is an excellent chart type for representing the relational proportions between data. It is widely used in the business world as well as in mass media. It represents the data in a pie that are sliced according to the data range.
+A pie chart is an excellent chart type for representing the relational proportions between data. It is widely used in the business world as well as in mass media. It represents the data in a pie that is sliced according to the data values.
 
 ## Usage
 A pie chart is widely used in the business world and mass media.
-Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be achieved using a pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
+Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and should be divided into different sections which represent the wards of the hospital. This can be achieved using a pie chart where a complete pie represents the hospital and divided sliced of the pie chart represent the wards of the hospital. 
 Some of the other popular use cases of a pie chart are:
 -   Pharmaceutical Industries (indicating the different section of drugs)
--   Industries (for providing information on different product and services )
+-   Industries (for providing information on different products and services )
 -   Government offices (like revenue department)
 -   Retails (for different types of product they provide)
 
