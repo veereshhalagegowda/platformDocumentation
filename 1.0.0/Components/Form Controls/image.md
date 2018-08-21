@@ -2,7 +2,7 @@
 Image component is used to insert an image into a page.
 
 ## Usage
-The image is used to display an image in a page. The image has two required attributes: src and alt. 
+Used to display an image in a page. The image has two required attributes: src and alt. 
 
 **Note:** Images are not technically inserted into the page, images are linked to HTML pages. The image component creates a holding space for the referenced image.
 
@@ -19,7 +19,7 @@ The image is used to display an image in a page. The image has two required attr
     Alt  = Neutrinos
     ```
 2. Save it and run.
-3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path and the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or not found.
+3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path and the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or is not found.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
@@ -35,7 +35,7 @@ The image is used to display an image in a page. The image has two required attr
         flex-basis:10%;
         height:100px;
     }
-- **Imgsrc:** The src attribute specifies the URL(web address) of the image. Images should be saved inside assets editor and placed within the folders Android or Materiallcons or Web or iOS folders and the appropriate path should be given.
+- **Imgsrc:** The src attribute specifies the URL (web address) of the image. Images should be saved inside assets editor and placed within the Android or MaterialIcons or Web or iOS folders and the appropriate path should be given.
 - **Alt:** THe alt attribute provides an alternate text for an image if the user cannot view it.
 
 ## Support
