@@ -4,7 +4,9 @@ Flex-layout-row is used to set the positions or flow of the child components hor
 ## Usage
 Flex-layout-row is used to display the components in a row. Components placed inside flex-layout-row appears horizontally.
 ### How to use
-Drag and drop the flex-layout-row component, set the required attributes. After that drag and drop any other components inside the flex-layout-row component.
+1. Drag and drop the flex-layout-row component.
+2. Fill the required attributes. 
+3. After that drag and drop any other components inside the flex-layout-row component.
 ### Example 
 - Drag and drop a flexlayoutrow component.
 - Set the component attributes value with “layout direction = start” and perpendicular “direction = start”.
@@ -41,6 +43,3 @@ Drag and drop the flex-layout-row component, set the required attributes. After 
 - **Dependencies version:** 
 - Angular CLI version: 5.0.0 + 
 - Cordova version: 7.1.0 + 
-
-
-
