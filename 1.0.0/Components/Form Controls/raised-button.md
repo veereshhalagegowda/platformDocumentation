@@ -11,10 +11,10 @@ Raisedbutton provides the user a simple way to trigger an event, like searching 
 
 ### Example 
 1. Input the component field with the attribute value:
-``` 
-buttonname = submit
-Click = true
-```
+    ``` 
+    buttonname = submit
+    Click = true
+    ```
 2. Save it and run.
 3. When the page is loaded the value "buttonname = submit" will be name of the button that will be displayed on the button. And "click = true" is the event that checks when the button is pressed.
 
