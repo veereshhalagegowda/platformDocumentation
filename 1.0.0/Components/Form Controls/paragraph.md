@@ -16,7 +16,7 @@ Paragraph component is used to add a paragraph in a page.
     Class = para
     ```
 2. Save it and run.
-3. When the page is loaded the value "text = This is a paragraph", will be the text that is displayed and "Class = para" is the class name that can be used to point in a style sheet.
+3. When the page is loaded the value "text = This is a paragraph", will be the text that is displayed and "Class = para" is the class name that can be used to point to a class in a style sheet.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
