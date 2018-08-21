@@ -6,6 +6,7 @@ Expansion panel outlet component can be used where the data to be displayed in a
 1. Drag annd drop a expansion panel outlet component.
 2. Fill the attribute such as style class, displaymode and multi.
 3. Drag and drop other expansion panel component inside this.
+
 ### Example 
 1. Drag and drop a expansion panel outlet component, and inside that drag and drop a expansion panel component.
 2. Drag and drop a expansion header component inside the expansion panel.
@@ -13,6 +14,7 @@ Expansion panel outlet component can be used where the data to be displayed in a
 4. Click on the title and provide the title= Personal Detail and click on description component and provide the description attribute as enter your name.
 5. Save and run.
 6. A expansion panel will be displayed with the title as Personal Detail and description as enter your name. Many other component can be inserted inside it and it can be implemented more.
+
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
