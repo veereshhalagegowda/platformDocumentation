@@ -1,5 +1,5 @@
 ## Overview
-Flex-layout-row is used to set the positions or flow of the child components horizontally. It has following properties like style, Class,fxFlex, fxLyoutWrap, fxLayoutgap, Fxlayoutalign, fxShow, fxHide.
+Flex-layout-row is used to set the positions or flow of the child components horizontally. It has following properties like style, Class, fxFlex, fxLyoutWrap, fxLayoutgap, Fxlayoutalign, fxShow, and fxHide.  
 **Note:** By default some of the attributes will be set to default values. Change it according to the need.
 ## Usage
 Flex-layout-row is used to display the components in a row. Components placed inside flex-layout-row appears horizontally.
