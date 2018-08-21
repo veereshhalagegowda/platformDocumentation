@@ -6,7 +6,7 @@ A bar chart is widely used in the scenario where there is a need for comparison 
 Let’s take a banking scenario where the bank generates a chart on the report of its performance. The report chart should consist of net profit margin, assets, investors, and net bank credit to government (NBCG) for different years. The chart should be self-explanatory and should provide good comparison. This can be achieved using the bar chart which plots the data using vertical or horizontal bars. 
 Some of the other popular use cases of bar charts are:
 -   Industry (product analysis)
--   Health centers (Disease and cure comparison)
+-   Health centre (Disease and cure comparison)
 -   Retails (Sales comparison)
 -   Government Surveys (GDP (Gross Domestic Product), PCI (Per Capita Income) etc.)
 
