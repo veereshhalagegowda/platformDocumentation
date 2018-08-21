@@ -54,7 +54,7 @@ There are some other popular use cases where a pie chart is used. Some of them a
         ```
 		[options] = polarChartOptions
 		```
-9. Save the page and run the application 
+9. Save the page and run the application. 
 ### Example
 Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
@@ -91,14 +91,14 @@ Here is a sample of options that is declared and initialized in the component cl
     public polarChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
     ```
 
--   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on a circular slice. For example,
+-   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on different sectors. For example,
     ```typescript
     public polarChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
     ];
     ```
-- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the slice of the polar area chart. For example, displaying label and point value when the mouse is clicked on the slice of the chart or mouse is moved over it. 
-- **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the polar chart. If it is true, it shows the legends otherwise it does not show.
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the sector of the polar area chart. For example, displaying label and point value when the mouse is clicked on the sector of the chart or mouse is moved over it. 
+- **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the polar area chart. If it is true, it shows the legends otherwise it does not show.
 - **Color (Color/color hexadecimal code):** This property provides user desire color to the polar chart. For example, 
     ```css
     background-color: #92a8d1;
@@ -107,7 +107,7 @@ Here is a sample of options that is declared and initialized in the component cl
 -   **Value:** It is a value of the key that the user provided manually. For example,
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
