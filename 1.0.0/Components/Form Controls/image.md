@@ -7,10 +7,10 @@ The image in used to display an image in a page. The image has two required attr
 **Note:** Images are not technically inserted into the page, images are linked to HTML pages. The image  component creates a holding space for the referenced image.
 
 ### How to use   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Place the images inside the assets editor and save the image inside one of the folders available inside assets editor, and give the path in imgsrc attribute
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Place the images inside the assets editor and save the image inside one of the folders available inside assets editor, and give the path in imgsrc attribute
+4. Fill the attributes which are needed and save the page.
 
 ### Example 
 Input the component field with the attribute value:
