@@ -14,10 +14,10 @@ The image is used to display an image in a page. The image has two required attr
 
 ### Example 
 1. Input the component field with the attribute value:
-``` 
-imgsrc = /home/prashanth/Documents/neutrinos.png
-Alt  = Neutrinos
-```
+    ``` 
+    imgsrc = /home/prashanth/Documents/neutrinos.png
+    Alt  = Neutrinos
+    ```
 2. Save it and run.
 3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path. And the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or not found.
 
