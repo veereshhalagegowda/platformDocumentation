@@ -1,22 +1,20 @@
 ## Overview
-Polar area chart gives detailed comparison information from its structure. The radius of the sector differs according to the value in datasets whereas in pie chart the radius of each slice is same. In this chart, the difference in data can be found easily by looking at the radius of the slice.
+Polar area chart provides detailed comparison information. The radius of the sector differs according to the value in datasets whereas in pie chart the radius of each slice is same. In this chart, the difference in data can be found easily by looking at the radius of the slice.
 
 ## Usage
-A polar area chart is used as an optional to the pie chart in different fields such as hospitals, retails, industries, data science and analytics etc.
-Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be done by using a pie chart however it would not provide proper readability from the chart. Therefore, in this case, if the polar area chart is used, it would provide global understanding just from the structure of the chart slice.
-There are some other popular use cases where a pie chart is used. Some of them are:
--   Industries
+A polar area chart is used as an alternative to the pie chart in different fields such as hospitals, retails, industries, data science and analytics etc.
+Let us consider a health centre scenario where a particular hospital wants to plot a chart to record the patients admitted to different wards. The chart should indicate the overall hospital and should be divided into different sections which represent the wards of the hospital. This can be done by using a pie chart however it would not provide proper readability. Therefore, in this case, if the polar area chart is used, it would provide global understanding just from the structure of the chart.
+There are some other popular use cases. Some of them are:
 -   Industries
 -   Government offices
--   Retails
 -   Hospitals
 -   Government surveys
 -   Experimental surveys
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the polar area chart from Ng Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class : 
+2. Drag and drop the polar area chart from the Ng Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the following in the component class: 
     * A dataset array (contains y-axis values and labels of the legend). For example,
         ```typescript 
         public polarChartData: Array<any> = [
@@ -37,8 +35,8 @@ There are some other popular use cases where a pie chart is used. Some of them a
         responsive: true
         };
         ```
-4. Now switch back to Html file of the page and 
-5. Provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page. 
+5. Then provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[datasets] = polarChartData
 		```
@@ -46,17 +44,13 @@ There are some other popular use cases where a pie chart is used. Some of them a
         ```
         [labels] = polarChartLabels
         ```
-7. Provide the options name in [options] attribute. For example,
-        ```
-        [legend] = legend
-        ```
-8. Provide the legend name in [legend] attributes. For example,
-        ```
-		[options] = polarChartOptions
-		```
+7. Provide the options name in [options] attribute. For example, `[options] = polarChartOptions`
+
+8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
+        
 9. Save the page and run the application. 
 ### Example
-Consider an example of hospital where hospital wants to plot a chart for the record of its patient admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
+Consider an example where a hospital wants to plot a chart to record the patients admitted to the different wards of the hospital such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
 | Hospital Wards | Emergency &  Casualty | Labor Ward | Endoscopy Ward | Coronary Ward | Surgical Ward | General Ward |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -70,17 +64,17 @@ public polarChartData: Array<any> = [
 ];
 ```
 #### Labels
-Here is a sample of labels that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the labels that are declared and initialized in the component class of **Ts** file of the project.
 ```typescript
 public polarChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
 ```
 #### Legend
-Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
 ```typescript
   public legend=true;
 ```
 #### Options
-Here is a sample of options that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the options that are declared and initialized in the component class of **Ts** file of the project.
 ```typescript
  public polarChartOptions:any = {
    responsive: true };
@@ -91,15 +85,15 @@ Here is a sample of options that is declared and initialized in the component cl
     public polarChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
     ```
 
--   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on different sectors. For example,
+-   **Datasets (JSON Objects Array):** It is data of the chart, framed on different sectors. For example,
     ```typescript
     public polarChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
     ];
     ```
-- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the sector of the polar area chart. For example, displaying label and point value when the mouse is clicked on the sector of the chart or mouse is moved over it. 
+- **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is clicked or placed over the sector of the polar area chart. For example, displaying label and point value when the mouse is clicked on the sector of the chart or mouse is moved over it. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the polar area chart. If it is true, it shows the legends otherwise it does not show.
-- **Color (Color/color hexadecimal code):** This property provides user desire color to the polar chart. For example, 
+- **Color (Color/color hexadecimal code):** This property provides user desired color to the polar chart. For example, 
     ```css
     background-color: #92a8d1;
     ```
