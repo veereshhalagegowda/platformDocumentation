@@ -5,9 +5,9 @@ A radio button is a button that can be either checked or unchecked. A user can t
 Radio buttons are typically rendered as small circles, which are filled or highlighted when selected. It can be used to either check or uncheck.
 
 ### How to use   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Fill the attributes which are needed and save the page.
 
 ### Example
 Input the component field with the attribute value:
