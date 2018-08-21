@@ -16,11 +16,11 @@ Input component specifies an input field where the user can enter data. Input el
     class = input 
     ```
 2. Save it and run.
-3. When the page is loaded the "value = input text here" will be the text that will be displayed and the class = input" is the class name that can be used to point to a class in a style sheet. 
+3. When the page is loaded the "value = input text here" will be the text that will be displayed and the "class = input" is the class name that can be used to point to a class in a style sheet. 
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -32,7 +32,7 @@ Input component specifies an input field where the user can enter data. Input el
         flex-basis:10%;
         height:100px;
     }
-- **Value:** it specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
+- **Value:** It specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
 - **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
 - **Required:** specifies that the text field should be filled and should not hold empty values. 
 - **Color:** takes the color based on the angular material thing.
