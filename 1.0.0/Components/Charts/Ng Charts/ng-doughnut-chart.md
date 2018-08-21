@@ -1,9 +1,9 @@
 ## Overview
-Doughnut chart is similar to the pie chart but the difference is that doughnut chart has a circular hollow gap at the middle of the chart. This circular hollow gap is called “cutoutPercentage” which represents what percentage of the inner chart should be cut out.
+Doughnut chart is similar to the pie chart but the difference is that doughnut chart has a circular hollow gap in the middle of the chart. This circular hollow gap is called “cutoutPercentage” which represents what percentage of the inner chart should be cut out.
 
 ## Usage
 A Doughnut chart is widely used in the business world, mass media, and institutions.
-Let us consider a health center scenario where a particular hospital wants to plot a chart for the record of its patients admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be achieved using the Doughnut chart where a complete chart presents the hospital and divided slice of pie represent the wards of the hospital. 
+Let us consider a health center scenario where a particular hospital wants to plot a chart to record the number of patients admitted to different wards. The chart should represent the overall hospital and be divided into different sections which represent the wards of the hospital. This can be achieved by using the Doughnut chart where a complete chart represents the hospital and the slices represent the wards of the hospital. 
 There are some other popular use cases where a pie chart is used. Some of them are:
 -   Pharmaceutical Industries (indicating the different section of drugs)
 -   Industries (for providing information on different product and services )
