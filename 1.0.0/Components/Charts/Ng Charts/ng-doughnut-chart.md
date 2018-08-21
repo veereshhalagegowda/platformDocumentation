@@ -42,14 +42,10 @@ There are some other popular use cases as well. Some of them are:
         ```
         [labels] = doughnutChartLabels
         ```
-7. Provide the options name in [options] attribute. For example,
-        ```
-        [legend] = legend
-        ```
-8. Provide the legend name in [legend] attributes. For example,
-        ```
-		[options] = doughnutChartOptions
-		```
+7. Provide the options name in [options] attribute. For example, `[options] = doughnutChartOptions`
+        
+8. Provide the legend name in [legend] attributes. For example, `[legend] = legend`
+        
 9. Save the page and run the application. 
 ### Example
 Consider an example of a hospital that wants to record the percentage of patients admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
