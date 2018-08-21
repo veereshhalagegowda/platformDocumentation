@@ -11,10 +11,10 @@ Input component specifies an input field where the user can enter data. Input el
 
 ### Example 
 1. Input the component field with the attribute value:
-``` 
-value = input text here
-required = true 
-```
+    ``` 
+    value = input text here
+    required = true 
+    ```
 2. Save it and run.
 3. When the page is loaded the "value = input text here" will be the text that will be displayed. And the "required = true" specifies that the user has to compulsorily input the text. 
 
