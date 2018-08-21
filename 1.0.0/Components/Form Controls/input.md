@@ -36,7 +36,7 @@ Input component specifies an input field where the user can enter data. Input el
     
 - **Value:** it specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
 - **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
-- **Required:** specifies that the text field should be filled and should not hold empty values. The value should be boolean i.e. either true or false.
+- **Required:** specifies that the text field should be filled and should not hold empty values. 
 - **Color:** takes the color based on the angular material thing.
 - **Name:** specifies the name for the text field.
 - **Type:** specifies the type of text to be input i.e number, text, etc.
