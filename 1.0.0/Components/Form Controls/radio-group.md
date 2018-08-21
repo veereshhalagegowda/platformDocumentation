@@ -20,7 +20,7 @@ Name = rdgroup
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -32,11 +32,11 @@ Name = rdgroup
         flex-basis:10%;
         height:100px;
     }
-- **Value:** Value for the radio-group. Should equal the value of the selected radio button if there is a corresponding radio button with a matching value. If there is no such corresponding radio button, this value persists to be applied in case a new radio button is added with a matching value.
-- **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
+- **Value:** Value for the radio group. Should equal the value of the selected radio button if there is a corresponding radio button with a matching value. If there is no such corresponding radio button, this value persists to be applied in case a new radio button is added with a matching value.
+- **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
 - **Name:** attribute used to group radios for unique selection. All radio buttons inside this group will use this name.
 - **Change:** Event emitted when the checked state of this radio button changes. Change events are only emitted when the value changes due to user interaction with the radio button.
-- **Selected:** The currently selected radio button. If set to a new radio button, the radio group value will be updated to match the new selected button.
+- **Selected:** The currently selected radio button. If set to a new radio button, the radio group value will be updated to match the newly selected button.
 - **labelposition:** defines the label to appear after or before the radio button. Defaults to 'after'.
 
 ## Support
