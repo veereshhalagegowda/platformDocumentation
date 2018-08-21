@@ -95,7 +95,7 @@ Here is a sample of options that is declared and initialized in the component cl
        {data: [65, 59, 55, 81, 56, 55, 40], label: 'Series A'},
        {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'},
        {data: [18, 48, 77, 9, 100, 27, 40], label: 'Series C'}declaired
-     ];
+     ]; For example,
     ```
 - **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is taken or clicked over the line chart. For example, displaying label and point value when the mouse is clicked on the chart or mouse is moved over the chart. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the line chart. If it is true, it shows the legends otherwise it does not show.
@@ -103,7 +103,7 @@ Here is a sample of options that is declared and initialized in the component cl
 
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 
--   **Value:** It is a value of the key that the user provided manually. For example,
+-   **Value:** It is a value of the key that the user provided manually.
 
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
