@@ -44,15 +44,9 @@ Some of the other popular use cases of line chart are:
         ```
         [labels] = lineChartLabels
         ```
-7. Provide the options name in [options] attribute. For example,
-        ```
-		[options] = lineChartOptions
-	```
+7. Provide the options name in [options] attribute. For example, `[options] = lineChartOptions`
 	
-8. Provide the legend name in [legend] attribute. For example,
-        ```
-        [legend] = legend
-        ```
+8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
 9. Save the page and run the application. 
 ### Example
 Let's take an example of an Insurance company. The KPI (Key Performance Indicator) team wants to check the status of the company performance of a particular year, say 2017. 
