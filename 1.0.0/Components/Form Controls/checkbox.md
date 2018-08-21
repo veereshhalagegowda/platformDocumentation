@@ -1,5 +1,5 @@
 ## Overview 
-Checkbox are rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values for submission in a form (or not).
+Checkbox is rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values for submission in a form (or not).
 
 **Note:** Radio buttons are similar to checkboxes, but with an important distinction — radio buttons are grouped into a set in which only one radio button can be selected at a time, whereas checkboxes allow you to turn single values on and off. Where multiple controls exist, radio buttons allow one to be selected out of them all, whereas checkboxes allow multiple values to be selected.
 
@@ -23,7 +23,7 @@ Id = check
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
