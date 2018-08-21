@@ -4,7 +4,7 @@ An area chart is based on a line chart. The area between the axis and line are c
 ## Usage
 An area chart is widely used in comparing the trending data such as stock market shares.
 Industries use area chart to display the report of product sales in different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of an area chart is for comparison of data categorized on different parameters. 
-There are some other popular use cases where a line chart is used. Some of them are:
+There are some other popular use cases where an area chart is used. Some of them are:
 -   Insurance companies
 -   Industries 
 -   Health centers
