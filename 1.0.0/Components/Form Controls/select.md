@@ -10,13 +10,13 @@ Select component is used to select the list of options available within the sele
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-Input the component field with the attribute value:
+1. Input the component field with the attribute value:
 ``` 
 placeholder = select
 required = true
 ```
-Save it and run.
-When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
+2. Save it and run.
+3. When the page is loaded the value "placeholder = select" will display the value “ Select”. And the required field attribute specifies that it is compulsory to select the option from the component.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
