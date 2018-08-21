@@ -16,11 +16,10 @@ Text-area component specifies an input field where the user can enter data. Inpu
     class = input 
     ```
 2. Save it and run.
-3. When the page is loaded the "value = input text here" will be the text that will be displayed and the class = input" is the class name that can be used to point in a style sheet. 
+3. When the page is loaded the "value = input text here" will be the text that will be displayed and the class = input" is the class name that can be used to point to a class in a style sheet. 
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
@@ -33,7 +32,6 @@ Text-area component specifies an input field where the user can enter data. Inpu
         flex-basis:10%;
         height:100px;
     }
-    
 - **Value:** It specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
 - **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
 - **Required:** specifies that the text field should be filled and should not hold empty values. The value should be boolean i.e. either true or false.
