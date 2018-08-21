@@ -3,14 +3,16 @@ List-items component contains individual data of items that will be placed insid
 ## Usage
 List items are used to store the items or data of a list.The data can be string, a number, a images etc. 
 ### How to use
-Drag and drop a list-items inside a list component, and set the attribute such as style and class, *ngFor and label.
+1. Drag and drop a list-items inside a list component. 
+2. Set the attribute such as style and class, *ngFor and label.
 ### Example
 **Display a list of three items** 
-- Drag and drop a list-component and set the attribute such as style and class.
-- Drag and drop  list-item component inside the list-component. And for the list-items set the attribute such as style, class, *ngFor and label.
-- *ngFor is used to iterate through the object and access the items of the objects, so if folders is a object which has attribute as name(name of folder) which is a string, and there are three items in the folder object, and this object will be defined in .ts file. So set the field in ngFor as (let folder of folders).
-- Label attribute give the name which will be displayed as a list items, so provide the name as (folder .name), this will access the folders object and get the name value from that. So if the folders object contains three values such as photos, work and document, then the list will be generated which contains the list items as photos, work and document.
-- Save and run, a list will three items will be displayed.
+1. Drag and drop a list-component and set the attribute such as style and class.
+2. Drag and drop  list-item component inside the list-component. And for the list-items set the attribute such as style, class, *ngFor and label.
+3. *ngFor is used to iterate through the object and access the items of the objects, so if folders is a object which has attribute as name(name of folder) which is a string, and there are three items in the folder object, and this object will be defined in .ts file. So set the field in ngFor as (let folder of folders).
+4. Label attribute give the name which will be displayed as a list items, so provide the name as (folder .name), this will access the folders object and get the name value from that. So if the folders object contains three values such as photos, work and document, then the list will be generated which contains the list items as photos, work and document.
+5. Save and run. 
+6. A list will three items will be displayed.
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
