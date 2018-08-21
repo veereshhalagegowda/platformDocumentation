@@ -12,7 +12,7 @@ Checkbox component allows the users to select any combination of options in a gr
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
+1. Input the component field(s) with the attribute value(s):
     ``` 
     class = check
     Id = check
