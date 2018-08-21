@@ -4,8 +4,8 @@ A card actions is a component that is a container of buttons. And after clicking
 Card actions can be used as a container that contains buttons.
 ### How to use
 1. Drag and drop a card actions. 
-2. Provide the style and class attribute for that.
-3. button component can be placed inside that.
+2. Provide the style and class attribute.
+3. Button component can be placed inside card-actions component.
 ### Example
 **Display a card with a paragraph and card actions that has two button like and subscribe** 
 1. Drag and drop a card.
