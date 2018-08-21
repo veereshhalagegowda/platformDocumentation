@@ -5,9 +5,9 @@ The raisedbutton component represents a clickable button. The button appears rai
 Raisedbutton provides the user a simple way to trigger an event, like searching for a query at a search engine, or to interact with dialog boxes, like confirming an action. It can be used to represent that the button is important.
 
 ### How to use   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Fill the attributes which are needed and save the page.
 
 ### Example 
 Input the component field with the attribute value:
