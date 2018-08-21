@@ -16,12 +16,12 @@ Checked = true
 Value = option1
 ```
 2. Save it and run.
-3. When the page is loaded the checked attribute checks whether the radio button is checked or not. Value attribute display the value “option1” for the radio button.
+3. When the page is loaded the checked attribute checks whether the radio button is checked or not. Value attribute displays the value “option1” for the radio button.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -34,11 +34,11 @@ Value = option1
         height:100px;
     }
 - **Value:** It is the value given for the radio button. 
-- **Required:** Used to check whether the radio button is required or not. Value should be a boolean value i.e. either true or false.
+- **Required:** Used to check whether the radio button is required or not. The value should be a boolean value i.e. either true or false.
 - **Label:** Is the value given for the radio button. Example “abc” display the value “abc” next to the radio button
 - **Id:** Is the unique ID for the radio button.
 - **Name:** Attribute used to group radios for unique selection.
-- **Checked:** Used to check whether the radio button is checked or not. Value should be a boolean value i.e. either true or false.
+- **Checked:** Used to check whether the radio button is checked or not. The value should be a boolean value i.e. either true or false.
 - **Labelposition:** Whether the labels should appear after or before the radio-buttons. Defaults to 'after'.
 
 ## Support
