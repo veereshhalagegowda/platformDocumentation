@@ -1,12 +1,13 @@
 ## Overview
 A card footer is a sub-container of card. In this we can give the information which will be displayed as a footer in the card.
 ## Usage
-Card footer can be used where the data should be displayed as footer, at the bottom of any container. It can contain data such as string value ,logo or anything  inside it. 
+Card footer can be used where the data should be displayed as footer, at the bottom of any container. It can contain data such as string value ,logo or anything  inside it.
 ### How to use     
 1. Drag and drop a card footer component where it can be used.
 2. Fill the attribute such as style and class.
 3. It can be used with in pages which require a footer.
 4. Put other components inside the footer component which can be displayed as a footer.
+
 ### Example
 **Display a card with a title, a image, a paragraph about that image and a card footer** 
 1. Drag and drop a card component and provide the style and class values. 

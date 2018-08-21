@@ -13,7 +13,7 @@ There are some other popular use cases where a pie chart is used. Some of them a
 ### How to use
 1. Open the newly created page.
 2. Drag and drop the doughnut chart from Ng Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class : 
+3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class: 
     * A dataset array (contains y-axis values and labels of the legend). For example,
         ```typescript 
         public doughnutChartData: Array<any> = [
@@ -59,7 +59,7 @@ Consider an example of hospital where hospital wants to plot a chart for the rec
 | **Patients (%)** | 25 | 11 | 8 | 9 | 18 | 29 |
 
 #### Datasets
-Here is a sample of a dataset that is declaired and initialized in the component class **Ts** file of the project. 
+Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
 public doughnutChartData: Array<any> = [
      {data:[25, 11, 8, 9, 18, 29]}
@@ -82,7 +82,7 @@ Here is a sample of options that is declared and initialized in the component cl
    responsive: true };
 ```
 ## Associated Attributes
-- **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. It gives a specific name to each slice in the doughnut chart. For example, 
+- **Label (String Array):** Labels are the identity of the data series in a doughnut chart. It appears in the legend and tooltips. It gives a specific name to each slice in the doughnut chart. For example, 
     ```typescript
     public doughnutChartLabels:string[] = ['Emergency & Casualty', 'Labor Ward', 'Endoscopy Ward', 'Coronary Ward', 'Surgical Ward','General Ward'];
     ```

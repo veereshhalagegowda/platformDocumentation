@@ -12,11 +12,17 @@ Datepicker component is used to select the date easily instead of entering it ma
 ### Example 
 1. Input the component field with the attribute value:
     ``` 
-    opened = true
+    opened = opened()
     placeholder = datepicker 
     ```
+    In the "Ts" file write the function
+    ```
+    opened() { 
+        alert("Datepicker opened");
+    }
+    ```
 2. Save it and run.
-3. When the page is loaded the "opened = true" is the event that will be emitted when the datepicker is opened. And "placeholder = datepicker" is text that will be displayed in the datepicker field when the page is loaded. 
+3. When the page is loaded the "opened()" is the event that will be emitted when the datepicker is opened. And "placeholder = datepicker" is text that will be displayed in the datepicker field when the page is loaded. 
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).

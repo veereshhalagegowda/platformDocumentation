@@ -2,7 +2,7 @@
 A line chart is a chart which is used to display the data points in connected straight line segments. In the chart, the point is plotted in a way that the point has appeared.
 ## Usage
 The line chart is popularly used-in chart of the trending data. For an instance, stock market share chart.
-Let us consider a scenario of Insurance Company, where a company wants to track the overall performance of the year with insured client and month. The company chart needs to show the performance of the individual months with the number of clients that are insured. The company KPI (Key Performance Indicator) should be able to see the previous data as well as the current data along with the graph indicating the rise or fall of the insured client. In this use case, line chart will successfully provide all of these features.
+Let us consider a scenario of Insurance Company, where a company wants to track the overall performance of the year with insured client and month. The company chart needs to show the performance of the individual months with the number of clients that are insured. The company KPI (Key Performance Indicator) should be able to see the previous data as well as the current data along with the graph indicating the rise or fall of the insured client. In this case, line chart will successfully provide all of these features.
 Some of the other popular use cases of line chart are:
 - Banking
 - Health center
@@ -52,7 +52,7 @@ Some of the other popular use cases of line chart are:
         ```
 		[options] = lineChartOptions
 		```
-9. Save the page and run the application 
+9. Save the page and run the application. 
 ### Example
 Let's take an example of Insurance company. The KPI (Key Performance Indicator) team want to check the status of the company performance of a particular year 2017. 
 Here is the data for the year 2017. 
@@ -107,7 +107,7 @@ Here is a sample of options that is declared and initialized in the component cl
 
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;

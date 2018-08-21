@@ -13,10 +13,10 @@ Input component specifies an input field where the user can enter data. Input el
 1. Input the component field with the attribute value:
     ``` 
     value = input text here
-    required = true 
+    class = input 
     ```
 2. Save it and run.
-3. When the page is loaded the "value = input text here" will be the text that will be displayed. And the "required = true" specifies that the user has to compulsorily input the text. 
+3. When the page is loaded the "value = input text here" will be the text that will be displayed. And the class = input" is the class name that can be used to point in a style sheet 
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
