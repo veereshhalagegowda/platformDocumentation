@@ -6,10 +6,10 @@ A header components is used when the content should be displayed with some speci
 ### How to use
 1. Drag and drop a header component.
 2. Fill the attribute such as style and class. 
-2. Inside this component some component can be inserted such as h1-h6 component, paragraph component etc.
+2. Components such as as h1-h6 component, paragraph component etc., can be added.
 
 ### Example
-**Display a header component with title  a subtitle in and a paragraph component** 
+**Display a header component with title a subtitle in and a paragraph component** 
 1. Drag and drop a header component, and provide the style and class attribute.
 2. Now drag and drop a h3 component inside header for a title and provide the text such as Agra. So the title will be set as Agra.
 3. After setting the title, drag and drop a h5 component inside header below h3 component to set a subtitle because subtitle should be smaller than title, and provide the subtitle as Taj Mahal.
