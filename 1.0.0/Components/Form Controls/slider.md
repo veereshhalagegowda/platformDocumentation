@@ -20,7 +20,6 @@ Slider component is used to select a range of values through mouse, touch or key
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
@@ -33,7 +32,6 @@ Slider component is used to select a range of values through mouse, touch or key
         flex-basis:10%;
         height:100px;
     }
-    
 - **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
 - **Color:** takes the color based on the angular material thing.
 - **Invert:** Used to check whether the slider is inverted. Value has to be boolean i.e. either true or false. Example: invert: false.
