@@ -16,12 +16,12 @@ fabicon = decorate
 Click = true
 ```
 2. Save it and run.
-3. When the page is loaded the value "fabicon = decorate" will be name of the button that will be displayed on the button. And "click = true" is the event that check when the button is pressed.
+3. When the page is loaded the value "fabicon = decorate" will be the name of the button that will be displayed on the button. And "click = true" is the event that checks when the button is pressed.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -35,7 +35,7 @@ Click = true
     }
     
 - **fabicon:** specifies the button text for the icon.
-- **Color:** Takes the color based on angular material thing.
+- **Color:** Takes the color based on the angular material thing.
 - **Click:** Is an event that checks when the button is clicked.
 
 ## Support
