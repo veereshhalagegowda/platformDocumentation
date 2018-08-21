@@ -28,9 +28,9 @@ Menu is used when the user is to be provided with the ability to select from a l
 10. Now, when the “Menu” button is clicked, it will reveal the list of menu items (“item1”, “item2”, “item3”).
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -45,15 +45,15 @@ Menu is used when the user is to be provided with the ability to select from a l
     
     ```
 
-- **xPosition**: Specifies the horizontal position of the menu list. Values can be: “before” or “after”.
+- **xPosition:** Specifies the horizontal position of the menu list. Values can be: “before” or “after”.
 
-- **yPosition**: Specifies the vertical position of the menu list. Values can be: “above” or “below”.
+- **yPosition:** Specifies the vertical position of the menu list. Values can be: “above” or “below”.
 
-- **templateRef**: Creates a template reference variable. Takes string as its value.
+- **templateRef:** Creates a template reference variable. Takes string as its value.
 
-- **items**: DEPRECATED.
+- **items:** DEPRECATED.
 
-- **matMenu**: Takes string as its value. Value should be same as “[matMenuTriggerFor]” attribute’s value of the “Menu” component.
+- **matMenu:** Takes string as its value. Value should be same as “[matMenuTriggerFor]” attribute’s value of the “Menu” component.
 
 ## Support
 - **Devices:** Android, iOS
