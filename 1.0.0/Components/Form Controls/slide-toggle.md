@@ -20,7 +20,6 @@ A toggle is a specialized control which has the ability to be selected. Typicall
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
@@ -33,7 +32,6 @@ A toggle is a specialized control which has the ability to be selected. Typicall
         flex-basis:10%;
         height:100px;
     }
-    
 - **Required:** used to check whether the slide-toggle is required or not.
 - **Text:** Specifies the text to be displayed for the slide-toggle when the application is run.
 - **Id:** A unique id for the slide-toggle input.
