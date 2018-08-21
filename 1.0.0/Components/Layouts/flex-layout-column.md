@@ -4,16 +4,18 @@ Flex-layout-column is used to set the positions or flow of the child components 
 ## Usage
 Flex-layout-column is used to display the components in a row. Components placed inside flex-layout-column appears vertically.
 ### How to use
-Drag and drop the flex-layout-column component, set the required attributes. After that drag and drop any other components inside the flex-layout-column component.
+1. Drag and drop the flex-layout-column component.
+2. Set the required attributes such as style, class,fxflex, wrap, fxlayoutgap, layout direction perpendicular direction, fxshow and fxhide.
+3. After that, drag and drop any other components inside the flex-layout-column component.
 ### Example 
-- Drag and drop a flexlayoutcolumn component.
-- Set the component attributes value with “layout direction = start” and perpendicular “direction = start”.
-- Drag and drop some other components like button and textbox inside the flexlayoutcolumn component.
-- Save it and run.
-- When the page is loaded the components button and textbox appears vertically. And the value “layout direction = start” and perpendicular “direction = start” specifies the direction in which the flex starts.
+1. Drag and drop a flexlayoutcolumn component.
+2. Set the component attributes value with “layout direction = start” and perpendicular “direction = start”.
+3. Drag and drop some other components like button and textbox inside the flexlayoutcolumn component.
+4. Save it and run.
+5. When the page is loaded the components button and textbox appears vertically. And the value “layout direction = start” and perpendicular “direction = start” specifies the direction in which the flex starts.
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
