@@ -6,6 +6,7 @@ Card actions can be used as a container that contains buttons.
 1. Drag and drop a card actions. 
 2. Provide the style and class attribute.
 3. Button component can be placed inside card-actions component.
+
 ### Example
 **Display a card with a paragraph and card actions that has two button like and subscribe** 
 1. Drag and drop a card.
