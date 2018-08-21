@@ -11,10 +11,10 @@ Progress bar is a graphical control element used to visualize the progression of
 
 ### Example: 
 1. Input the component field with the attribute value:
-``` 
-value = 55
-mode = determinate
-```
+    ``` 
+    value = 55
+    mode = determinate
+    ```
 2. Save it and run.
 3. When the page is loaded the "value = 55" will be the percentage of work completed that will be displayed in the progress bar. And "mode = determinate" is the mode in which the progress bar is displayed(by default the mode will be determinate).
 
