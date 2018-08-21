@@ -1,12 +1,13 @@
 ## Overview
 The expansion-panel-header shows a summary of the panel content and acts as the control for expanding and collapsing. This header may optionally contain panel-title and panel-description. By default, the expansion-panel header includes a toggle icon at the end of the header to indicate the expansion state. This icon can be hidden via the hideToggle property.
 ## Usage
-Expansion-header is used to show the summary of the panel content. 
+Expansion-header is used to show the summary of the panel content.
 ### How to use  
 1. Drag and drop the expansion panel component. 
 2. Inside the expansion panel component, drag and drop the expansion header component.
 3. Double click the expansion header component to display the list of attributes that can be used with it.
-4. Fill the attributes which are needed and save the page.
+4. Fill the attributes which are needed and save the page. 
+
 ### Example
 1. Input the component field with the attribute value:
 ``` 
