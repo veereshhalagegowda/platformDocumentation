@@ -5,9 +5,9 @@ Horizontal progress-bar is used for indicating progress and activity. It is used
 Progress bar is a graphical control element used to visualize the progression of an extended computer operation, such as a download, file transfer, or installation.
 
 ### How to use:   
-- Drag and drop the component. 
-- Double click the component to display the list of attributes that can be used with it.
-- Fill the attributes which are needed and save the page.
+1. Drag and drop the component. 
+2. Double click the component to display the list of attributes that can be used with it.
+3. Fill the attributes which are needed and save the page.
 
 ### Example: 
 Input the component field with the attribute value:
