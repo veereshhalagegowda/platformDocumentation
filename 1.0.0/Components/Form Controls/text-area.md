@@ -11,17 +11,17 @@ Text-area component specifies an input field where the user can enter data. Inpu
 
 ### Example
 1. Input the component field with the attribute value:
-``` 
-value = input text here
-required = true 
-```
+    ``` 
+    value = input text here
+    required = true 
+    ```
 2. Save it and run.
 3. When the page is loaded the "value = input text here" will be the text that will be displayed. And the "required = true" specifies that the user has to compulsorily input the text. 
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -36,10 +36,10 @@ required = true
     
 - **Value:** It specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
 - **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
-- **Required:** specifies that the text field should be filled and should not hold empty values. Value should be boolean i.e. either true or false.
-- **Color:** takes the color based on angular material thing.
+- **Required:** specifies that the text field should be filled and should not hold empty values. The value should be boolean i.e. either true or false.
+- **Color:** takes the color based on the angular material thing.
 - **Name:** specifies the name for the text field.
-- **Ngmodel:** used for two way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
+- **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
 
 ## Support
 - **Devices:** Android, iOS
