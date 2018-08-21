@@ -10,13 +10,13 @@ Mini fab component can be used to contain more related actions.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-Input the component field with the attribute value:
+1. Input the component field with the attribute value:
 ``` 
 fabicon = decorate
 Click = true
 ```
-Save it and run.
-When the page is loaded the value "fabicon = decorate" will be name of the button that will be displayed on the button. And "click = true" is the event that check when the button is pressed.
+2. Save it and run.
+3. When the page is loaded the value "fabicon = decorate" will be name of the button that will be displayed on the button. And "click = true" is the event that check when the button is pressed.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
