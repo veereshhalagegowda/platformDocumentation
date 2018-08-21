@@ -22,11 +22,10 @@ Radio buttons are typically rendered as small circles, which are filled or highl
     }
     ```
 2. Save it and run.
-3. When the page is loaded the attribute "checked = oncheck()" is the event that checks when the radio button is checked. On checking the radio button the alert message "checkbox checked" will be displayed. The value attribute displays the value “option1” for the radio button.
+3. When the page is loaded the attribute "checked = oncheck()" is the event that runs when the radio button is checked. On checking the radio button the alert message "checkbox checked" will be displayed. The value attribute displays the value “option1” for the radio button.
 
 ## Associated Attributes
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
 - **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
