@@ -10,13 +10,13 @@ Progress bar is a graphical control element used to visualize the progression of
 3. Fill the attributes which are needed and save the page.
 
 ### Example: 
-Input the component field with the attribute value:
+1. Input the component field with the attribute value:
 ``` 
 value = 55
 mode = determinate
 ```
-Save it and run.
-When the page is loaded the "value = 55" will be the percentage of work completed that will be displayed in the progress bar. And "mode = determinate" is the mode in which the progress bar is displayed(by default the mode will be determinate).
+2. Save it and run.
+3. When the page is loaded the "value = 55" will be the percentage of work completed that will be displayed in the progress bar. And "mode = determinate" is the mode in which the progress bar is displayed(by default the mode will be determinate).
 
 ## Associated Attributes:
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
