@@ -32,7 +32,7 @@ Icons are used when we need to improve visual interest and grab the user's atten
         flex-basis:10%;
         height:100px;
     }
-- **Iconname:** Specifies a name for the icon. Image path should be given or the image should be placed inside the assets folder.
+- **IconName:** Specifies a name for the icon. Image path should be given or the image should be placed inside the assets folder.
 
 ## Support
 - **Devices:** Android, iOS
