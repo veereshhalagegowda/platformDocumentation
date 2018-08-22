@@ -19,8 +19,8 @@ A toggle is a specialized control which has the ability to be selected. It is us
 3. When the page is loaded "class = toggle" attribute will assign the class name as toggle, which can be used to point to a class in a style sheet. The "buttonname = on/off" attribute is the name given to the button that is displayed when the page is loaded.
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
