@@ -122,23 +122,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
 -  **[showXAxisLabel] (True/False):** It displays the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showXAxisLabel]  = 'True' OR [showXAxisLabel]  = 'False'
-    ```## Support 
-397
-### Devices : 
-398
--   Android
-399
--   iOS
-400
-### Dependencies Version
-401
--   **Angular CLI Version**
-402
-    -   Version 5.0.0 +
-403
--   **Cordova Version**
-404
-    -   Version 7.1.0 +
+    ```
 -  **[showYAxisLabel] (True/False):** It displays the name that is given to the [yAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showYAxisLabel] = 'True' OR [showYAxisLabel] = 'False'
