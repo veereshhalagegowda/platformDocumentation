@@ -43,7 +43,7 @@ A gauge chart is widely used in executive dashboard reports to show key business
 		```
 5. Save the page and run the application 
 ### Example
-Consider a IT company wants a dashboard reports for different branch to show key business performance indicators so that it can be compared easily with KPI (Key Performance Indicator). Here is an example,
+Consider an IT company wants a dashboard reports for the different branch to show key business performance indicators so that it can be compared easily with KPI (Key Performance Indicator). Here is an example,
 
 | Parameters | KPI |
 | :------: | :------: | 
@@ -71,11 +71,11 @@ ngxGaugeChartData = [
 #### Labels
 Here, the labels are automatically taken by from the dataset.
 ## Associated Attributes
--   **angleSpan (Number):** It is the angle provided to the gauge spans. The unit is in degrees and default value is 240 degree.
--   **startAngle (Number):** It is the angle that the chart is rotate by. It is measured in degree and default value is -120 degree. Usually, negative half of the spanning angle (angleSpan) is taken to centralize the chart. 
+-   **angleSpan (Number):** It is the angle provided to the gauge spans. The unit is in degrees and the default value is 240 degree.
+-   **startAngle (Number):** It is the angle that the chart is rotate by. It is measured in degree and the default value is -120 degree. Usually, negative half of the spanning angle (angleSpan) is taken to centralize the chart. 
 -   **units (String):** It is text given to display under the value of the chart data values.
 -   **bigSegments (Number):** It is a number of big segments given on the axis collected from the given data set. 
--   **smallSegments (number):** It is a number of small segments that appears in between every big segments. 
+-   **smallSegments (number):** It is a number of small segments that appear in between every big segment. 
 -   **min (number):** It is the starting point of the scale on the chart from where every data set point starts getting plotted. 
 -   **max (number):** It is the ending point of the scale in the gauge on which the data set values are plotted. 
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
@@ -96,7 +96,7 @@ Here, the labels are automatically taken by from the dataset.
     }
     
     ```
--   **select (Events):** It takes a click event which is done on the segment of the chart. It display some result on click or hover of mouse. For example, displaying data point, label on click of individual segment.
+-   **select (Events):** It takes a click event which is done on the segment of the chart. It displays some result on click or hover of the mouse. For example, displaying data point, the label on click of an individual segment.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
