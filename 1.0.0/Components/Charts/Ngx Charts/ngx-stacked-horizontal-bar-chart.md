@@ -48,14 +48,14 @@ There are some other popular use cases where stacked horizontal bar chart is use
 		[results] = dataSet
 		```
 5. X-axis label can be shown or hidden by providing,
-    ``` [xAxis] = true ```  OR ```[xAxis] = false ```
+    ``` [xAxis] = true ```  OR ```[xAxis] = false ```.
 
 6. Y-axis label can be shown or hidden by providing,
-    ``` [yAxis] = true ```  OR ```[yAxis] = false ```
+    ``` [yAxis] = true ```  OR ```[yAxis] = false ```.
 
 7. Legends can be shown or hidden by providing,
-    ``` [legend] = true ```  OR ```[legend] = false ```
-8. Save the page and run the application 
+    ``` [legend] = true ```  OR ```[legend] = false ```.
+8. Save the page and run the application. 
   
 ### Example
 Consider an Insurance company which records the data of their client from the different country. The company plot the data on the stacked horizontal bar chart to get the better comparison on variations in the number of clients from the different country. For example,
