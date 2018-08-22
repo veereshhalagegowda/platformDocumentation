@@ -2,7 +2,7 @@
 Horizontal progress-bar is used for indicating progress and activity. It is used to indicate the progress of the work that has been completed. 
 
 ## Usage
-Progress bar is a graphical control element used to visualize the progression of an extended computer operation, such as a download, file transfer, or installation.
+Progress bar is a graphical control element used to visualize the progression of an extended computer operation, such as file download, file transfer, or installation.
 
 ### How to use:   
 1. Drag and drop the component. 
@@ -16,7 +16,7 @@ Progress bar is a graphical control element used to visualize the progression of
     mode = determinate
     ```
 2. Save it and run.
-3. When the page is loaded the "value = 55" will be the percentage of work completed that will be displayed in the progress bar and "mode = determinate" is the mode in which the progress bar is displayed(by default the mode will be determinate).
+3. When the page is loaded the "value = 55" will be the percentage of work completed and it will be displayed in the progress bar. "mode = determinate" is the mode in which the progress bar is displayed (by default the mode will be determinate).
 
 ## Associated Attributes:
 - **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
@@ -32,8 +32,8 @@ Progress bar is a graphical control element used to visualize the progression of
         flex-basis:10%;
         height:100px;
     }
-- **Mode:** Is used to select the mode. Input must be one of these values: determinate, indeterminate, buffer, query, defaults to 'determinate'. 
-- **Color:** Takes the color based on the angular material thing.
+- **Mode:** Is used to select the mode. Must take one of the following values: determinate, indeterminate, buffer, query. Defaults to 'determinate'. 
+- **Color:** Takes the color based on the angular material theme.
 - **Value:** Value of the progress bar. Defaults to zero. Input value should be a number.
 - **Buffervalue:** Specifies buffer value of the progress bar. Defaults to zero. Input value should be a number.
 
