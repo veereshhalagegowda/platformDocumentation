@@ -40,7 +40,7 @@ Button refers to any graphical control element that provides the user a simple w
     }
     
     ```
-- **Buttonname:** specifies the button name that is to be displayed on the screen.
+- **Buttonname:** Specifies the button name that is to be displayed on the screen.
 - **Color:** It takes the color based on the angular material theme. Takes "primary", "accent" or "warn" as its value.
 - **Click:** Is an event that runs when the button is clicked.
 
