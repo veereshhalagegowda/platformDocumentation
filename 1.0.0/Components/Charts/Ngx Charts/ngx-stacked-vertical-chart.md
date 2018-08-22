@@ -13,7 +13,7 @@ There are some other popular use cases where stacked vertical bar chart is used.
 ### How to use
 1. Open the newly created page.
 2. Drag and drop the stacked vertical bar chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below:- 
+3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
     * Dataset which consists of all other parameters like labels, and legends. 
         ```ts
         dataSet=[
@@ -48,14 +48,14 @@ There are some other popular use cases where stacked vertical bar chart is used.
 		[results] = dataSet
 		```
 5. X-axis label can be shown or hidden by providing,
-    ``` [xAxis] = true ```  OR ```[xAxis] = false ```
+    ``` [xAxis] = true ```  OR ```[xAxis] = false ```.
 
 6. Y-axis label can be shown or hidden by providing,
-    ``` [yAxis] = true ```  OR ```[yAxis] = false ```
+    ``` [yAxis] = true ```  OR ```[yAxis] = false ```.
 
 7. Legends can be shown or hidden by providing,
-    ``` [legend] = true ```  OR ```[legend] = false ```
-8. Save the page and run the application 
+    ``` [legend] = true ```  OR ```[legend] = false ```.
+8. Save the page and run the application. 
 ### Example
 Consider an Insurance company which records the data of their client from the different country. The company plot the data on the stacked vertical bar chart to get the better comparison on variations in the number of clients from the different country. For example,
 
