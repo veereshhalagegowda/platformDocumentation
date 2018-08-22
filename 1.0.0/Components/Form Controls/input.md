@@ -33,12 +33,12 @@ Input component specifies an input field where the user can enter data. Input el
         height:100px;
     }
 - **Value:** It specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
-- **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
-- **Required:** specifies that the text field should be filled and should not hold empty values. 
-- **Color:** takes the color based on the angular material thing.
-- **Name:** specifies the name for the text field.
-- **Type:** specifies the type of text to be input i.e number, text, etc.
-- **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
+- **Placeholder:** Used to hold the defined text value. Example “Name” holds the value Name for the text field.
+- **Required:** Specifies that the text field should be filled and should not hold empty values. 
+- **Color:** Takes the color based on the angular material theme.
+- **Name:** Specifies the name for the text field.
+- **Type:** Specifies the type of text to be input i.e number, text, etc.
+- **Ngmodel:** Used for two-way data binding. The ng-model attribute is used to bind the data, in your model, to the view presented to the user. The ng-model attribute is used for, binding controls such as input and text area, in the view, into the model.
 
 ## Support
 - **Devices:** Android, iOS
