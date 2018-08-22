@@ -97,7 +97,7 @@ Here is a sample of legend that is declared and initialized in the component cla
 ```
 This legend is taken from the dataset and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
-- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the horizontal bars in the chart.  For example, 
+- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the vertical bars in the chart.  For example, 
     ```css
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
     ```
