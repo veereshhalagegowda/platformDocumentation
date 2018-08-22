@@ -48,11 +48,11 @@ Some of the other popular use cases of line chart are:
 		[results] = ngxpieChartData
 		```
 5. X-axis and Y-axis label can be shown or hidden by providing,
-    ``` [labels] = true ```  OR ```[labels] = false ```
+    ``` [labels] = true ```  OR ```[labels] = false ```.
 
 6. Legends can be shown or hidden by providing,
-    ``` [legend] = true ```  OR ```[legend] = false ```
-7. Save the page and run the application 
+    ``` [legend] = true ```  OR ```[legend] = false ```.
+7. Save the page and run the application. 
 ### Example
 Consider an IT industry which makes a survey on how many users use their product from the different part of the world. The sample data can be recorded as follows:
 
