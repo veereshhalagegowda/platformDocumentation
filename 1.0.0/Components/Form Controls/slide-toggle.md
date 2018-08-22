@@ -39,7 +39,7 @@ A toggle is a specialized control which has the ability to be selected. Typicall
 - **Name:** Name value will be applied to the input element if present. Value should be either string or null.
 - **Change:** The event that will be dispatched each time the slide-toggle changes its value.
 - **Checked:** Used to check whether the slide-toggle element is checked or not.
-- **Color:** specifies the theme color for the component.
+- **Color:** Specifies the theme color for the component.
 
 ## Support
 - **Devices:** Android, iOS
