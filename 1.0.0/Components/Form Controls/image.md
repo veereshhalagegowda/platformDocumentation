@@ -22,8 +22,8 @@ Used to display an image in a page. The image has two required attributes: src a
 3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path and the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or is not found.
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -36,7 +36,7 @@ Used to display an image in a page. The image has two required attributes: src a
         height:100px;
     }
 - **Imgsrc:** The src attribute specifies the URL (web address) of the image. Images should be saved inside assets editor and placed within the Android or MaterialIcons or Web or iOS folders and the appropriate path should be given.
-- **Alt:** THe alt attribute provides an alternate text for an image if the user cannot view it.
+- **Alt:** The alt attribute provides an alternate text for an image if the user cannot view it.
 
 ## Support
 - **Devices:** Android, iOS
