@@ -1,6 +1,6 @@
-## Overview 
+## Overview
 A list component contains a number of list-items components and it forms a list. Basically a list component is a container that stores list items. There will not be any layout for list component.
-## Usage 
+## Usage
 List component contains number of list-item components, in this there is no requirement to set the number of columns, it can be anything. It is a unordered list, and the list items will come one below the other. 
 ## How to use
 1. Drag and drop a list-component.
@@ -29,7 +29,6 @@ List component contains number of list-item components, in this there is no requ
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 ## Support
 - **Devices:** Android, iOS
