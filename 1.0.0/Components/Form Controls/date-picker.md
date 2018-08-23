@@ -10,13 +10,11 @@ Datepicker component is used to select the date easily instead of entering it ma
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    opened = opened()
-    placeholder = datepicker 
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `opened = opened()`  
+    `placeholder = datepicker`  
     In the "Ts" file write the following function:
-    ```
+    ```ts
     opened() { 
         alert("Datepicker opened");
     }
@@ -38,6 +36,7 @@ Datepicker component is used to select the date easily instead of entering it ma
         flex-basis:10%;
         height:100px;
     }
+    ```
 - **placeholder:** Used to hold the defined text value. Example “Calendar” holds the value Calendar for the field.
 - **value:** Specifies the new value for the target datepicker input. Value has to be either null or the letter “D”.
 - **Min:** Specifies the minimum valid date. The value should be either null or the letter “D” 
