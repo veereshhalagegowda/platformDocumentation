@@ -1,5 +1,5 @@
 ## Overview
-It plots the point using the bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values.
+It plots the point using a bubble in three dimensions at the same time. The place to plot the data value is determined by the first two dimensions and the corresponding horizontal and vertical axes. The third dimension of the chart represents the size of the individual bubble which depends on the data values.
 
 ## Usage
 A bubble chart is widely used in the business world, mass media, product analysis, survey and experimental analysis etc. 
