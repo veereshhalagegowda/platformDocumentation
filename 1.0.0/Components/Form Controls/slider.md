@@ -10,11 +10,9 @@ Slider component is used to select a range of values through mouse, touch or key
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    invert = true
-    step = 50
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `invert = true`  
+    `step = 50`
 2. Save it and run.
 3. When the page is loaded the value "invert = true" will display an inverted slider and "step=50" specifies the step increment value of the slider. In this example, the slider takes two clicks to move to the end of the slider. 
 
@@ -31,7 +29,7 @@ Slider component is used to select a range of values through mouse, touch or key
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Ngmodel:** Used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
 - **Color:** Takes the color based on the angular material theme.
 - **Invert:** Used to check whether the slider is inverted. Value has to be boolean i.e. either true or false. Example:- invert: false.
