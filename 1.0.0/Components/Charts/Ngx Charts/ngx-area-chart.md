@@ -64,7 +64,8 @@ Consider an industry which records the data of their product sales from the diff
 | Country | Germany | USA |
 | :------: | :------: | :------: |
 | **2010** | 7300000 | 7870000 |
-| **2011** | 8940000 | 8270000 |
+| **2011** | 8940000 | 8270000 |  
+
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
