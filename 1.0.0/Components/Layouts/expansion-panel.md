@@ -30,7 +30,7 @@ Expansion panel component can be used where the data to be displayed in a expand
         height:100px;
     }
     ```
-    - ***ngFor:** ngFor is used when there are multiple expanded panel components. So in that case ngFor is used to iterate through a array or object of expanded panel to display them.And the object or aara will be defined in .ts file. 
+- ***ngFor:** ngFor is used when there are multiple expanded panel components. So in that case ngFor is used to iterate through a array or object of expanded panel to display them.And the object or aara will be defined in .ts file. 
 - **opened:** This attribute contains an event that should be emitted every time the Accordion Item is opened, so a method or function will be defined and it will be called. Inside the function the actions will be defined that what should happen when the item is open.
 - **closed:** This attribute contains an event that should be emitted every time the Accordion Item is closed, so a method or function will be defined and it will be called. Inside the function the actions will be defined that what should happen when the item is closed.
 - **hideToggle:** It accepts boolean values as true or false, this attribute is used to check whether the expansion indicator should be hidden.
