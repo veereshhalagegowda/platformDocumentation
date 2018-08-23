@@ -1,4 +1,4 @@
-## Overview 
+## Overview
 Stepper component is used to divide the content into steps. So a page can be divided into parts instead of getting the information at the same page, get the information at the different steps. A task can be divided into certain steps or parts and each of them will have some actions.
 ## Usage
 So if there is a requirement of creating a login page where username and password should be given and after that submit button, so this can be divided into three steps such as at the first step get the username, then second step get the password, and at the last step submit option should be there. This is where the stepper component can be used.
@@ -6,7 +6,7 @@ So if there is a requirement of creating a login page where username and passwor
 1. Drag and drop a stepper component.
 2. Fill the required properties.
 
-### Example:
+### Example
 **Create a stepper with login process** 
 1. Drag and drop a stepper component. In matHorizontalStepper set the same value to make it horizontal.Suppose there are three steps component, labeled as getUsername, getPassword, and submit.
 2. Drag and drop three step components inside stepper component, and give the label as getUsername,getPassword and submit.
@@ -29,7 +29,6 @@ So if there is a requirement of creating a login page where username and passwor
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 - **linear:** The linear attribute can be set on mathorizontalstepper and mat vertical stepper to create a linear stepper that requires the user to complete previous steps before proceeding to following steps. It accepts boolean value as true or false.
 - **type:** This accepts one of the two values either horizontal or vertical. If the stepper is horizontal then give the type as horizontal and vice versa. 
@@ -40,6 +39,6 @@ So if there is a requirement of creating a login page where username and passwor
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
-- **Dependencies version:** 
-- Angular CLI version: 5.0.0 + 
-- Cordova version: 7.1.0 + 
+- **Dependencies version:**
+- Angular CLI version: 5.0.0 +
+- Cordova version: 7.1.0 +
