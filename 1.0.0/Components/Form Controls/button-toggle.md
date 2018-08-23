@@ -11,9 +11,8 @@ A toggle is a specialized control which has the ability to be selected. It is us
 
 ### Example 
 1. Input the component field(s) with the attribute value(s):  
-    `
-    Class = toggle, buttonname = on/off
-    `
+    `Class = toggle`  
+    `buttonname = on/off`
 2. Save it and run.
 3. When the page is loaded "class = toggle" attribute will assign the class name as toggle, which can be used to point to a class in a style sheet. The "buttonname = on/off" attribute is the name given to the button that is displayed when the page is loaded.
 
