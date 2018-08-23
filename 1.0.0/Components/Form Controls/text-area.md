@@ -10,11 +10,9 @@ Text-area component specifies an input field where the user can enter data. Inpu
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    value = input text here
-    class = input 
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `value = input text here`  
+    `class = input`
 2. Save it and run.
 3. When the page is loaded the "value = input text here" will be the text that will be displayed and the class = input" is the class name that can be used to point to a class in a style sheet. 
 
@@ -31,7 +29,7 @@ Text-area component specifies an input field where the user can enter data. Inpu
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Value:** It specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
 - **Placeholder:** Used to hold the defined text value. Example “Name” holds the value Name for the text field.
 - **Required:** Specifies that the text field should be filled and should not hold empty values. The value should be boolean i.e. either true or false.
