@@ -74,7 +74,7 @@ Consider a survey on the population, at different parts of the country. The popu
 | :------: | :------: | :------: | :------: |
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
-| **Area 3** | 80 | 65 | 15 |
+| **Area 3** | 80 | 65 | 15 |  
 
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
