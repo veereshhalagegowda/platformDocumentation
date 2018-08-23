@@ -10,11 +10,9 @@ Paragraph component is used to add a paragraph in a page.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    text = This is a paragraph
-    Class = para
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `text = This is a paragraph`  
+    `Class = para`
 2. Save it and run.
 3. When the page is loaded the value "text = This is a paragraph", will be the text that is displayed and "Class = para" is the class name that can be used to point to a class in a style sheet.
 
@@ -31,7 +29,7 @@ Paragraph component is used to add a paragraph in a page.
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Text:** Used to insert the text inside the paragraph tag. The text entered here will be displayed inside the paragraph tag when the application is run.
 
 ## Support
