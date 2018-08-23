@@ -45,8 +45,8 @@ There are some other popular use cases where a radar chart is used. Some of them
         ```
 7. Provide the options name in [options] attribute. For example, `[options] = radarChartOptions`
 8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
-	
-9. Save the page and run the application. 
+9. Save the page and run the application.
+
 ### Example
 Consider an example of an industry where the HR (Human Resource) team hires some professionals. They conduct different activities to monitor the following skills of the candidates; communication skills, technical knowledge, teamwork, meeting deadline, problem-solving, and punctuality. The head HR should be able to glance at the candidates' performance through a graph or chart which reflects a good comparison between all candidates. This can be achieved using a radar chart. For example,
 
