@@ -11,7 +11,7 @@ List item are used to store the items or data of a list.The data can be a string
 1. Drag and drop a list-component and set attributes such as style and class.
 2. Drag and drop a list-item component inside the list-component. And for the list-item set the attribute such as style, class, *ngFor and label.
 3. *ngFor is used to iterate through the object and access the items of the objects, if the folders is a object which has attribute as name(name of folder) which is a string, this object must be defined in a .ts file and can be accessed by assigning ngFor as (let folder of folders).
-4. Label attribute displays the name as list items, provide the name as (folder .name), this will access the folders object and get the name value from that. So if the folders object contains three values such as photos, work and document, then the list will be generated which contains the list items as photos, work and document.
+4. Label attribute displays the name as list items, provide the name as (folder .name), this will access the folders object and get the name value. So if the folders object contains three values such as photos, work and document, then the list will be generated which contains the list items as photos, work and document.
 5. Save and run.
 6. A list with three items will be displayed.
 ## Associated Attributes
