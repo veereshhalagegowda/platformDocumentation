@@ -10,13 +10,11 @@ Raised-button provides the user a simple way to trigger an event, like searching
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    buttonname = submit
-    Click = clickEvent()
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `buttonname = submit`  
+    `Click = clickEvent()`  
     In the "Ts" file write the following function:
-    ```
+    ```ts
     clickEvent() { 
         alert("Button clicked!!!");
     }
