@@ -46,11 +46,11 @@ There are some other popular use cases where stacked vertical bar chart is used.
         ];
         ```
 4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
-        ```javascript
+        ```
 		[results] = dataSet
 		```
 5. X-axis label can be shown or hidden by providing,
-    ``` javascript [xAxis] = true ```  OR ```javascript [xAxis] = false ```.
+    ```  [xAxis] = true ```  OR ``` [xAxis] = false ```.
 
 6. Y-axis label can be shown or hidden by providing,
     ``` [yAxis] = true ```  OR ```[yAxis] = false ```.
