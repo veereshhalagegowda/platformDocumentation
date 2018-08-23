@@ -10,11 +10,9 @@ Tooltip is used to display text (or other content) when you hover over an HTML e
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    matTooltip = This is tooltip
-    tooltip text = tooltip 
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `matTooltip = This is tooltip`  
+    `tooltip text = tooltip`
 2. Save it and run.
 3. When the page is loaded the value "matTooltip = This is tooltip" is the text that will be displayed when the mouse hovers over the tooltip area and "tooltip text = tooltip" is the text that is displayed on the tooltip field when the page is loaded.
 
@@ -31,7 +29,7 @@ Tooltip is used to display text (or other content) when you hover over an HTML e
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Tooltip text:** Specifies the text that has to be displayed when the application is run.
 - **Mattooltip:** It specifies the message to be displayed in the tooltip. Value has to be a string. Example:- message: string.
 - **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example:- position: left | right | above | below | before | after.
