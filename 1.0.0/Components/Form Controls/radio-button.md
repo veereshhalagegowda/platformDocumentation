@@ -10,13 +10,11 @@ Radio buttons are typically rendered as small circles, which are filled or highl
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    Checked = oncheck()
-    Value = option1
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `Checked = oncheck()`  
+    `Value = option1`  
     In the "Ts" file write the following function:
-    ```
+    ```ts
     oncheck() { 
         alert("checkbox checked");
     }
@@ -37,7 +35,7 @@ Radio buttons are typically rendered as small circles, which are filled or highl
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Value:** It is the value given for the radio button. 
 - **Required:** Used to check whether the radio button is required or not. 
 - **Label:** Is the label given for the radio button. Example “abc” display the value “abc” next to the radio button
