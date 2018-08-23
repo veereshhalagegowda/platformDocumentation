@@ -1,13 +1,13 @@
-## Overview 
+## Overview
 This is component which allows us to create a container of list of particular rows and columns it can be used alone as well as inside the grid-list.The column will contain the attribute and the row will contain the data of the particular attribute.And the data of the list can be iterated by ngFor loop which can access all the data from the array and can be displayed on the screen.
-## Usage 
+## Usage
 Grid-tile component can be used where the list of items should be displayed. It can be used as alone or it can be put inside a grid-list component to set the layout of the list.
 ### How to use
 1. Drag and drop a grid tile component.
 2. Set the attributes such as style,class,*ngFor,[rowspan],[colspan], and label.
 3. According to this to grid list items will be displayed.
 
-### Example 
+### Example
 **Display a grid tile component inside grid-list component with three items** 
 1. Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
 2. Drag and drop a grid tile component inside a grid list. It contains attribute such as-
@@ -17,8 +17,7 @@ So in this case give colspan=1.
 Give rowspan=1. 
 **Label:** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.  
 ***ngFor:** This attribute is used to iterate through the list item which is stored in the grid-tile object. It will iterate through each item and display that data.
-
-```
+```css
 Displaylist.html file
 <mat-grid-list cols="2" rowHeight="100px">
   <mat-grid-tile
@@ -27,7 +26,7 @@ Displaylist.html file
   </mat-grid-tile>
 </mat-grid-list>
 ```
-``` 
+``` css
 Displaylist.ts
        tiles: Tile[] = [
        {text: 'One'},
@@ -54,7 +53,6 @@ Displaylist.ts
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 - **ngFor:** ngFor is used to iterate through the array object and get the data. The syntax of ngFor is *ngFor="let d of data" where d is a loop variable and data is a array or object from which the data will be accessed. 
 - **rowspan:** This attribute allows a single table cell to span the height of more than one cell or row. So in a normal row the rowspan is always 1 , so this attribute is required when there is a requirement to change the row size, like some times a row requires two times size of the normal row, in that case the rowspan=2.
