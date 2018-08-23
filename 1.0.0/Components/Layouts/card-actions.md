@@ -29,7 +29,8 @@ Card actions component can be used as a container that contains buttons.
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    } ```
+    } 
+    ```
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
