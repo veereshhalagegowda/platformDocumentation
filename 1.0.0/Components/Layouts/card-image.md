@@ -35,5 +35,5 @@ We can use card image where we want to display an images. Put the image inside t
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-- Angular CLI version: 5.0.0 +
-- Cordova version: 7.1.0 + 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 +
