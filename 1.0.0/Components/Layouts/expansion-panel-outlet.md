@@ -1,6 +1,6 @@
-## Overview:
+## Overview
 Expansion panel outlet component is a container which provides the expandable view, where some of the content will be hidden and it will be displayed when the user clicks on the expandable panel component, it can contain various component such as expansion header, expansion title, and expansion description etc.
-## Usage: 
+## Usage
 Expansion panel outlet component can be used where the data to be displayed in a expanded view, and will be shown and hidden onclick event. Only the title and description will be shown and other components will be hidden and they will displayed when the user clicks on it.
 ### How to use
 1. Drag annd drop a expansion panel outlet component.
