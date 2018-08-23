@@ -1,6 +1,5 @@
 ## Overview
 A pie chart is an excellent chart type for representing the relational proportions between data. It is widely used in the business world as well as in mass media. It represents the data in a pie that is sliced according to the data values.
-
 ## Usage
 A pie chart is widely used in the business world and mass media.
 Consider a health centre scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and should be divided into different sections which represent the wards of the hospital. This can be achieved using a pie chart where a complete pie represents the hospital and slices of the pie chart represent the wards of the hospital. 
@@ -9,7 +8,6 @@ Some of the other popular use cases of a pie chart are:
 -   Industries (for providing information on different products and services)
 -   Government offices (like revenue department)
 -   Retail (for different types of products they provide)
-
 ### How to use
 1. Open the newly created page.
 2. Drag and drop the pie chart from the Ng Charts category.
@@ -44,7 +42,8 @@ Some of the other popular use cases of a pie chart are:
         ```
 7. Provide the options name in [options] attribute. For example, `[options] = pieChartOptions`
 8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
-9. Save the page and run the application. 
+9. Save the page and run the application.
+
 ### Example
 Consider an example of a hospital that wants to plot a chart to record the percentage of patients admitted to different wards such as emergency & casualty, labor ward, Endoscopy Ward, Coronary Care ward, and Surgical Ward.
 
@@ -91,13 +90,10 @@ Here is a sample of the options that are declared and initialized in the compone
     ```css
     background-color: #92a8d1;
     ```
-
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 
 - **Value:** It is a value of the key that the user provided manually.
-
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
