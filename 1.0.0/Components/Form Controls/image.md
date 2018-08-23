@@ -13,11 +13,9 @@ Used to display an image in a page. The image has two required attributes: src a
 4. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    imgsrc = /home/prashanth/Documents/neutrinos.png
-    Alt  = Neutrinos
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `imgsrc = /home/prashanth/Documents/neutrinos.png`  
+    `Alt  = Neutrinos`
 2. Save it and run.
 3. When the page is loaded "imgsrc = /home/prashanth/Documents/neutrinos.png" will display the image that is specified in the path and the "alt = Neutrinos" will display the text Neutrinos if the image cannot be loaded or is not found.
 
@@ -34,7 +32,7 @@ Used to display an image in a page. The image has two required attributes: src a
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Imgsrc:** The src attribute specifies the URL (web address) of the image. Images should be saved inside assets editor and placed within the Android or MaterialIcons or Web or iOS folders and the appropriate path should be given.
 - **Alt:** The alt attribute provides an alternate text for an image if the user cannot view it.
 
@@ -44,4 +42,3 @@ Used to display an image in a page. The image has two required attributes: src a
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
-
