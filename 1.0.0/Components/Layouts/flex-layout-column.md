@@ -41,5 +41,5 @@ Flex-layout-column is used to display the components in a row. Components placed
 - **Devices:** Android, iOS
 - **Browsers:** Latest version of all modern browsers
 - **Dependencies version:** 
-- Angular CLI version: 5.0.0 + 
-- Cordova version: 7.1.0 + 
+    - Angular CLI version: 5.0.0 + 
+    - Cordova version: 7.1.0 + 
