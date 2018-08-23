@@ -86,6 +86,7 @@ Consider an insurance company which made a survey of its client located in diffe
 | **Area 1** | 100 | 50 | 20 |
 | **Area 2** | 60 | 30 | 10 |
 | **Area 3** | 80 | 65 | 15 |  
+
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
@@ -179,9 +180,9 @@ This legend is taken from the dataset and displayed on the right side of the cha
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 -   **Value:** It is a value of the key that the user provided manually.
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
