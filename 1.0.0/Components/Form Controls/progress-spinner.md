@@ -10,11 +10,9 @@ A progress spinner is a graphical element which is used to show the loading of a
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    strokewidth = 100
-    mode = determinate
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `strokewidth = 100`  
+    `mode = determinate`
 2. Save it and run.
 3. When the page is loaded the "strokewidth = 100" will be the size of the progress spinner component that will be displayed and "mode = determinate" is the mode in which the progress spinner is displayed.
 
