@@ -10,7 +10,7 @@ It is a container of list which has user defined layout. So the layout will be s
 ### Example
 **Display a grid list component with a grid-tile component and under that 3 items.** 
 1. Drag and drop a grid list component.and fill the attribute (such as cols=4) so four columns will be there, row height will be the height of the row (such as rowHeight=100px).
-2. Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.
+2. Drag and drop a grid tile component inside a grid list. It contains attribute such as colspan,rowspan,ngfor and label.  
 **colspan:** Allows a single table cell to span the width of more than one cell or column.
 So in this case give colspan=1.  
 **rowspan:** Allows a single table cell to span the height of more than one cell or row.
