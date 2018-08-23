@@ -1,5 +1,5 @@
 ## Overview 
-Checkbox is rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values for submission in a form (or not).
+Checkbox is rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values for submission in a form.
 
 **Note:** Radio buttons are similar to checkboxes, but with an important distinction — radio buttons are grouped into a set in which only one radio button can be selected at a time, whereas checkboxes allow you to turn single values on and off. Where multiple controls exist, radio buttons allow one to be selected out of them all, whereas checkboxes allow multiple values to be selected.
 
@@ -12,18 +12,16 @@ Checkbox component allows the users to select any combination of options in a gr
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
-    ``` 
-    Checked = true
-    Id = check
-    ```
+1. Input the component field(s) with the attribute value(s):   
+    `class = check`  
+   ` Id = check
+    `
 2. Save it and run.
-3. When the page is loaded the attribute "checked = true" specifies whether the checkbox is checked or not. And the "id = check" is the unique id given for the checkbox which can be used to apply styles or give reference to point to the checkbox.
+3. When the page is loaded the attribute "class = check" is the class name that can be used to point to a class in a style sheet and the "id = check" is the unique id given for the checkbox which can be used to apply styles or give reference to point to the checkbox.
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -41,8 +39,8 @@ Checkbox component allows the users to select any combination of options in a gr
 - **Color:** It takes the color based on the angular material theme. Takes "primary", "accent" or "warn" as its value.
 - **Disabled:** Used to check whether the checkbox is disabled or not.
 - **Id:** A unique id for the checkbox input.
-- **Labelposition:** Specifies whether the label should appear after or before the checkbox. Defaults to 'after'
-- **Name:** Specifies the name for the component
+- **Labelposition:** Specifies whether the label should appear after or before the checkbox. Defaults to 'after'.
+- **Name:** Specifies the name for the component.
 - **Required:** Used to check whether the checkbox is required or not.
 - **Value:** Specifies the value attribute of the native input element.
 
@@ -52,4 +50,3 @@ Checkbox component allows the users to select any combination of options in a gr
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
-

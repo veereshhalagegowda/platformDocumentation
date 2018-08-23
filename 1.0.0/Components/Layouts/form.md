@@ -5,7 +5,8 @@ A form component can be used whenever there is a requirement for data-entry task
 ### How to use
 1. Drag and drop a form component.
 2. Set the style and class attribute.
-3. Draga and drop other components inside this such as input, buttons etc.
+3. Drag and drop other components inside this such as input, buttons etc.
+
 ### Example
 **Display a login page** 
 1. Display a block as a login page .
@@ -17,6 +18,7 @@ A form component can be used whenever there is a requirement for data-entry task
 7. Drag and drop a button component below input and name the button as Submit and set the onClick attribute.
 8. Save and Run the studio.
 9. A login page is created in which a user can give his username and password and he can  submit.
+
 ## Associated Attributes  
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
@@ -31,7 +33,6 @@ A form component can be used whenever there is a requirement for data-entry task
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 ## Support
 - **Devices:** Android, iOS

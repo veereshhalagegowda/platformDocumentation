@@ -17,7 +17,7 @@ They are designed to provide easy and immediate access to users' most frequently
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -36,9 +36,7 @@ They are designed to provide easy and immediate access to users' most frequently
 
 - **Content:** This is displayed inside the toolbar. Its value can be plain text or valid html tags.  
     eg.
-    ```
-    This is a toolbar
-    ``` 
+    ```This is a toolbar```   
     or  html tags like,
     ```html  
     <button mat-button>I'm a button</button>

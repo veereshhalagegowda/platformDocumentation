@@ -10,18 +10,15 @@ Input component specifies an input field where the user can enter data. Input el
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
-    ``` 
-    value = input text here
-    required = true 
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `value = input text here`  
+    `class = input`
 2. Save it and run.
-3. When the page is loaded the "value = input text here" will be the text that will be displayed. And the "required = true" specifies that the user has to compulsorily input the text. 
+3. When the page is loaded the "value = input text here" will be the text that will be displayed and the "class = input" is the class name that can be used to point to a class in a style sheet. 
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -32,15 +29,14 @@ Input component specifies an input field where the user can enter data. Input el
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
-    
-- **Value:** it specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
-- **Placeholder:** used to hold the defined text value. Example “Name” holds the value Name for the text field.
-- **Required:** specifies that the text field should be filled and should not hold empty values. The value should be boolean i.e. either true or false.
-- **Color:** takes the color based on the angular material thing.
-- **Name:** specifies the name for the text field.
-- **Type:** specifies the type of text to be input i.e number, text, etc.
-- **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user. The ng-model attribute is used for, Binding controls such as input, text area and selects in the view into the model.
+    }```
+- **Value:** It specifies the pre-defined text that is displayed in the text area when the application is run. Example “hello” defined in this field will display hello in the text field when the application is run.
+- **Placeholder:** Used to hold the defined text value. Example “Name” holds the value Name for the text field.
+- **Required:** Specifies that the text field should be filled and should not hold empty values. 
+- **Color:** Takes the color based on the angular material theme.
+- **Name:** Specifies the name for the text field.
+- **Type:** Specifies the type of text to be input i.e number, text, etc.
+- **Ngmodel:** Used for two-way data binding. The ng-model attribute is used to bind the data, in your model, to the view presented to the user. The ng-model attribute is used for, binding controls such as input and text area, in the view, into the model.
 
 ## Support
 - **Devices:** Android, iOS
@@ -48,4 +44,3 @@ Input component specifies an input field where the user can enter data. Input el
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
-

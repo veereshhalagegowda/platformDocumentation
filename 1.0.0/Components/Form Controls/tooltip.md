@@ -1,5 +1,5 @@
 ## Overview 
-The tooltip will be displayed below the element but this can be configured using the matTooltipPosition input. The tooltip can be displayed above, below, left, or right of the element. By default, the position will be below. If the tooltip should switch left/right positions, then the positions before and after should be used instead of left and right respectively.
+The tooltip displays information about an element; above, below, to the left of, or to the right of the element. By default, the position it takes will be below the element. But this can be configured using the matTooltipPosition input. If the tooltip is required to switch left/right positions, then the position values before and after should be used instead of left and right respectively.
 
 ## Usage
 Tooltip is used to display text (or other content) when you hover over an HTML element. 
@@ -10,18 +10,15 @@ Tooltip is used to display text (or other content) when you hover over an HTML e
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field with the attribute value:
-    ``` 
-    matTooltip = This is tooltip
-    tooltip text = tooltip 
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `matTooltip = This is tooltip`  
+    `tooltip text = tooltip`
 2. Save it and run.
-3. When the page is loaded the value "matTooltip = This is tooltip" is the text that will be displayed when the mouse hovers over the tooltip area. And "tooltip text = tooltip" is text that is displayed on the tooltip field when the page is loaded.
+3. When the page is loaded the value "matTooltip = This is tooltip" is the text that will be displayed when the mouse hovers over the tooltip area and "tooltip text = tooltip" is the text that is displayed on the tooltip field when the page is loaded.
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -32,11 +29,10 @@ Tooltip is used to display text (or other content) when you hover over an HTML e
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
-    
+    }```
 - **Tooltip text:** Specifies the text that has to be displayed when the application is run.
-- **Mattooltip:** It specifies the message to be displayed in the tooltip. Value has to be a string. Example: message: string.
-- **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example: position: left | right | above | below | before |after.
+- **Mattooltip:** It specifies the message to be displayed in the tooltip. Value has to be a string. Example:- message: string.
+- **Mattooltipposition:** Allows the user to define the position of the tooltip relative to the parent element. Example:- position: left | right | above | below | before | after.
 - **Mattooltipshowdelay:** Specifies the default delay in ms before showing the tooltip after show method is called.
 - **Mattooltiphidedelay:** The default delay in ms before hiding the tooltip after hide method is called.
 

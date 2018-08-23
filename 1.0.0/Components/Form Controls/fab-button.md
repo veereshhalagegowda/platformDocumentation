@@ -1,5 +1,5 @@
 ## Overview 
-Fab button is a button in round shape. FABs (Floating Action Buttons) are standard material design components. They are shaped as a circle that represents a promoted action. When pressed, it may contain more related actions. FABs, as its name suggests, are floating over the content in a fixed position.
+FABs (Floating Action Buttons) are standard material design components. They are shaped as a circle that represents a promoted action. When pressed, it may contain more related actions. FABs, as its name suggests, are floating over the content in a fixed position.
 
 ## Usage
 Fab button can be used to contain more related actions.
@@ -10,18 +10,21 @@ Fab button can be used to contain more related actions.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
-    ``` 
-    fabicon = decorate
-    Click = true
+1. Input the component field(s) with the attribute value(s):  
+    `fabicon = decorate`  
+    `Click = clickEvent()`  
+    In the "Ts" file write the following function:
+    ```ts
+    clickEvent() { 
+        alert("Button clicked!!!");
+    }
     ```
 2. Save it and run.
-3. When the page is loaded the value "fabicon = decorate" will be the name of the button that will be displayed on the button. And "click = true" is the event that checks when the button is pressed.
+3. When the page is loaded the value "fabicon = decorate" will be the name of the button that will be displayed on the button and "click = clickEvent()" is the event that runs when the button is pressed. On clicking the button, the alert message "Button clicked!!!" will be displayed.
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -32,10 +35,9 @@ Fab button can be used to contain more related actions.
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
-    
-- **fabicon:** specifies the button text for the icon.
-- **Color:** Takes the color based on the angular material thing.
+    }```
+- **fabicon:** Specifies the text or image to be shown on the button.
+- **Color:** Takes the color based on the angular material theme.
 - **Click:** Is an event that checks when the button is clicked.
 
 ## Support

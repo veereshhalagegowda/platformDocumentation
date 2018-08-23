@@ -10,18 +10,15 @@ Slider component is used to select a range of values through mouse, touch or key
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field with the attribute value:
-    ``` 
-    invert = true
-    step = 50
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `invert = true`  
+    `step = 50`
 2. Save it and run.
-3. When the page is loaded the value "invert = true" will display an inverted slider. And "step=50" specifies the value at which the slider will slide, in this example, the slider takes two clicks to move to the end of the slider. 
+3. When the page is loaded the value "invert = true" will display an inverted slider and "step=50" specifies the step increment value of the slider. In this example, the slider takes two clicks to move to the end of the slider. 
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -32,18 +29,17 @@ Slider component is used to select a range of values through mouse, touch or key
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
-    
-- **Ngmodel:** used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
-- **Color:** takes the color based on the angular material thing.
-- **Invert:** Used to check whether the slider is inverted. Value has to be boolean i.e. either true or false. Example: invert: false.
-- **Max:** Specifies the maximum value that the slider can have. The value should be a number. Example: max: 2.
-- **Min:** Specifies the minimum value that the slider can have. The value should be a number. Example: min: 2.
-- **Step:** Specifies the values at which the slider will slide. The value should be a number. Example: step: 2.
-- **Thumb-label:** Specifies whether or not to show the thumb label. Value should be a boolean i.e. either true or false. Example: thumbLabel: boolean
-- **Vertical:** Specifies whether the slider is vertical or not. Value has to be boolean i.e. either true or false. Example: vertical: false
-- **Disabled:** Specifies whether the component is disabled or not. Value has to be boolean i.e. either true or false. Example: disabled: false.
-- **Value:** Specifies the value of the slider. The value should be either number or null. Example: value: number | null
+    }```
+- **Ngmodel:** Used for two-way data binding. The ng-model attribute is used to bind the data in your model to the view presented to the user.
+- **Color:** Takes the color based on the angular material theme.
+- **Invert:** Used to check whether the slider is inverted. Value has to be boolean i.e. either true or false. Example:- invert: false.
+- **Max:** Specifies the maximum value that the slider can have. The value should be a number. Example:- max: 10.
+- **Min:** Specifies the minimum value that the slider can have. The value should be a number. Example:- min: 0.
+- **Step:** Specifies the values at which the slider will slide. The value should be a number. Example:- step: 1.
+- **Thumb-label:** Specifies whether or not to show the thumb label. Value should be a boolean i.e. either true or false. Example:- thumbLabel: boolean.
+- **Vertical:** Specifies whether the slider is vertical or not. Value has to be boolean i.e. either true or false. Example:- vertical: false.
+- **Disabled:** Specifies whether the component is disabled or not. Value has to be boolean i.e. either true or false. Example:- disabled: false.
+- **Value:** Specifies the value of the slider. The value should be either number or null. Example:- value: number | null.
 - **Change:** It is an event emitted when the slider value is changed.
 - **Input:** It is an event emitted when the slider thumb moves.
 

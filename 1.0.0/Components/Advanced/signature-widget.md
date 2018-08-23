@@ -9,6 +9,7 @@ Signature Widget Component is used when there is a need for handwritten signatur
 1. Drag and drop the “Signature Widget” component from the “Advanced” Category where it is needed in that page.
 2. Double click on the component and give values to the attributes.
 3. Save the changes.
+
 ### Example
 
 1. Create a page called “page”.
@@ -30,7 +31,7 @@ Signature Widget Component is used when there is a need for handwritten signatur
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;

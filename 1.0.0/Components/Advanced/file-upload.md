@@ -24,7 +24,8 @@ When the user is needed to upload certain files (such as  scanned images, log fi
     ```
 5. Set the value of [uploadOptions] to “uploadOptions”.
 6. Write a function in Ts file as below:
-    ```typescript
+
+    ```ts
       onSuccess(){
            console.log("Succesfully uploaded!")
        }
@@ -40,7 +41,7 @@ When the user is needed to upload certain files (such as  scanned images, log fi
 ## Associated Attributes
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
 
-- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space seperated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -55,21 +56,20 @@ When the user is needed to upload certain files (such as  scanned images, log fi
     
     ```
 - **[uploadOptions]:** Takes the name of the object that is defined in Ts file. The object is of type:
-    ```typescript
-    {“entityName”: “buttonValue”, “metadata”:{“key”: “aUniqueKey”}}
+    ```ts
+    {"entityName": "user", "metadata":{"key": "aUniqueKey"}}
     ```
-    >Where ,
-        “entityName” is the name under which the files with same “entityName” are grouped.
-        “key” is used to uniquely identify the uploaded file.
-    
-    
-    eg.
-    ```typescript
+    Where ,
+    - “entityName” is the name under which the files with same “entityName” are grouped.
+    - “key” is used to uniquely identify the uploaded file.  
+eg.
+    ```ts
       uploadOptions = {"entityName":"users",
       "metadata":{"key":"sankarshanaj@gmail.com"}}
     ```
-- **(onSuccess):** Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. onSuccess()
-- **(indexChange):** Takes function (that is defined in Ts file) name as argument which will be called when an error occurs. eg. onError()
+
+- **(onSuccess):** Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. `onSuccess()`
+- **(indexChange):** Takes function (that is defined in Ts file) name as argument which will be called when an error occurs. eg. `onError()`
 
 ## Support
 - **Devices:** Android, iOS
