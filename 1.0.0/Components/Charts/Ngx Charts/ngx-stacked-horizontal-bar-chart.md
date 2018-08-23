@@ -111,11 +111,11 @@ This legend is taken from the dataset and displayed on the right side of the cha
 - **Legends (Boolean):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
 - **[xAxisLabel] (String):** It gives the name to the x-axis.  For example,
     ```typescript
-    [xAxisLabel] = "Country"
+    [xAxisLabel] = "No of Clients"
     ```
 - **[yAxisLabel] (String):** It gives the name to the y-axis.  For example,
     ```typescript
-    [yAxisLabel] = "No. of Clients"
+    [yAxisLabel] = "Types of services"
     ```
 -  **[showXAxisLabel] (True/False):** It displays the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
