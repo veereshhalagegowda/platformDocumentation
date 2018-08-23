@@ -17,7 +17,7 @@ Neutrinos Login Template can be used to create a login form for the apps that re
 ### Example
 1. After opening the "Neutrinos Studios", click on the "Create App" icon.
 2. Fill in the required fields.  
-    `App Name : LoginTemplateDemo`  
+    `App Name` :`LoginTemplateDemo`  
     `version`:`1.0.0`  
     `Tenant`:`Neutrinos`  
     `Art Url`:`http://localhost:3000/bhive-art/`  
