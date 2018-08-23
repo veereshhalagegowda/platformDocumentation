@@ -1,6 +1,6 @@
-## Overview 
+## Overview
 Step component can contain anything, such as a textbox,buttons,radio buttons,checkbox, images etc. So the step component can only be used inside a stepper component.A page can be just divided into steps using stepper and step.  
-## Usage 
+## Usage
 Step component can be used to create a page that is divided into various steps, it can be displayed as horizontally or vertically. 
 ### How to use 
 1. Drag and drop a stepper component.
@@ -17,7 +17,7 @@ Step component can be used to create a page that is divided into various steps, 
 
 ## Associated Attributes 
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1, class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -29,7 +29,6 @@ Step component can be used to create a page that is divided into various steps, 
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 - **Label:** Label is the name given to the step and each step will have  different labels. It accepts text values.
 - **completed:** This accepts boolean values as true or false depending on whether step is marked as completed.
@@ -40,6 +39,6 @@ Step component can be used to create a page that is divided into various steps, 
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
-- **Dependencies version:** 
-- Angular CLI version: 5.0.0 + 
-- Cordova version: 7.1.0 + 
+- **Dependencies version:**
+- Angular CLI version: 5.0.0 +
+- Cordova version: 7.1.0 +
