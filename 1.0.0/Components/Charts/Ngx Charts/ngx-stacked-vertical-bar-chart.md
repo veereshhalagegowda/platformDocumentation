@@ -57,7 +57,8 @@ There are some other popular use cases where stacked vertical bar chart is used.
 
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```.
-8. Save the page and run the application. 
+8. Save the page and run the application.
+
 ### Example
 Consider an industry scenario which records the number of clients who use their products and services. The company plot the data on the stacked vertical bar chart to get the better comparison in their performances. For example,
 
