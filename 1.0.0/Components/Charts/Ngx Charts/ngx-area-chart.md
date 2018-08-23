@@ -1,10 +1,10 @@
 ## Overview
-An area chart is based on a line chart. The area between the axis and line are colored with different colors, textures, and hatchings.
+An area chart is based on a line chart. The area between the axes and line are colored with different colors, textures, and hatchings.
 
 ## Usage
-An area chart is widely used in comparing the trending data such as stock market shares.
-The use case for the line chart depends on the scope where it is being used. For example, industries use area chart to display the report of product sales in different geographical regions, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a line chart is for comparison of data categorized on different parameters. 
-There are some other popular use cases where a line chart is used. Some of them are:
+An area chart is widely used in comparing data such as the rise and fall of stock market shares.
+Industries use area charts to display the report of product sales in different geographical regions. IT (Information Technology) companies use this chart for the analysis of the products and services used by their clients. Similarly, in the health domain, this chart is used to analyse treatment data. In all these domains, the main use of an area chart is to compare the data categorized by different parameters. 
+There are some other popular use cases where an area chart is used. Some of them are:
 -   Insurance companies
 -   Industries 
 -   Health centers
@@ -12,8 +12,8 @@ There are some other popular use cases where a line chart is used. Some of them 
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the line chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. The sample is given below:- 
+2. Drag and drop the area chart from the Ngx Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the dataset. The sample is given below:- 
     * Dataset which consists of all other parameters like labels, and legends. 
         ```ts
         dataSet = [
@@ -45,26 +45,28 @@ There are some other popular use cases where a line chart is used. Some of them 
         }
         ];
         ```
-4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[results] = dataSet
 		```
 5. X-axis label can be shown or hidden by providing,
-    ``` [xAxis] = true ```  OR ```[xAxis] = false ```
+    ``` [xAxis] = true ```  OR ```[xAxis] = false ```.
 
 6. Y-axis label can be shown or hidden by providing,
-    ``` [yAxis] = true ```  OR ```[yAxis] = false ```
+    ``` [yAxis] = true ```  OR ```[yAxis] = false ```.
 
 7. Legends can be shown or hidden by providing,
-    ``` [legend] = true ```  OR ```[legend] = false ```
-8. Save the page and run the application 
+    ``` [legend] = true ```  OR ```[legend] = false ```.
+8. Save the page and run the application.
+
 ### Example
-Consider an industry which records the data of their product sales from the different country. The company plot the data on the area chart to get the better comparison on variations in sales of products from the different country. For example,
+Consider an industry which records the data of their product sales from different countries. The company plots the data on the area chart to get a better understanding of variations in sales of products from different countries. For example,
 
 | Country | Germany | USA |
 | :------: | :------: | :------: |
 | **2010** | 7300000 | 7870000 |
-| **2011** | 8940000 | 8270000 |
+| **2011** | 8940000 | 8270000 |  
+
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
@@ -98,28 +100,28 @@ dataSet = [
 ];
 ```
 #### Labels
-Here, teh labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
+Here, the labels are automatically taken from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
 #### Legend
-Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;
 ```
-This legends is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
+This legend is taken from the dataset, and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
-- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the horizontal bars in the chart.  For example, 
+- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors in a pattern. It is used to fill the plotted area in the chart.  For example, 
     ```css
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
     ```
 
--   **[xAxis] (True/False):** This attribute diplays the level for the x-axis. If it is true, it will display otherwise it does not. For example,
+-   **[xAxis] (True/False):** This attribute diplays the x-axis points. If it is true, the points will be displayed otherwise it won't. For example,
     ```typescript
     [xAxis] = 'True' OR [xAxis] = 'False'
     ```
--  **[yAxis] (True/False):** This attribute diplays the level for the y-axis as like x-axis. If it is true, it will display otherwise it does not. For example,
+-  **[yAxis] (True/False):** This attribute diplays the y-axis points. If it is true, the points will be displayed otherwise it won't. For example,
     ```typescript
     [yAxis] = 'True' OR [yAxis] = 'False'
     ```
-- **Legends (Boolean):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
+- **Legends (Boolean):** It displays the different categories within the data that is used in plotting the area chart. If the value is true, it shows the legends otherwise it does not show.
 - **[xAxisLabel] (String):** It gives the name to the x-axis.  For example,
     ```typescript
     [xAxisLabel] = "Country"
@@ -128,19 +130,19 @@ This legends is taken from the dataset, and displayed on the right side of the c
     ```typescript
     [yAxisLabel] = "No. of Clients"
     ```
--  **[showXAxisLabel] (True/False):** It displayes the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
+-  **[showXAxisLabel] (True/False):** It displays the name that is given to the [xAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showXAxisLabel]  = 'True' OR [showXAxisLabel]  = 'False'
     ```
--  **[showYAxisLabel] (True/False):** It displayes the name that is given to the [yAxisLabel]. If it is true, it will display otherwise it does not. For example,
+-  **[showYAxisLabel] (True/False):** It displays the name that is given to the [yAxisLabel]. If it is true, it will display otherwise it does not. For example,
     ```typescript
     [showYAxisLabel] = 'True' OR [showYAxisLabel] = 'False'
     ```
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
--   **Value:** It is a value of the key that the user provided manually. For example,
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+-   **Value:** It is a value of the key that the user provided manually.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space-separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -154,7 +156,7 @@ This legends is taken from the dataset, and displayed on the right side of the c
     }
     
     ```
--   **select (Events):** It takes a click event which is done on the bars of the chart. It displays some result on click or hover of the mouse. For example, displaying data points and the label when click on individual bars.
+-   **select (Events):** It takes a click event which is done on the bars of the chart. It displays some result on click or hover of the mouse. For example, displaying data points and the label when clicking on individual plotted points.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
@@ -166,7 +168,7 @@ This legends is taken from the dataset, and displayed on the right side of the c
         ]
       } ];
     ```
--   **Results (object[]):** It provide a data to the chart which is plotted on a graph using horizontal bars. For example,
+-   **Results (object[]):** It provide a data to the chart which is plotted on a graph. For example,
     ```ts
     dataSet = [
       {
@@ -197,11 +199,11 @@ This legends is taken from the dataset, and displayed on the right side of the c
       }
     ];
     ```
--   **fxLayout:** It is a flex layout provided to the chart. It provides different orientation such as row orientation, column orientation to the chart. For example, 
+-   **fxLayout:** It is a flex layout provided to the chart. It provides different orientation such as row orientation and column orientation to the chart. For example, 
     ```ts
     fxLayout = 'row' OR fxLayout = 'column'
     ```
--   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provide three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of implementation of fxFlex.
+-   **fxFlex:** It is a directive for fxLayout which is used for resizing the elements within the flexbox container flow. It provide three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of implementation of fxFlex.
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```

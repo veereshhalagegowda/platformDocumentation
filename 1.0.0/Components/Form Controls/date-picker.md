@@ -10,13 +10,11 @@ Datepicker component is used to select the date easily instead of entering it ma
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    opened = opened()
-    placeholder = datepicker 
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `opened = opened()`  
+    `placeholder = datepicker`  
     In the "Ts" file write the following function:
-    ```
+    ```ts
     opened() { 
         alert("Datepicker opened");
     }
@@ -25,9 +23,8 @@ Datepicker component is used to select the date easily instead of entering it ma
 3. After the page is loaded, "opened()" is the event that will be emitted when the datepicker is opened and "placeholder = datepicker" is the text that will be displayed in the datepicker field when the page is loaded. 
 
 ## Associated Attributes
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
-
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background:orange;height:200px;).
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
@@ -39,7 +36,7 @@ Datepicker component is used to select the date easily instead of entering it ma
         flex-basis:10%;
         height:100px;
     }
-    
+    ```
 - **placeholder:** Used to hold the defined text value. Example “Calendar” holds the value Calendar for the field.
 - **value:** Specifies the new value for the target datepicker input. Value has to be either null or the letter “D”.
 - **Min:** Specifies the minimum valid date. The value should be either null or the letter “D” 

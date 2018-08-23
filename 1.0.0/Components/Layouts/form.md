@@ -5,7 +5,7 @@ A form component can be used whenever there is a requirement for data-entry task
 ### How to use
 1. Drag and drop a form component.
 2. Set the style and class attribute.
-3. Draga and drop other components inside this such as input, buttons etc.
+3. Drag and drop other components inside this such as input, buttons etc.
 
 ### Example
 **Display a login page** 
@@ -33,7 +33,6 @@ A form component can be used whenever there is a requirement for data-entry task
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 ## Support
 - **Devices:** Android, iOS
