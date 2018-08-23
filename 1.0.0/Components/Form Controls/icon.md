@@ -10,11 +10,9 @@ Icons are used when we need to improve visual interest and grab the user's atten
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    iconname = home
-    class = icon
-    ```
+1. Input the component field(s) with the attribute value(s):   
+    `iconname = home`  
+   `class = icon`
 2. Save it and run.
 3. When the page is loaded the value "iconname = home" will be the name of the icon that will be displayed on the button and "class = icon" is the name of the class that can be used to point to a class in a style sheet.
 
@@ -31,7 +29,7 @@ Icons are used when we need to improve visual interest and grab the user's atten
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **IconName:** Specifies a name for the icon.
 
 ## Support
