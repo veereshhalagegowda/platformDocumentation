@@ -10,11 +10,9 @@ A toggle is a specialized control which has the ability to be selected. Typicall
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    Class = toggle
-    Text = on/off
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `Class = toggle`  
+    `Text = on/off`
 2. Save it and run.
 3. When the page is loaded "class = toggle" will assign the class name as toggle, which can be used to point to a class in a style sheet and the "text = on/off" is the text that is displayed next to the component.
 
@@ -31,7 +29,7 @@ A toggle is a specialized control which has the ability to be selected. Typicall
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Required:** Used to check whether the slide-toggle is required or not.
 - **Text:** Specifies the text to be displayed for the slide-toggle when the application is run.
 - **Id:** A unique id for the slide-toggle input.
