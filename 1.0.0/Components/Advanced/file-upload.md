@@ -25,7 +25,7 @@ When the user is needed to upload certain files (such as  scanned images, log fi
 5. Set the value of [uploadOptions] to “uploadOptions”.
 6. Write a function in Ts file as below:
 
-    ```typescript
+    ```ts
       onSuccess(){
            console.log("Succesfully uploaded!")
        }
@@ -65,9 +65,10 @@ When the user is needed to upload certain files (such as  scanned images, log fi
 eg.
     ```ts
       uploadOptions = {"entityName":"users",
-      "metadata":{"key":"sankarshanaj@gmail.com"}}```
+      "metadata":{"key":"sankarshanaj@gmail.com"}}
+    ```
 
-- **(onSuccess):** Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. ```onSuccess()```
+- **(onSuccess):** Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. `onSuccess()`
 - **(indexChange):** Takes function (that is defined in Ts file) name as argument which will be called when an error occurs. eg. `onError()`
 
 ## Support
@@ -76,3 +77,5 @@ eg.
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
+
+
