@@ -57,7 +57,8 @@ There are some other popular use cases where an area chart is used. Some of them
 
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```.
-8. Save the page and run the application. 
+8. Save the page and run the application.
+
 ### Example
 Consider an industry which records the data of their product sales from different countries. The company plots the data on the area chart to get a better understanding of variations in sales of products from different countries. For example,
 
