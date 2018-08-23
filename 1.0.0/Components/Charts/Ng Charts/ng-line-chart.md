@@ -54,7 +54,7 @@ Here is the data for the year 2017.
 
 | Months (2017) | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| **Insured Client** | 13245 | 15401 | 13524 | 9252 | 15025 | 6524 | 8551 | 19321 | 13054 | 15655 | 11024 | 16542 |
+| **Insured Client** | 13245 | 15401 | 13524 | 9252 | 15025 | 6524 | 8551 | 19321 | 13054 | 15655 | 11024 | 16542 |  
 
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
@@ -100,9 +100,9 @@ Here is a sample of the options that are declared and initialized in the compone
 
 -   **Value:** It is a value of the key that the user provided manually.
 
-- **Style**: It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
+- **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
-- **Class**: "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
+- **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
     ```css
     .class1 {
         border-radius:10px;
