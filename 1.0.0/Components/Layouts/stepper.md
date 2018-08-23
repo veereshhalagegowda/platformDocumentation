@@ -35,7 +35,7 @@ So if there is a requirement of creating a login page where username and passwor
 - **matHorizontalStepper:** mat-horizontal-stepper attribute can be used to create a horizontal stepper, means the step will be displayed in horizontal direction. So if the steps should be displayed in a row then just provide the value as mat horizontal stepper.              - **matVerticalStepper:** mathorizontalstepper selector can be used to create a horizontal stepper, the steps will be displayed in vertical direction. So if the steps should be displayed in a row then just provide the value  as mat Vertical stepper. 
 - **selected:** The step that is selected, give the step label that should be selected by default at the first step. It will contain the  label of one of the stepper.
 - **selectedIndex:** It accepts a number ,in this attribute the step that should be selected at first give the index of that step. So the index starts at 0, so whichever step should be selected at first, provide the index of that (index=position-1). 
-- **selectionChange-** This is a eventEmitter that will be emitted when the selected step has changed from previous to next.
+- **selectionChange:** This is a eventEmitter that will be emitted when the selected step has changed from previous to next.
 ## Support
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
