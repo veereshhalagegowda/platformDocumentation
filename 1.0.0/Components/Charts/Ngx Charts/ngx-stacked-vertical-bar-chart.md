@@ -16,32 +16,34 @@ There are some other popular use cases where stacked vertical bar chart is used.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
     * Dataset which consists of all other parameters like labels, and legends. 
         ```ts
-        dataSet=[
-         {
-           "name": "Germany",
-           "value": 40632
-         },
-         {
-           "name": "United States",
-           "value": 49737
-         },
-         {
-           "name": "France",
-           "value": 36745
-         },
-         {
-           "name": "United Kingdom",
-           "value": 36240
-         },
-         {
-           "name": "Spain",
-           "value": 33000
-         },
-         {
-           "name": "Italy",
-           "value": 35800
-         }
+        dataSet = [
+        {
+        "name": "Germany",
+        "series": [
+          {
+            "name": "2010",
+            "value": 7300000
+          },
+          {
+            "name": "2011",
+            "value": 8940000
+          }
         ]
+        },
+        {
+        "name": "USA",
+        "series": [
+          {
+            "name": "2010",
+            "value": 7870000
+          },
+          {
+            "name": "2011",
+            "value": 8270000
+          }
+        ]
+        }
+        ];
         ```
 4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
@@ -57,37 +59,44 @@ There are some other popular use cases where stacked vertical bar chart is used.
     ``` [legend] = true ```  OR ```[legend] = false ```.
 8. Save the page and run the application. 
 ### Example
-Consider an Insurance company which records the data of their client from the different country. The company plot the data on the stacked vertical bar chart to get the better comparison on variations in the number of clients from the different country. For example,
+Consider an industry scenario which records the number of clients who use their products and services. The company plot the data on the stacked vertical bar chart to get the better comparison in their performances. For example,
 
-| Country | India | United State | Germany | France | United Kingdom |
-| :------: | :------: | :------: | :------: | :------: | :------: |
-| **Clients** | 135148 | 121652 | 157885 | 965782 | 987564 |  
+| Country | Products | Services |
+| :------: | :------: | :------: |
+| **2016** | 365452 | 265482 |
+| **2017** | 345245 | 275825 |  
 
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
-dataSet=[
- {
-   "name": "India",
-   "value": 135148
- },
- {
-   "name": "United States",
-   "value": 121652
- },
- {
-   "name": "Germany",
-   "value": 157885
- },
- {
-   "name": "France",
-   "value": 965782
- },
- {
-   "name": "United Kingdom",
-   "value": 987564
- }
-]
+dataSet = [
+  {
+    "name": "Products",
+    "series": [
+      {
+        "name": "2016",
+        "value": 365452
+      },
+      {
+        "name": "2017",
+        "value": 345245
+      }
+    ]
+  },
+  {
+    "name": "Services",
+    "series": [
+      {
+        "name": "2016",
+        "value": 265482
+      },
+      {
+        "name": "2017",
+        "value": 275825
+      }
+    ]
+  }
+];
 ```
 #### Labels
 Here, the labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
