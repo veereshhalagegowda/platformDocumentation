@@ -8,7 +8,7 @@ Flex-layout-column is used to display the components in a row. Components placed
 2. Set the required attributes such as style, class, fxflex, wrap, fxlayoutgap, layout direction perpendicular direction, fxshow and fxhide.
 3. After that, drag and drop any other components inside the flex-layout-column component.
 
-### Example 
+### Example
 1. Drag and drop a flexlayoutcolumn component.
 2. Set the component attributes value with “layout direction = start” and perpendicular “direction = start”.
 3. Drag and drop some other components like button and textbox inside the flexlayoutcolumn component.
@@ -29,7 +29,6 @@ Flex-layout-column is used to display the components in a row. Components placed
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 - **fxFlex:** This property should be used on elements within a fxLayout container and identifies the resizing of that element within the flexbox container flow such as flex-grow, flex basis, flex-shrink, flex-grow.
 - **wrap:** This property specifies whether the flexible items should wrap or not. It has values such as nowrap, wrap, wrap-reverse, initial, and inherit.
