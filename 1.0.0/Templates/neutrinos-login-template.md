@@ -2,7 +2,7 @@
 Neutrinos Login Template is one of the templates that can be used as a starting point for creating an app.
 
 ## Usage
-Neutrinos Login Template can be used to create a login form for the apps that requires user authentication.
+Neutrinos Login Template can be used to create a login form for the apps that require user authentication.
 
 ### How to use
 1. After opening the "Neutrinos Studios", click on the "Create App" icon.
@@ -12,7 +12,7 @@ Neutrinos Login Template can be used to create a login form for the apps that re
 5. Click on the newly created app.
 6. Run the "Initialize" task.
 7. Run the "Live view" task.
-8. Now, login form can be seen at http://localhost:4200 in the browser.
+8. Now, the login form can be seen at http://localhost:4200 in the browser.
 
 ### Example
 1. After opening the "Neutrinos Studios", click on the "Create App" icon.
@@ -27,7 +27,7 @@ Neutrinos Login Template can be used to create a login form for the apps that re
 5. Click on "LoginTemplateDemo" app.
 6. Run the "Initialize" task.
 7. Run the "Live view" task.
-8. Now, login form can be seen at http://localhost:4200 in the browser.
+8. Now, the login form can be seen at http://localhost:4200 in the browser.
 
 
 ## Support
