@@ -6,7 +6,7 @@ Neutrinos Login Template can be used to create a login form for the apps that re
 
 ### How to use
 1. After opening the "Neutrinos Studios", click on the "Create App" icon.
-2. Fill in the required feilds.
+2. Fill in the required fields.
 3. Select "neutrinos-login-template" under "Templates" section. 
 4. Click on "create" button.
 5. Click on the newly created app.
@@ -16,7 +16,7 @@ Neutrinos Login Template can be used to create a login form for the apps that re
 
 ### Example
 1. After opening the "Neutrinos Studios", click on the "Create App" icon.
-2. Fill in the required feilds.  
+2. Fill in the required fields.  
     `App Name : LoginTemplateDemo`  
     `version`:`1.0.0`  
     `Tenant`:`Neutrinos`  
