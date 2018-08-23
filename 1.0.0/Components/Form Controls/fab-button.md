@@ -10,13 +10,11 @@ Fab button can be used to contain more related actions.
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    fabicon = decorate
-    Click = clickEvent()
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `fabicon = decorate`  
+    `Click = clickEvent()`  
     In the "Ts" file write the following function:
-    ```
+    ```ts
     clickEvent() { 
         alert("Button clicked!!!");
     }
@@ -37,7 +35,7 @@ Fab button can be used to contain more related actions.
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **fabicon:** Specifies the text or image to be shown on the button.
 - **Color:** Takes the color based on the angular material theme.
 - **Click:** Is an event that checks when the button is clicked.
