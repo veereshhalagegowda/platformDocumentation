@@ -61,7 +61,8 @@ Consider an Insurance company which records the data of their client from the di
 
 | Country | India | United State | Germany | France | United Kingdom |
 | :------: | :------: | :------: | :------: | :------: | :------: |
-| **Clients** | 135148 | 121652 | 157885 | 965782 | 987564 |<br/>
+| **Clients** | 135148 | 121652 | 157885 | 965782 | 987564 |
+<br/>
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
 ```typescript
