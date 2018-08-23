@@ -24,6 +24,7 @@ When the user is needed to upload certain files (such as  scanned images, log fi
     ```
 5. Set the value of [uploadOptions] to “uploadOptions”.
 6. Write a function in Ts file as below:
+
     ```typescript
       onSuccess(){
            console.log("Succesfully uploaded!")
@@ -55,21 +56,19 @@ When the user is needed to upload certain files (such as  scanned images, log fi
     
     ```
 - **[uploadOptions]:** Takes the name of the object that is defined in Ts file. The object is of type:
-    ```typescript
-    {“entityName”: “buttonValue”, “metadata”:{“key”: “aUniqueKey”}}
+    ```ts
+    {"entityName": "user", "metadata":{"key": "aUniqueKey"}}
     ```
-    >Where ,
-        “entityName” is the name under which the files with same “entityName” are grouped.
-        “key” is used to uniquely identify the uploaded file.
-    
-    
-    eg.
-    ```typescript
+    Where ,
+    - “entityName” is the name under which the files with same “entityName” are grouped.
+    - “key” is used to uniquely identify the uploaded file.  
+eg.
+    ```ts
       uploadOptions = {"entityName":"users",
-      "metadata":{"key":"sankarshanaj@gmail.com"}}
-    ```
-- **(onSuccess):** Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. onSuccess()
-- **(indexChange):** Takes function (that is defined in Ts file) name as argument which will be called when an error occurs. eg. onError()
+      "metadata":{"key":"sankarshanaj@gmail.com"}}```
+
+- **(onSuccess):** Takes function (that is defined in Ts file) name as argument which will be called when the upload is successful. eg. ```onSuccess()```
+- **(indexChange):** Takes function (that is defined in Ts file) name as argument which will be called when an error occurs. eg. `onError()`
 
 ## Support
 - **Devices:** Android, iOS
@@ -77,5 +76,3 @@ When the user is needed to upload certain files (such as  scanned images, log fi
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
-
-
