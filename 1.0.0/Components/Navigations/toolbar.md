@@ -36,9 +36,7 @@ They are designed to provide easy and immediate access to users' most frequently
 
 - **Content:** This is displayed inside the toolbar. Its value can be plain text or valid html tags.  
     eg.
-    ```
-    This is a toolbar
-    ``` 
+    ```This is a toolbar```   
     or  html tags like,
     ```html  
     <button mat-button>I'm a button</button>
