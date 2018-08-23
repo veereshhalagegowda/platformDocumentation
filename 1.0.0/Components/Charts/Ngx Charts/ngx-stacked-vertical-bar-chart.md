@@ -15,7 +15,7 @@ There are some other popular use cases where stacked vertical bar chart is used.
 2. Drag and drop the stacked vertical bar chart from Ngx Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
     * Dataset which consists of all other parameters like labels, and legends. 
-        ```ts
+        ```javascript
         dataSet = [
         {
         "name": "Germany",
@@ -46,11 +46,11 @@ There are some other popular use cases where stacked vertical bar chart is used.
         ];
         ```
 4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
-        ```
+        ```javascript
 		[results] = dataSet
 		```
 5. X-axis label can be shown or hidden by providing,
-    ``` [xAxis] = true ```  OR ```[xAxis] = false ```.
+    ``` javascript [xAxis] = true ```  OR ```javascript [xAxis] = false ```.
 
 6. Y-axis label can be shown or hidden by providing,
     ``` [yAxis] = true ```  OR ```[yAxis] = false ```.
@@ -68,7 +68,7 @@ Consider an industry scenario which records the number of clients who use their 
 
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
-```typescript
+```javascript
 dataSet = [
   {
     "name": "Products",
@@ -102,7 +102,7 @@ dataSet = [
 Here, the labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
 #### Legend
 Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
-```typescript
+```javascript
  [legend] = true;
 ```
 This legend is taken from the dataset and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
