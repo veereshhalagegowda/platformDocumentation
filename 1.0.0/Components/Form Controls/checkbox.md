@@ -12,11 +12,10 @@ Checkbox component allows the users to select any combination of options in a gr
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    class = check
-    Id = check
-    ```
+1. Input the component field(s) with the attribute value(s):   
+    `class = check`  
+   ` Id = check
+    `
 2. Save it and run.
 3. When the page is loaded the attribute "class = check" is the class name that can be used to point to a class in a style sheet and the "id = check" is the unique id given for the checkbox which can be used to apply styles or give reference to point to the checkbox.
 
@@ -51,4 +50,3 @@ Checkbox component allows the users to select any combination of options in a gr
 - **Dependencies version:** 
     - Angular CLI version: 5.0.0 + 
     - Cordova version: 7.1.0 +
-
