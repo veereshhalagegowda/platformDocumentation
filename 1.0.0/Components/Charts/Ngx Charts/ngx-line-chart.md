@@ -57,7 +57,8 @@ There are some other popular use cases where a line chart is used. Some of them 
 
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```.
-8. Save the page and run the application. 
+8. Save the page and run the application.
+
 ### Example
 Consider an Insurance company which records the data of their client from the different country. The company plot the data on the line chart to get the better comparison on variations in the number of clients from the different country. For example,
 
