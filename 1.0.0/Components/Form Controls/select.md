@@ -10,11 +10,9 @@ Select component is used to select the list of options available within the sele
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):
-    ``` 
-    placeholder = select
-    class = select
-    ```
+1. Input the component field(s) with the attribute value(s):  
+    `placeholder = select`  
+    `class = select`
 2. Save it and run.
 3. When the page is loaded the value "placeholder = select" will display the value “Select” and "class = select" is the class name that can be used to point to a class in a style sheet.
 
@@ -31,7 +29,7 @@ Select component is used to select the list of options available within the sele
         border-radius:10px;
         flex-basis:10%;
         height:100px;
-    }
+    }```
 - **Value:** It specifies the pre-defined text that is displayed in the select area. When the select field is clicked, it displays the value that is entered in the field. Example “Select” defined in this field will display Select in the select field when the application is run.
 - **Placeholder:** Used to hold the defined text value. Example “Select” holds the value Select for the field when the application is run.
 - **Required:** Specifies that the field is required and should not hold empty values. 
