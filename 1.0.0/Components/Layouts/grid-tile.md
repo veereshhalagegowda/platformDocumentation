@@ -31,7 +31,7 @@ Displaylist.ts
        tiles: Tile[] = [
        {text: 'One'},
        {text: 'Two'},
-       {text: 'Three},
+       {text: 'Three'},
     {text: 'Four'},
   ];
   ```
