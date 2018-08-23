@@ -1,8 +1,8 @@
 ## Overview 
 This is component which allows us to create a container of list of particular rows and columns.The column will contain the attribute and the row will contain the data of the particular attribute.And the list will be generated. It must specify a cols attribute which sets the number of columns in the grid. The number of rows will be automatically determined based on the number of columns and the number of items. 
-## Usage 
+## Usage
 It is a container of list which has user defined layout. So the layout will be set by the user, and according to that layout the list item will be placed inside that layout.
-### How to use 
+### How to use
 1. Drag and drop a grid list component. 
 2. Set the attributes such as style, class, cols, gutterSize, rowHeight how it should be displayed. 
 3. According to that the list item will be displayed on the screen.
@@ -17,7 +17,7 @@ So in this case give colspan=1.
 Give rowspan=1.  
  **Label:** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.  
 **ngFor:** This attribute is used to iterate through the list item which is stored in the object. It will iterate through each item and display that data.
-```sh
+```css
 Displaylist.html file
 <mat-grid-list cols="2" rowHeight="100px">
   <mat-grid-tile
@@ -26,7 +26,7 @@ Displaylist.html file
   </mat-grid-tile>
 </mat-grid-list>
  ```
-  ``` sh
+  ``` css
 Displaylist.ts
        tiles: Tile[] = [
        {text: 'One'},
@@ -53,7 +53,6 @@ Displaylist.ts
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 - **Cols:** this property is used to specify the number of columns in the list. It accepts integer value.this section is mandatory.once we provide the column value the structure Of the list will be created,and we just give the details and that filled as a row.
 - **gutterSize:** The gutter size can be set to any px, em, or rem value with the gutterSize property. If no units are specified, px units are assumed. By default the gutter size is 1px.
