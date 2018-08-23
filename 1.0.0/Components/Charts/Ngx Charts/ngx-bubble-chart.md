@@ -77,7 +77,8 @@ Some of the other popular use cases of bubble chart are:
 
 7. Legends can be shown or hidden by providing,
     ``` [legend] = true ```  OR ```[legend] = false ```.
-8. Save the page and run the application. 
+8. Save the page and run the application.
+
 ### Example
 Consider an insurance company which made a survey of its client located in different part of the country. The number of clients in a particular area needs to be displayed on a country map using a bubble. For example,
 
